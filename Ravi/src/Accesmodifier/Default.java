@@ -7,7 +7,7 @@ public class Default {
     }
     int addTwoNumbers(int a, int b){
       return a+b;
-    }
+    } 
 }
 
  class A {  
