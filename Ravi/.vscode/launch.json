@@ -1,0 +1,581 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Two",
+            "request": "launch",
+            "mainClass": "src.LoopExec.Two",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - spiralpattern",
+            "request": "launch",
+            "mainClass": "src.LoopExec.spiralpattern",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - console",
+            "request": "launch",
+            "mainClass": "src.LoopExec.console",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DiamandShape",
+            "request": "launch",
+            "mainClass": "src.LoopExec.DiamandShape",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pyramid",
+            "request": "launch",
+            "mainClass": "src.LoopExec.pyramid",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - One",
+            "request": "launch",
+            "mainClass": "src.LoopExec.One",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LabelledForLoop",
+            "request": "launch",
+            "mainClass": "src.LoopingStatements.LabelledForLoop",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IfelseStatement",
+            "request": "launch",
+            "mainClass": "src.ControlStatement.IfelseStatement",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Countine",
+            "request": "launch",
+            "mainClass": "src.LoopingStatements.Countine",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Break",
+            "request": "launch",
+            "mainClass": "src.LoopingStatements.Break",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Forloop",
+            "request": "launch",
+            "mainClass": "src.LoopingStatements.Forloop",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DoWhileloop",
+            "request": "launch",
+            "mainClass": "src.LoopingStatements.DoWhileloop",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Whileloop",
+            "request": "launch",
+            "mainClass": "src.LoopingStatements.Whileloop",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SwitchStatement",
+            "request": "launch",
+            "mainClass": "src.ControlStatement.SwitchStatement",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NestedIfStatement",
+            "request": "launch",
+            "mainClass": "src.ControlStatement.NestedIfStatement",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IfStatements",
+            "request": "launch",
+            "mainClass": "src.ControlStatement.IfStatements",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Datatype",
+            "request": "launch",
+            "mainClass": "src.DataType.Datatype",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cylinder",
+            "request": "launch",
+            "mainClass": "src.InterfaceExce.Cylinder",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sandwic",
+            "request": "launch",
+            "mainClass": "src.InterfaceExce.Sandwic",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - THREE",
+            "request": "launch",
+            "mainClass": "src.InterfaceExce.THREE",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OneMethod",
+            "request": "launch",
+            "mainClass": "src.InterfaceExce.OneMethod",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticAndFinal",
+            "request": "launch",
+            "mainClass": "src.InterfaceExce.StaticAndFinal",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - differentpackage",
+            "request": "launch",
+            "mainClass": "src.InterfaceExce.differentpackage",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - shape",
+            "request": "launch",
+            "mainClass": "src.AbstractExce.shape",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "src.AbstractExce.Main",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Apple",
+            "request": "launch",
+            "mainClass": "src.InheritanExce.Apple",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Animal",
+            "request": "launch",
+            "mainClass": "src.AbstractExce.Animal",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - abstractconstru",
+            "request": "launch",
+            "mainClass": "src.AbstractExce.abstractconstru",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - main",
+            "request": "launch",
+            "mainClass": "src.AbstractExce.main",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Bank",
+            "request": "launch",
+            "mainClass": "src.AbstractExce.Bank",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Parent",
+            "request": "launch",
+            "mainClass": "src.AbstractExce.Parent",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - classAandB",
+            "request": "launch",
+            "mainClass": "src.InheritanExce.classAandB",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Counter",
+            "request": "launch",
+            "mainClass": "src.InheritanExce.Counter",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Shape",
+            "request": "launch",
+            "mainClass": "src.InheritanExce.Shape",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rectangle",
+            "request": "launch",
+            "mainClass": "src.InheritanExce.Rectangle",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Member",
+            "request": "launch",
+            "mainClass": "src.InheritanExce.Member",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Parent",
+            "request": "launch",
+            "mainClass": "src.InheritanExce.Parent",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Parentclass",
+            "request": "launch",
+            "mainClass": "Parentclass",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RBIBANK",
+            "request": "launch",
+            "mainClass": "src.Methods.RBIBANK",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Employee",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Employee",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Complex",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Complex",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Area8",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Area8",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - parent",
+            "request": "launch",
+            "mainClass": "src.Methods.parent",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - printNum",
+            "request": "launch",
+            "mainClass": "src.Methods.printNum",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Bank",
+            "request": "launch",
+            "mainClass": "src.Methods.Bank",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Degree",
+            "request": "launch",
+            "mainClass": "src.Methods.Degree",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Student",
+            "request": "launch",
+            "mainClass": "src.Methods.Student",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Area7",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Area7",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Area6",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Area6",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintNumber",
+            "request": "launch",
+            "mainClass": "src.Methods.PrintNumber",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Triangle1",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Triangle1",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Triangle",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Triangle",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Student",
+            "request": "launch",
+            "mainClass": "src.ClassObjects.Student",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ravi",
+            "request": "launch",
+            "mainClass": "src.Method.ravi",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - interfce",
+            "request": "launch",
+            "mainClass": "src.Interface.interfce",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Methodoveriding",
+            "request": "launch",
+            "mainClass": "src.Polymorphism.Methodoveriding",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Methodoverloading",
+            "request": "launch",
+            "mainClass": "src.Polymorphism.Methodoverloading",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Horse",
+            "request": "launch",
+            "mainClass": "src.Polymorphism.Horse",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - polymorpism",
+            "request": "launch",
+            "mainClass": "src.Polymorphism.polymorpism",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Multipule",
+            "request": "launch",
+            "mainClass": "src.Inheritance.Multipule",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestClass",
+            "request": "launch",
+            "mainClass": "src.Inheritance.TestClass",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - superclass",
+            "request": "launch",
+            "mainClass": "src.Inheritance.superclass",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hierarchical",
+            "request": "launch",
+            "mainClass": "src.Inheritance.Hierarchical",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Multilevel",
+            "request": "launch",
+            "mainClass": "src.Inheritance.Multilevel",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - single",
+            "request": "launch",
+            "mainClass": "src.Inheritance.single",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Encapsulation",
+            "request": "launch",
+            "mainClass": "src.Encapsulation.Encapsulation",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AbstractMethod",
+            "request": "launch",
+            "mainClass": "src.Method.AbstractMethod",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InstanceMethod",
+            "request": "launch",
+            "mainClass": "src.Method.InstanceMethod",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticMethod",
+            "request": "launch",
+            "mainClass": "src.Method.StaticMethod",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mainfunction",
+            "request": "launch",
+            "mainClass": "src.Accesmodifier.mainfunction",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - publc",
+            "request": "launch",
+            "mainClass": "src.Accesmodifier.publc",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Default2",
+            "request": "launch",
+            "mainClass": "src.Accesmodifier.Default2",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - privat",
+            "request": "launch",
+            "mainClass": "src.Accesmodifier.privat",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - modifi",
+            "request": "launch",
+            "mainClass": "src.Accesmodifier.modifi",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test1",
+            "request": "launch",
+            "mainClass": "src.test1",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Constructor",
+            "request": "launch",
+            "mainClass": "src.Constructor",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - constructor",
+            "request": "launch",
+            "mainClass": "src.constructor",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Temp",
+            "request": "launch",
+            "mainClass": "src.Temp",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Employee",
+            "request": "launch",
+            "mainClass": "src.Employee",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClassObject",
+            "request": "launch",
+            "mainClass": "src.ClassObject",
+            "projectName": "Hello_7b93d5de"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<Hello_7b93d5de>",
+            "request": "launch",
+            "mainClass": "src.App",
+            "projectName": "Hello_7b93d5de"
+        }
+    ]
+}
