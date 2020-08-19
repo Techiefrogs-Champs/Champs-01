@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - kane",
+            "request": "launch",
+            "mainClass": "kane",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Redfern",
+            "request": "launch",
+            "mainClass": "Redfern",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mom",
+            "request": "launch",
+            "mainClass": "mom",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - multiplication",
+            "request": "launch",
+            "mainClass": "multiplication",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - multiply",
+            "request": "launch",
+            "mainClass": "multiply",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - subtract",
+            "request": "launch",
+            "mainClass": "subtract",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - castle",
+            "request": "launch",
+            "mainClass": "castle",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pendlehill",
+            "request": "launch",
+            "mainClass": "pendlehill",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - stanhope$hornsby",
+            "request": "launch",
+            "mainClass": "stanhope$hornsby",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - stanhope",
+            "request": "launch",
+            "mainClass": "stanhope",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - easy",
+            "request": "launch",
+            "mainClass": "easy",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sydney",
+            "request": "launch",
+            "mainClass": "sydney",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - amaravathi",
+            "request": "launch",
+            "mainClass": "amaravathi",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - menulog",
+            "request": "launch",
+            "mainClass": "menulog",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - australiapost",
+            "request": "launch",
+            "mainClass": "australiapost",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "Hello world_99e50344"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<Hello world_99e50344>",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Hello world_99e50344"
+        }
+    ]
+}
