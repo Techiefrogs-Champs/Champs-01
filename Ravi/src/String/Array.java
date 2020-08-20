@@ -224,7 +224,7 @@ public class Array {
         for (int i = 0; i < arr6.length; i++) {     
             System.out.print(arr6[i] + " ");    
         }  
-        System.out.println();   
+        System.out.println();    
 
 
         // 16----20
