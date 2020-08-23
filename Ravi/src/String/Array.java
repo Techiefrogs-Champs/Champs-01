@@ -307,7 +307,7 @@ public class Array {
         int a[][] = { { 1, 3, 4 }, { 2, 4, 3 }, { 3, 4, 5 } };
         int b[][] = { { 1, 3, 4 }, { 2, 4, 3 }, { 1, 2, 4 } };
         int c[][] = new int[3][3]; // 3 rows and 3 columns
-        // subtract and print matrix
+
         for (int i = 0; i < 3; i++) {
            for (int j = 0; j < 3; j++) {
               c[i][j] = a[i][j] - b[i][j];
@@ -315,7 +315,81 @@ public class Array {
            }
            System.out.println();
         }  
+
+    //38
+        double[] numArray = { 45.3, 67.5, -45.6, 20.34, 33.0, 45.6 };
+        double sum = 0.0;
+
+        for (double num: numArray) {
+           sum += num;
+        }
+
+        double average1 = sum / numArray.length;
+        System.out.format("The average is: %.2f", average1);
+
+    //39
+        int[] ravi={1,4,66,22};
+        int max = ravi[0]; 
+        for(int i=0; i<ravi.length;i++){
+            if(ravi[i]>max)
+            max=ravi[i];
+        }
+        System.out.println("Largest in given array is " + max); 
+      
+    //45
+        int arr[]=new int[4];  
+
+        arr[0]=10;  
+        arr[1]=20;    
+        arr[2]=70;    
+        arr[3]=40;    
+
+        for(int i=0;i<arr.length;i++)     
+        System.out.println(arr[i]);     
         
+    //46
+    
+        int[] array1 = {1, 2, 3};
+        int[] array2 = {4, 5, 6};
+
+        int a1 = array1.length;
+        int b1 = array2.length;
+        int[] result = new int[a1 + b1];
+
+        System.arraycopy(array1, 0, result, 0, a1);
+        System.arraycopy(array2, 0, result, a1, b1);
+
+        System.out.println(Arrays.toString(result));
+
+    //47
+        char ch = 'R';
+        String st = Character.toString(ch);
+        System.out.println("The string is: " + st);
+
+    //48
+    
+        int[] myArray = {55, 45, 69, 44};
+        int num = 5;
+        boolean found = false;
+
+        for (int n : myArray) {
+            if (n == num) {
+                found = true;
+                break;
+            }
+        }
+        if(found)
+        System.out.println(num + " is found.");
+        else
+        System.out.println(num + " is not found.");
+
+
+      for(int i = 0; i<myArray.length; i++){
+         if(num == myArray[i]){
+            System.out.println("Array contains the given element is Found");
+         }
+
+      }
         
 
 

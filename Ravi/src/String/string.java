@@ -1,6 +1,8 @@
 package src.String;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -8,7 +10,16 @@ import java.util.Scanner;
 //import sun.security.util.Length;
 
 public class string {
-    public static void main(String[] args) { 
+    public static String lcp(String s, String t){  
+        int n = Math.min(s.length(),t.length());  
+        for(int i = 0; i < n; i++){  
+            if(s.charAt(i) != t.charAt(i)){  
+                return s.substring(0,i);  
+            }  
+        }  
+        return s.substring(0,n);  
+    }
+    public static void main(String[] args) throws Exception { 
         
         //1
         String string = "The best of both worlds";    
@@ -127,6 +138,18 @@ public class string {
                 System.out.println(arr[i]);  
             }  
 
+            //8
+            String st = "acbdfghybdf";  
+            String lrs="";  
+            int N = st.length();  
+            for(int i = 0; i < N; i++){  
+                for(int j = i+1; j < N; j++){  
+                    String x = lcp(st.substring(i,N),st.substring(j,N));  
+                    if(x.length() > lrs.length()) lrs=x;  
+                }  
+            }  
+            System.out.println("Longest repeating sequence: "+lrs);  
+
 
             // 10
             String str4 = "  kuchi pudi ravi teja        "; 
@@ -176,6 +199,25 @@ public class string {
                 
             //     sc.close();
 
+
+        //14 
+
+        String str12 = "abcde", str13= "deabc";  
+          
+        if(str12.length() != str13.length()){  
+            System.out.println("Second string is not a rotation of first string");  
+        }  
+        else {  
+            
+            str12 = str12.concat(str12);  
+              
+         
+            if(str12.indexOf(str13) != -1)  
+                System.out.println("Second string is a rotation of first string");  
+            else  
+                System.out.println("Second string is not a rotation of first string");  
+        }  
+
         //16
 
         String str8="Raviteja";
@@ -185,6 +227,7 @@ public class string {
             reves=reves+str8.charAt(i);
         }
         System.out.println(reves);
+
         //17
         String str9 = "Raviteja Ravi";
         char[] carray = str9.toCharArray();
@@ -199,14 +242,108 @@ public class string {
             }
         }
 
+        //18
+
+        String str14 = "Big black bug bit a big black dog on his big black nose";  ;
+        int cnt;
+        str14 = str14.toLowerCase();  
+        String words[] = str14.split(" ");  
+          
+        System.out.println("Duplicate words in a given string : ");   
+        for(int i = 0; i < words.length; i++) {  
+            cnt = 1;  
+            for(int j = i+1; j < words.length; j++) {  
+                if(words[i].equals(words[j])) {  
+                    cnt++;  
+                    words[j] = "0";  
+                }  
+            }  
+               if(cnt > 1 && words[i] != "0")  
+                System.out.println(words[i]);  
+        }  
+
+        //19
+
+        String str16 = "picture perfect";    
+        int[] freq = new int[str16.length()];    
+        int i, j;    
+ 
+        char strin[] = str16.toCharArray();    
+            
+        for(i = 0; i <str16.length(); i++) {    
+            freq[i] = 1;    
+            for(j = i+1; j <str16.length(); j++) {    
+                if(strin[i] == strin[j]) {    
+                    freq[i]++;       
+                    strin[j] = '0';    
+                }    
+            }    
+        }        
+        System.out.println("Characters and their corresponding frequencies");    
+        for(i = 0; i <freq.length; i++) {    
+            if(strin[i] != ' ' && strin[i] != '0')    
+                System.out.println(strin[i] + "-" + freq[i]);    
+        }  
+        
+        //20
+    //   String strin1 = "Hardships often prepare ordinary people for an extraordinary destiny";    
+    //   String word = "", small = "", large="";    
+    //   String[] wor = new String[100];    
+    //   int length = 0;    
+          
+     
+    //   string = string + " ";    
+          
+    //   for(int i2 = 0; i2 < strin1.length(); i2++){    
+      
+    //       if(strin1.charAt(i2) != ' '){    
+    //           word = word + strin1.charAt(i2);    
+    //       }    
+    //       else{    
+              
+    //         wor[length] = word;    
+            
+    //           length++;    
+           
+    //           word = "";    
+    //       }    
+    //   }            
+        
+    //   small = large = wor[0];    
+          
+  
+    //   for(int k = 0; k < length; k++){    
+ 
+    //       if(small.length() > wor[k].length())    
+    //           small = wor[k];    
+    
+    //       if(large.length() < wor[k].length())    
+    //           large = wor[k];    
+    //   }    
+    //   System.out.println("Smallest word: " + small);    
+    //   System.out.println("Largest word: " + large);  
+
+      //22
+            // int count3 =0;
+            // File file = new File("data");
+            // FileInputStream fi = new FileInputStream(file);
+            // byte[] bytesArray = new byte[(int)file.length()];
+            // fi.read(bytesArray);
+            // String s = new String(bytesArray);
+            // String [] data = s.split(" ");
+            // for (int i4=0; i4<data.length; i4++) {
+            //     count3++;
+            // }
+            // System.out.println("Number of characters in the given file are " +count3);
+
        //23
        String str10 = "characters";  
  
         System.out.println("Individual characters from given string:");  
           
       
-        for(int i = 0; i < str10.length(); i++){  
-            System.out.print(str10.charAt(i) + "  ");  
+        for(int i1 = 0; i1 < str10.length(); i1++){  
+            System.out.print(str10.charAt(i1) + "  ");  
         }  
 
         //24
