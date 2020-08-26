@@ -1,3 +1,4 @@
+
 public class Pattern2_2{  
     public static void main(String []args){  
    int matrix[][]=new int[10][10];  
