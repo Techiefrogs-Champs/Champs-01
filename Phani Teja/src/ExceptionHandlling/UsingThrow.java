@@ -11,7 +11,7 @@ public class UsingThrow {
         }
             
             public static void main(String[] args) {
-                validate(34);
+                validate(32);
             System.out.println("run the code");
         }
     
