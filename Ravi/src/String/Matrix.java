@@ -5,7 +5,7 @@ public class Matrix {
     public static void main(String[] args) {    
         
         //27
-        int rows, cols;    
+        int rows, cols,cols22;    
         boolean flag = true;    
         int a[][] = {       
                         {1, 0, 0},    
