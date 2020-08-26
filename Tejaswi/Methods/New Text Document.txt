@@ -1,0 +1,47 @@
+class Printnum
+{
+	static void printn(int x)
+{
+	System.out.println("x="+x);
+}
+	static void printn(boolean y)
+{
+	System.out.println("y="+y);
+}
+
+	static void printn(char c)
+{
+	System.out.println("c="+c);
+}
+
+	static void printn(byte b)
+{
+	System.out.println("b="+b);
+}
+
+	static void printn(short s)
+{
+	System.out.println("s="+s);
+}
+
+	static void printn(long  l)
+{
+	System.out.println("l="+l);
+}
+
+	static void printn(float f)
+{
+	System.out.println("f="+f);
+}
+	static void printn(double d)
+{
+	System.out.println("d="+d);
+
+}
+}
+	public static void main(String args[])
+	{
+	Printnum p1=new Printnum();
+	p1.x();	
+}
+}
