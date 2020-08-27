@@ -180,5 +180,75 @@ public class exception {
         } catch (NegativeArraySizeException ex) {
             System.out.println("Can't create array of negative size");
         }
+
+        //20
+        String inputString = "123.33";   
+        try {  
+            int a = Integer.parseInt(inputString);  
+        }catch(NumberFormatException ex){  
+            System.err.println("Invalid string in argumment");  
+            
+        }  
+
+        //21
+
+                        try
+                {
+                    System.out.println("try block");
+                    
+                    throw new NullPointerException("null occurred");
+                } 
+                catch (NumberFormatException e) 
+                {
+                    System.out.println("catch block 1");
+                }
+                catch (NullPointerException e) 
+                {
+                    System.out.println("catch block 2");
+                }
+                catch (Exception e) 
+                {
+                    System.out.println("catch block 3");
+                } 
+                finally
+                {
+                    System.out.println("finally block");
+                }
+
+        //24
+        try{  
+		   
+		    System.out.println("first statement");  
+		    int array1[]=new int[5];  
+		    
+		    try{
+		    	System.out.println("Division result "+23/0);
+		        }catch(Exception e){
+				System.out.println("Inner try block handled "+e.getMessage());
+			}
+		    
+            array1[5]=67;
+            }catch(ArrayIndexOutOfBoundsException e){
+                System.out.println("outer try block handled "+e.getMessage());  
+        }
+		
+		  System.out.println("normal flow.."); 
+
+        //25
+
+        try{  
+            int num=121/0;  
+            System.out.println(num);  
+             }  
+            catch(ArithmeticException e){
+                System.out.println("Number should not be divided by zero");
+             }  
+            finally{
+            System.out.println("This is finally block");
+             }  
+             System.out.println("Out of try-catch-finally");  
+    
+
+
  }   
 }
