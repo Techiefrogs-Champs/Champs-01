@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Armstrong {
        public static void main(String args[]) {
-          int number = 153;
+          int number;
           int check, rem, sum = 0;
           System.out.println("Enter the number :");
           Scanner sc = new Scanner(System.in);
