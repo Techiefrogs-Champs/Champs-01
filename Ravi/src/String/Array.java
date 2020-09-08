@@ -5,7 +5,8 @@ public class Array {
     public static void main(String[] args) {      
           
     //1
-        int [] arr1 = new int [] {1, 2, 3, 4, 5};           
+        int [] arr1 = new int [] {1, 2, 3, 4, 5};  
+
         int arr2[] = new int[arr1.length];  
       
         for (int i = 0; i < arr1.length; i++) {   
@@ -86,6 +87,7 @@ public class Array {
         }  
 
         System.out.println();  
+        
     
     //4
         int [] ar1 = new int [] {1, 4, 2, 7, 8, 8, 3, 7, 3, 6, 2};  
