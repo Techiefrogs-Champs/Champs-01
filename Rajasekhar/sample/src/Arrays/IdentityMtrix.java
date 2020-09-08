@@ -42,4 +42,4 @@ class IdentityMtrix {
                 System.out.println("Given matrix is not an identity matrix");    
         }    
     }    
-}    
+}
