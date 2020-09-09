@@ -225,7 +225,7 @@ public class exception {
 		    	System.out.println("Division result "+23/0);
 		        }catch(Exception e){
 				System.out.println("Inner try block handled "+e.getMessage());
-			}
+			 }
 		    
             array1[5]=67;
             }catch(ArrayIndexOutOfBoundsException e){

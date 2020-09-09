@@ -11,7 +11,7 @@ public class Palindrome {
      int n = obj.nextInt();
      int sum = 0, r;
 	 int temp = n;    
-     while(n>0)
+     while(n>0)  
 	   {    
         r = n % 10;   
         sum = (sum*10)+r;    
@@ -21,5 +21,6 @@ public class Palindrome {
         System.out.println("It is a Palindrome number.");    
       else    
         System.out.println("Not a palindrome");    
+        obj.close();
      }  
 }

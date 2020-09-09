@@ -4,9 +4,9 @@ class Pattern2_5 {
     public static void main(String []args){  
           
         int lines=8;  
-         int i,j,k;  
-         for(i=1;i<lines;i++){// this loop is used to print the lines  
-             for(j=1;j<=lines/2;j++){// this loop is used to print numbers  
+         int i,j;  
+         for(i=1;i<lines;i++){
+             for(j=1;j<=lines/2;j++){
                  if(i==j){  
                      System.out.print(j);     
                  }  
