@@ -1,7 +1,7 @@
 /* 5) Java Program to determine whether two strings are the anagram */
 
 
-package com.javainterviewpoint;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
