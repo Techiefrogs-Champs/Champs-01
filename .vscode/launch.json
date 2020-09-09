@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BubbleSort",
+            "request": "launch",
+            "mainClass": "excercise.BubbleSort",
+            "projectName": "Champs-01_e630b2f6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Analyse4",
             "request": "launch",
             "mainClass": "ThisKeyword.Analyse4",
