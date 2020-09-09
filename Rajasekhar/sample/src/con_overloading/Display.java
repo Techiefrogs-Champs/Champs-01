@@ -23,7 +23,7 @@ public class Display {
       Car mycar1 = new Car();
       Car myCar2 = new Car(2020,"inoova");
       Car myCar3 = new Car(2020,"inoova","bluecolor");
-      System.out.println(myCar2.modelYear + " " + myCar2.modelName);
-      System.out.println(myCar3.modelYear + " " + myCar3.modelName +" " +myCar3.modelcolor);
+      //System.out.println(myCar2.modelYear + " " + myCar2.modelName);
+      //System.out.println(myCar3.modelYear + " " + myCar3.modelName +" " +myCar3.modelcolor);
     }
 }

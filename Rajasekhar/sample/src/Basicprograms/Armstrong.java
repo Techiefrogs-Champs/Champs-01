@@ -9,7 +9,7 @@ public class Armstrong {
           Scanner sc = new Scanner(System.in);
           number = sc.nextInt();
           check = number;
-          while(check != 0) {
+          while(check > 0) {
              rem = check % 10;
              sum = sum + (rem * rem * rem);
              check = check / 10;

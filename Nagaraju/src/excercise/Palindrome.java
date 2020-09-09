@@ -1,12 +1,30 @@
+package excercise;
+
 import java.util.Scanner;
 
-public class Armstrong {
-       public static void main(String args[]) {
-          int number;
+public class Palindrome {
+
+    static int validate() {
+        Scanner sc = new Scanner(System.in); 
+        int number;
+
+    do { 
+        while (!sc.hasNextInt()) {
+            String input = sc.next();
+            
+            System.out.println("That's not a number!");  
+        } 
+        number = sc.nextInt(); 
+    } 
+    while (number <= 0); 
+    return number;
+    
+}
+public static void main(String[] args) {
+    int number;
           int check, rem, sum = 0;
           System.out.println("Enter the number :");
-          Scanner sc = new Scanner(System.in);
-          number = sc.nextInt();
+number= validate();
           check = number;
           while(check != 0) {
              rem = check % 10;
@@ -18,4 +36,6 @@ public class Armstrong {
           else
              System.out.println("Given number is not an armstrong number.");
        }
-    }
+}
+
+
