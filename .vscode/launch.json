@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Merge_sort",
+            "request": "launch",
+            "mainClass": "Sorting_Algorithms.Merge_sort",
+            "projectName": "Champs-01_30e41bc6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Analyse4",
             "request": "launch",
             "mainClass": "ThisKeyword.Analyse4",
