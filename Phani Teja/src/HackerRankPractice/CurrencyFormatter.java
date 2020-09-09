@@ -4,10 +4,12 @@ import java.util.Locale;
 import java.util.Scanner;
 
 //import sun.nio.cs.US_ASCII;
+    
 
 public class CurrencyFormatter {
-    public static void main(String[] args) 
-    {
+   
+    public static void main(String[] args) {
+        
         Scanner sc=new Scanner(System.in);
         double payment=sc.nextDouble();
         sc.close();
@@ -15,7 +17,7 @@ public class CurrencyFormatter {
         NumberFormat usFormat=NumberFormat.getCurrencyInstance(Locale.US);
         NumberFormat indiaFormat=NumberFormat.getCurrencyInstance(new Locale("en","IN"));
         NumberFormat chinaFormat=NumberFormat.getCurrencyInstance(Locale.CHINA);
-        NumberFormat franceFormat=NumberFormat.getInstance(Locale.FRANCE);
+        NumberFormat franceFormat=NumberFormat.getCurrencyInstance(Locale.FRANCE);
 
         String us=usFormat.format(payment);
         String india=indiaFormat.format(payment);
