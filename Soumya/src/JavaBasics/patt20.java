@@ -7,7 +7,7 @@ public class patt20 {
             for(j=1;j<=n;j++)
             {
             if(j>=i)
-            System.out.print(" * "); 
+            System.out.print(" * ");    
             }   
             System.out.println("\n");        
         }
