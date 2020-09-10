@@ -6,10 +6,17 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - Merge_sort",
             "request": "launch",
             "mainClass": "Sorting_Algorithms.Merge_sort",
             "projectName": "Champs-01_30e41bc6"
+=======
+            "name": "CodeLens (Launch) - BubbleSort",
+            "request": "launch",
+            "mainClass": "excercise.BubbleSort",
+            "projectName": "Champs-01_e630b2f6"
+>>>>>>> d7e54c8807df0aa1152def23482844f71e63cd72
         },
         {
             "type": "java",
