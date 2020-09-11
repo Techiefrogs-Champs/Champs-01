@@ -15,8 +15,6 @@ package inheritance;
     class Z extends Y{
         int k;
         void show(int k){
-            
-            
             System.out.println("the value of k is =" +k);
         }
     }
