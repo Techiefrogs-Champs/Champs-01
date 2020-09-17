@@ -21,6 +21,7 @@ class Exe7{
         int b= s.nextInt();
         Areas a = new Areas(l,b);
         System.out.println(+a.returnArea());
-
+        s.close();
     }
+    
 }
