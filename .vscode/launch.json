@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TwoPairComplete",
+            "request": "launch",
+            "mainClass": "excercise.TwoPairComplete",
+            "projectName": "Champs-01_e630b2f6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoPair",
+            "request": "launch",
+            "mainClass": "excercise.TwoPair",
+            "projectName": "Champs-01_e630b2f6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BubbleSort",
             "request": "launch",
             "mainClass": "excercise.BubbleSort",
