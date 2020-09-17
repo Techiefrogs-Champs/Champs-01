@@ -13,7 +13,7 @@ public class AllPermutation {
         String s="APT";
         int len=s.length();
         System.out.println("LL permutations of a string are :");
-        generatePermutation(str,0,len);
+        generatePermutation(s, 0, len);
     }
     public static void generatePermutation(String s,int start,int end) {
         if(start==end-1){
