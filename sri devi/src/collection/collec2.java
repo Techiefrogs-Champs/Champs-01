@@ -9,7 +9,7 @@ public class collec2 {
         System.out.println("please enter number of elements");
         int a=sc.nextInt();
         int b[]=new int[a];
-        System.out.println("please enter the elements");
+        System.out.println("enter the elements");
         for(i=0;i<a;i++){
         b[i]=sc.nextInt(); 
     }
