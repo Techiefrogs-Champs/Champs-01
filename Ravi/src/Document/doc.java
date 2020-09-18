@@ -69,8 +69,99 @@ public class doc {
             return count;  
         }  
 
-  
+        //16
+        public static int divide(int x, int y)
+        {
+            // handle divisibility by 0
+            if (y == 0)
+            {
+                System.out.printf("Error!! Divisible by 0");
+                System.exit(1);
+            }
+    
+            // store sign of the result
+            int sign = 1;
+            if (x * y < 0) {
+                sign = -1;
+            }
+    
+            // convert both dividend and divisor to positive
+            x = Math.abs(x);
+            y = Math.abs(y);
+    
+            // initialize quotient by 0
+            int quotient = 0;
+    
+            // loop till dividend x is more than the divisor y
+            while (x >= y) {
+                x = x - y;		// perform reduction on dividend
+                quotient++;		// increase quotient by 1
+            }
+    
+            System.out.println("Remainder is " + x);
+            return sign * quotient;
+        }
 
+        //17
+        static boolean arePermutation(String str1, String str2)  
+            {  
+            
+                int n1 = str1.length();  
+                int n2 = str2.length();  
+            
+            
+                if (n1 != n2)  
+                return false;  
+                char ch1[] = str1.toCharArray(); 
+                char ch2[] = str2.toCharArray(); 
+            
+            
+                Arrays.sort(ch1);  
+                Arrays.sort(ch2);  
+            
+            
+                for (int i = 0; i < n1; i++)  
+                if (ch1[i] != ch2[i])  
+                    return false;  
+            
+                return true;  
+            }  
+
+            //19
+            static int CommomSubsequencesCount(String s, String t)  
+            {  
+                int n1 = s.length();  
+                int n2 = t.length();  
+                int dp[][] = new int [n1+1][n2+1];  
+                char ch1,ch2 ; 
+                
+                for (int i = 0; i <= n1; i++) {  
+                    for (int j = 0; j <= n2; j++) {  
+                        dp[i][j] = 0;  
+                    }  
+                }  
+                
+                // for each character of S  
+                for (int i = 1; i <= n1; i++) {  
+                
+                    // for each character in T  
+                    for (int j = 1; j <= n2; j++) {  
+                          
+                        ch1 = s.charAt(i - 1); 
+                        ch2 = t.charAt(j - 1); 
+                          
+                        // if character are same in both   
+                        // the string                  
+                        if (ch1 == ch2)   
+                            dp[i][j] = 1 + dp[i][j - 1] + dp[i - 1][j];              
+                        else 
+                            dp[i][j] = dp[i][j - 1] + dp[i - 1][j] -   
+                                                    dp[i - 1][j - 1];              
+                    }  
+                }  
+                
+                return dp[n1][n2];  
+            }
 
     public static void main(String[] arg) {
   
@@ -217,6 +308,75 @@ public class doc {
         //12
         String string ="    India Is My Country";  
         System.out.println(wordcount(string) + " words."); 
+
+        //13
+        int n1=0,n2=1,N3,i2,count=10;    
+        System.out.print(n1+" "+n2);  
+           
+        {    
+            for(i2=2;i2<count;++i2)   {
+            N3=n1+n2;    
+            System.out.print(" "+N3);    
+            n1=n2;    
+            n2=N3;    
+        }    
+        }
+        System.out.println();   
+
+        //14
+        int [] arr5 = new int [] {5, 6, 7, 8, 1, 2, 3, 4};           
+        int n11 = 4;    
+           
+        System.out.println("Original array: ");    
+        for (int i3 = 0; i3 < arr5.length; i3++) {     
+            System.out.print(arr5[i3] + " ");     
+        }        
+       
+        for(int i3 = 0; i3 < n11; i3++){    
+            int j1, last;    
+             
+            last = arr5[arr5.length-1];    
+            
+            for(j1 = arr5.length-1; j1 > 0; j1--){    
+               
+                arr5[j1] = arr5[j1-1];    
+            }    
+             
+            arr5[0] = last;    
+        }    
+        
+        System.out.println();    
+            
+      
+        System.out.println("Array after right rotation: ");    
+        for(int i4 = 0; i4< arr5.length; i4++){    
+            System.out.print(arr5[i4] + " ");    
+        } 
+        System.out.println();   
+
+        //16
+
+        int dividend = 22;
+		int divisor = -7;
+
+        System.out.println("Quotient is " + divide(dividend, divisor));
+        System.out.println();   
+        //17
+        String str11 = "test";  
+        String str22 = "ttew";  
+        if (arePermutation(str11, str22))  
+        System.out.println("Yes");  
+        else
+        System.out.println("No"); 
+        System.out.println();   
+
+        //19
+        String s1 = "ajblqcpdz";  
+        String t11 = "aefcnbtdi";  
+        
+        System.out.println(CommomSubsequencesCount(s1, t11));  
+        System.out.println();   
+      
 
 
 } 
