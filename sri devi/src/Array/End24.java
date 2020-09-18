@@ -1,3 +1,5 @@
+package Array;
+
 public class End24 {
    public static void main(String[] args) {
       

@@ -1,4 +1,4 @@
-
+package collection;
 import java.util.Scanner;
 public class Collec1 {
    public static void main(String[] args) {

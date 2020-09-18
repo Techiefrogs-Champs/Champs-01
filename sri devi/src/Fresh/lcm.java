@@ -1,3 +1,5 @@
+package Fresh;
+
 import java.util.Scanner;
 
 public class lcm {

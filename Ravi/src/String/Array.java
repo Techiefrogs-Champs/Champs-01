@@ -26,6 +26,7 @@ public class Array {
         for (int i = 0; i < arr2.length; i++) {   
            System.out.print(arr2[i] + " ");  
         }  
+        System.out.println();  
     
     //2   
         int [] arr = new int [] {1, 2, 8, 3, 2, 2, 2, 5, 1};    
@@ -140,11 +141,11 @@ public class Array {
         System.out.println("Largest element present in given array: " + max); 
 
         for (int i = 0; i < arr4.length; i++) {  
-            if(arr4[i] < max)  
-               max = arr4[i];  
+            if(arr4[i] < min)  
+            min = arr4[i];  
         }  
     //10
-        System.out.println("Smallest element present in given array: " + max);  
+        System.out.println("Smallest element present in given array: " + min);  
     //11
         System.out.println("Number of elements present in given array: " + arr4.length);  
      
@@ -231,7 +232,7 @@ public class Array {
 
         // 16----20
         int temp1, size;
-        int array[] = {10, 20, 25, 63, 96, 57};
+        int array[] = new int [] {10, 20, 25, 63, 96, 57};
         size = array.length;
    
         for(int i = 0; i<size; i++ ){
@@ -246,7 +247,7 @@ public class Array {
         System.out.println("Third largest number is:: "+array[size-3]);
         System.out.println("second largest number is:: "+array[size-2]);
         System.out.println("Large largest number is:: "+array[size-1]);
-        System.out.println("2nd Smallest element of the array is:: "+array[0]);
+        System.out.println("2nd Smallest element of the array is:: "+array[1]);
         System.out.println("Smallest element of the array is:: "+array[0]);
 
     //22 /24

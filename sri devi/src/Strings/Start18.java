@@ -1,3 +1,5 @@
+package Strings;
+
 public class Start18 {
   public static void main(String[] args) {
       

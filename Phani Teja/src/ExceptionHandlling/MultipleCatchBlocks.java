@@ -1,6 +1,5 @@
 package ExceptionHandlling;
 
-import org.graalvm.compiler.hotspot.stubs.OutOfBoundsExceptionStub;
 
 public class MultipleCatchBlocks {
     public static void main(String[] args) {

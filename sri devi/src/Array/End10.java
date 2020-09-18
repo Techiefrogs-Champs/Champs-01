@@ -1,3 +1,5 @@
+package Array;
+
 public class End10 {
   public static void main(String[] args) {
     int a[][]={{1,2,3},{7,8,9},{6,5,4}};    

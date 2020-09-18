@@ -1,4 +1,4 @@
-
+package Fresh;
 
 public class Natural {
     public static void main(String[] args) {
