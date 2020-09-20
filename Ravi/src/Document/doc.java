@@ -247,7 +247,7 @@ public class doc {
   
         //1    
         { 
-            int arr[] = { 1, 5, 7, -1, 5 }; 
+            int arr[] = { 1, 5, 7, -1, 5, 8}; 
             int n = arr.length; 
             int sum = 6; 
             printPairs(arr, n, sum); 
