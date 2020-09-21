@@ -13,6 +13,7 @@ public class linkedList {
        linkedlist.add("Item2");
        linkedlist.add("Item7");
        linkedlist.add("Item8");
+       linkedlist.add("Item9");
 
       
        System.out.println("Linked List Content: " +linkedlist);
