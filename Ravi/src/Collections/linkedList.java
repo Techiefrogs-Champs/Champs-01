@@ -15,6 +15,7 @@ public class linkedList {
        linkedlist.add("Item8");
        linkedlist.add("Item9");
        linkedlist.add("Item10");
+       linkedlist.add("Item11");
       
        System.out.println("Linked List Content: " +linkedlist);
 
