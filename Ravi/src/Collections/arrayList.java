@@ -10,7 +10,7 @@ public class arrayList {
         cars.add("Mazda");
         System.out.println(cars);
         System.out.println(cars.get(0));
-        cars.set(0, "Opel");
+        cars.set(0, "TATA");
         System.out.println(cars);
         cars.remove(0);
         System.out.println(cars);
