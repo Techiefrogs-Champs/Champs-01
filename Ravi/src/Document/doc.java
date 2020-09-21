@@ -163,15 +163,98 @@ public class doc {
                 return dp[n1][n2];  
             }
 
+                      //20
+
+                      static int getSingle(int arr[], int n) 
+                      { 
+                          int ones = 0, twos = 0; 
+                          int common_bit_mask; 
+                  
+                          for (int i = 0; i < n; i++) { 
+                              twos = twos | (ones & arr[i]); 
+                              ones = ones ^ arr[i]; 
+                              common_bit_mask = ~(ones & twos); 
+                  
+                          
+                              ones &= common_bit_mask; 
+                  
+                          
+                              twos &= common_bit_mask; 
+                          } 
+                          return ones; 
+                      }
+
+            //21
+            static int smallest(int x, int y, int z) 
+            { 
+                int c = 0; 
+          
+                while (x != 0 && y != 0 && z != 0) { 
+                    x--; 
+                    y--; 
+                    z--; 
+                    c++; 
+                } 
+          
+                return c; 
+            } 
+   
+
+            //22
+            public static int findMin(int x, int y)
+            {
+                return y ^ ((x ^ y) & -((x < y) ? 1 : 0));
+            }
+
+            public static int findMax(int x, int y)
+            {
+                return x ^ ((x ^ y) & -((x < y) ? 1 : 0));
+            }
+
+            //23
+            static int findSingle(int ar[], int ar_size) 
+                { 
+                
+                    int res = ar[0]; 
+                    for (int i = 1; i < ar_size; i++) 
+                        res = res ^ ar[i]; 
+                
+                    return res; 
+                }
+                
+
+            //24
+            static int swapBits(int x) 
+            { 
+                
+                int even_bits = x & 0xAAAAAAAA;  
+              
+              
+                int odd_bits = x & 0x55555555;  
+              
+               
+                even_bits >>= 1;  
+                  
+              
+                odd_bits <<= 1;  
+                  
+            
+                return (even_bits | odd_bits);  
+            } 
+        
+
     public static void main(String[] arg) {
   
         //1    
         { 
-            int arr[] = { 1, 5, 7, -1, 5 }; 
+            int arr[] = { 1, 5, 7, -1, 5, 8}; 
             int n = arr.length; 
             int sum = 6; 
             printPairs(arr, n, sum); 
         }
+
+
+        
 
         //2
         int [] arr6 = new int [] { 1789, 2035, 1899, 1456, 2013,1458, 2458, 1254, 1472, 2365, 1456, 2165, 1457, 2456};    
@@ -376,8 +459,30 @@ public class doc {
         
         System.out.println(CommomSubsequencesCount(s1, t11));  
         System.out.println();   
-      
 
+        //20
+        int arr1[] = { 3, 3, 2, 3 }; 
+        int n3 = arr1.length; 
+        System.out.println("The element with single occurrence is " + getSingle(arr1, n3)); 
+
+        //21
+        int x1 = 12, y1 = 15, z1 = 5;
+        System.out.printf("Minimum of 3" + " numbers is %d", smallest(x1, y1, z1)); 
+
+        //22
+        int x2 = 2, y2 = 4;
+		System.out.println("min(" + x2 + ", " + y2 + ") is " + findMin(x2, y2));
+        System.out.println("max(" + x2 + ", " + y2 + ") is " + findMax(x2, y2));
+        
+        //23
+        int ar[] = {2, 3, 5, 4, 5, 3, 4}; 
+        int n4 = ar.length; 
+        System.out.println("Element occurring once is " +  findSingle(ar, n4) + " "); 
+
+        //24
+        int x3 = 23;       
+        System.out.println(swapBits(x2));
+        
 
 } 
 }
