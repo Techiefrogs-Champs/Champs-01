@@ -1,6 +1,6 @@
 package Strings;
 
-public class String8 {
+public class Characteridividual {
     
    public static void main(String[] args) {
        String s="definition" ; 

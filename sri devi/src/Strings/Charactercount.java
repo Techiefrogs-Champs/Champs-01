@@ -1,6 +1,6 @@
 package Strings;
 
-public class Start12 {
+public class Charactercount {
     
    public static void main(String[] args) {
     String s="palindrome";  
