@@ -18,7 +18,7 @@ public class collec2 {
          for(i=0;i<a;i++)  {
              for(j=i+1;j<a;j++){
                 if(b[i]+b[j]==target){
-                    System.out.println(i+", "+j);
+                    System.out.println(i+j);
                 } 
              }
          }
