@@ -21,4 +21,5 @@ public class StartsWithTheContentsOfOtherString
         System.out.println(str2 + " starts with " +
              startStr + "? " + starts2);
     }
+
 }

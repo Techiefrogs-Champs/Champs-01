@@ -36,7 +36,7 @@ public class TogetTheIndexOfAllTheChar {
     int y = str.indexOf("y", 0);
     int z = str.indexOf("z", 0);
 
-    // Display the results of all the indexOf method calls.
+   //  Display the results of all the indexOf method calls.
     System.out.println(" a  b c  d e  f  g h i  j");
     System.out.println("=========================");
     System.out.println(a + " " + b + " " + c + " " + d + " " +e + " " + f + " " + g + " " + h + " " +i + " " + j + "\n");
