@@ -10,13 +10,15 @@ public class RemoveDuplicatesInString
         char arr[] = new char[str1.length()];
         char[] mask = new char[256];
         for (int i = 0; i < str2.length(); i++)
+        {
         mask[str2.charAt(i)]++;
-        System.out.println("\nThe new string is: ");
+        System.out.println("\nThe new string is: "+str2.charAt(i));
         for (int i = 0; i < str1.length(); i++)
-         {
-            if (mask[str1.charAt(i)] == 0)
-            System.out.print(str1.charAt(i));
-         }
-
+          {
+             if (mask[str1.charAt(i)] == 0)
+             System.out.print(str1.charAt(i));
+          }
+        }
     }
+    
 }
