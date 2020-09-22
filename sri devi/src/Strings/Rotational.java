@@ -1,6 +1,6 @@
 package Strings;
 
-public class Start18 {
+public class Rotational {
   public static void main(String[] args) {
       
    String s1="java";
