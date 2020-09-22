@@ -1,4 +1,4 @@
-package AdvanceExamples;
+package HackerRankPractice.AdvanceExamples;
 
 import java.util.*;
 public class SwapWithoutTemp {

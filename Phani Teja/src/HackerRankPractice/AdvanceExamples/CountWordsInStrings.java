@@ -1,4 +1,4 @@
-package AdvanceExamples;
+package HackerRankPractice.AdvanceExamples;
 import java.util.Scanner;
 public class CountWordsInStrings {
     public static void main(String[] args) {
