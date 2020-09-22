@@ -39,7 +39,7 @@ public class SortedStrings
 
 	public static void main (String[] args)
 	{
-		int[] A = { 1, 5, 6, 7, 8, 10 };
+		int[] A = { 1, 5, 6, 7, 8, 10,20 };
 		int[] B = { 2, 4, 9 };
 		int p = A.length;
 		int q = B.length;
