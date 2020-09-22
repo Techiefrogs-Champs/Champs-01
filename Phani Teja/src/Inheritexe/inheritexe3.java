@@ -22,7 +22,7 @@ package Inheritexe;
          Member m=new Manager();
          Employee s =new Employee();
          Manager d=new Manager();
-         m.name="phani";
+         m.name="pni";
          m.age=25;
          m.address="hyd";
          m.salary=8787;

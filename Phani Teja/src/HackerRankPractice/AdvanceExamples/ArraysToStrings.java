@@ -1,4 +1,6 @@
-package AdvanceExamples;
+package HackerRankPractice.AdvanceExamples;
+
+//package AdvanceExamples;
 
 public class ArraysToStrings {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package AdvanceExamples;
+package HackerRankPractice.AdvanceExamples;
 
 public class IndexOfChars {
      public static void main(String[] args) {

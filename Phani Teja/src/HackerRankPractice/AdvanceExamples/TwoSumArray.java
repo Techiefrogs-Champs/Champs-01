@@ -1,4 +1,4 @@
-package AdvanceExamples;
+package HackerRankPractice.AdvanceExamples;
 public class TwoSumArray {
     static void FindAllPairs(int array[],int sum){
         for(int i=0;i<array.length; i++) {  //to get arrat[i]
