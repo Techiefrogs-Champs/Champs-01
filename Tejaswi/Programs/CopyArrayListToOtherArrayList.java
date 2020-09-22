@@ -21,7 +21,7 @@ public class CopyArrayListToOtherArrayList {
   System.out.println("List2: " + List2);
   // Copy List2 to List1
   Collections.copy(List2, List1);
-  System.out.println("Copy List1 to List2,\nAfter copy:");
+  System.out.println("Copy List1 to List2,After copy:");
   System.out.println("List1: " + List1);
   System.out.println("List2: " + List2);
  }
