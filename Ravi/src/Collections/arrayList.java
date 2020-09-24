@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class arrayList {
+
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
@@ -11,13 +12,15 @@ public class arrayList {
         System.out.println(cars);
         System.out.println(cars.get(0));
         cars.set(0, "TATA MOTORS COMPANY ");
+        cars.set(5, "TATA MOTORS ");
         System.out.println(cars);
         cars.remove(0);
         System.out.println(cars);
-        cars.clear();
+        // cars.clear();
         
-        System.out.println(cars);
-        System.out.println(cars.size());
+        // System.out.println(cars);
+        //System.out.println(cars.size());
+
         for (int i = 0; i < cars.size(); i++) {
             System.out.println(cars.get(i));
         }

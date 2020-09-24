@@ -4,8 +4,6 @@ public class linkedList {
     public static void main(String args[]){
 
       LinkedList<String> linkedlist = new LinkedList<String>();
-
-
        linkedlist.add("Item1");
        linkedlist.add("Item5");
        linkedlist.add("Item3");
@@ -15,11 +13,10 @@ public class linkedList {
        linkedlist.add("Item8");
        linkedlist.add("Item9");
        linkedlist.add("Item10");
-       linkedlist.add("Item11");
-      
+       linkedlist.add("Item11"); 
        System.out.println("Linked List Content: " +linkedlist);
 
-      
+    
        linkedlist.addFirst("First Item");
        linkedlist.addLast("Last Item");
        System.out.println("LinkedList Content after addition: " +linkedlist);
