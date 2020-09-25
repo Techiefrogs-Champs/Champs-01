@@ -16,24 +16,26 @@ public class Qicksort {
         sc.close();
        int low=0;
        int high=n-1;
-        qs(low,high);
+        qs(a,low,high);
+        System.out.println("after sorting elements are");
         for(int i=0;i<n;i++)
         {
             System.out.println(a[i]+" ");
         }
     }
-    public static int qs(int low,int high) 
+    public static int qs(int a[],int low,int high) 
     {
         int mid;
         if (low < high) {
             mid = partition(low,high,a);
-            qs(low, mid - 1);
-            qs(mid + 1, high);
+            qs(a,low, mid - 1);
+            qs(a,mid + 1, high);
         }
         return 0;
     }
     public static int partition(int low,int high,int a[])
     {
+        //int a[]=new int[n];
         int temp;
         int p=high;
         int i=low;
