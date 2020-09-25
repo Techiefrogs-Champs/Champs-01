@@ -19,20 +19,20 @@ public class Qicksort {
         qs(low,high);
         for(int i=0;i<n;i++)
         {
-           System.out.println(a[i]+" ");
+            System.out.println(a[i]+" ");
         }
     }
-    public static int qs( int low,int high) 
+    public static int qs(int low,int high) 
     {
         int mid;
         if (low < high) {
-            mid = partition(low,high);
+            mid = partition(low,high,a);
             qs(low, mid - 1);
             qs(mid + 1, high);
         }
         return 0;
     }
-    public static int partition(int low,int high)
+    public static int partition(int low,int high,int a[])
     {
         int temp;
         int p=high;
