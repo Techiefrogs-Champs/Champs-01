@@ -45,6 +45,10 @@ select * from employee WHERE emp_name LIKE 'l%';
 
 SELECT emp_id AS id from employee;
 
+SELECT  * FROM employee WHERE emp_name IN('teju');
+
+
 select * from employee;
+
 
 
