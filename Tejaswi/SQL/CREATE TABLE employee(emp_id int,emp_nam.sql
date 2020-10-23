@@ -13,7 +13,17 @@ INSERT into employee VALUES(5,'teju',24,234521578);
 
 select distinct emp_name from employee;
 
-select emp_id from employee ORDER BY emp_name;
+SELECT emp_id from employee ORDER BY emp_name;
+SELECT * FROM employee ORDER BY emp_name DESC;
+SELECT * FROM employee ORDER BY emp_name ASC;
+SELECT * FROM employee ORDER BY emp_name,AGE;
+SELECT * FROM employee ORDER BY emp_name DESC,mobile_number ASC;
+SELECT * FROM employee ORDER BY mobile_number ASC;
+
+SELECT emp_name, age, mobile_number FROM employee
+WHERE mobile_number IS NULL;
+SELECT emp_name, age, mobile_number FROM employee
+WHERE mobile_number IS NOT NULL
 
 SELECT age,(age+10) FROM employee;
 
@@ -41,7 +51,24 @@ SELECT upper(emp_name) FROM employee;
 
 SELECT lower(emp_name) FROM employee;
 
-select * from employee WHERE emp_name LIKE 'l%';
+SELECT * from employee WHERE emp_name LIKE 'l%';
+SELECT * from employee WHERE emp_name LIKE '%';
+SELECT * from employee WHERE emp_name LIKE '%ja%';
+SELECT * from employee WHERE emp_name LIKE '_e%';
+SELECT * from employee WHERE emp_name LIKE 't___%';
+SELECT * from employee WHERE emp_name LIKE 'l%i';
+SELECT * from employee WHERE emp_name NOT LIKE 't%';
+SELECT * from employee WHERE emp_name LIKE 'l%';
+
+SELECT * FROM employee WHERE emp_name='teja' AND age=20;
+SELECT * FROM employee WHERE emp_name='lakshmi' OR emp_name='tejaswi';
+SELECT * FROM employee WHERE NOT mobile_number=42157893;
+
+
+
+
+
+
 
 SELECT emp_id AS id from employee;
 
