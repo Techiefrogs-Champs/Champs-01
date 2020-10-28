@@ -20,6 +20,11 @@ SELECT * FROM employee ORDER BY emp_name,AGE;
 SELECT * FROM employee ORDER BY emp_name DESC,mobile_number ASC;
 SELECT * FROM employee ORDER BY mobile_number ASC;
 
+SELECT count(emp_id) FROM employee GROUP BY emp_name;
+
+SELECT COUNT(emp_ID) FROM employee GROUP BY mobile_number
+ORDER BY COUNT(emp_name) DESC;
+
 SELECT emp_name, age, mobile_number FROM employee
 WHERE mobile_number IS NULL;
 SELECT emp_name, age, mobile_number FROM employee
@@ -50,6 +55,8 @@ SELECT (emp_name) from employee;
 SELECT upper(emp_name) FROM employee;
 
 SELECT lower(emp_name) FROM employee;
+
+SELECT TOP 2* FROM employee;
 
 SELECT * from employee WHERE emp_name LIKE 'l%';
 SELECT * from employee WHERE emp_name LIKE '%';

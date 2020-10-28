@@ -13,7 +13,7 @@ select * from student;
 
 delete from student where age= 20 ;
 
-SELECT * from student ORDER BY s_name DESC;
+
 
 
 
