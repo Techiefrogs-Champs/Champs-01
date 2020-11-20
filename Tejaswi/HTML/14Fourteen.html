@@ -1,0 +1,107 @@
+<!doctype html>
+<head>
+<title>Sony</title>
+<style>
+ * {
+    box-sizing: border-box;
+  }
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer {
+  padding: 1.2em;
+  background: lightcoral;
+  color: white;
+  }
+  nav  {
+  padding: 1.2em;
+  background: lightpink;
+  color: white;
+  }
+  div {
+  padding: 1.2em;
+  background: rgb(134, 140, 190);
+  color: white;
+  }
+  article{
+      padding: 1.2em;
+      background: white;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+  table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;      
+        }
+        th, td {
+        padding: 15px;
+        text-align: left;
+        }
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+  <header id="pageHeader"><h1>Sony Refurbishment Process</h1></header>
+  <article id="mainArticle"></article>
+  <nav id="mainNav">
+    <nav>
+      <ul>
+      <li><a href="#">View My Orders</a></li><br>
+      <li><a href="#">New Order</a></li><br>
+      <li><a href="#">New Defect Order</a></li>
+      </ul>
+  </nav>
+  </nav>
+  <article id="mainArticle">
+  <p style="text-align: right;">
+  Welcome Reliance</p>
+  <p style="text-align: Left;">
+    Defect Product List</p>
+<form style="text-align: center;">
+  Product Name:&nbsp; <input type="text"><br><br>
+  Product Number: <input type="text"><br><br>
+  Product Quantity:&nbsp; <input type="text">
+</form><br>
+<input type="button" value="Submit">
+
+  
+  
+</article>
+  <div id="siteAds"></div>
+  <footer id="pageFooter">All Rights Reserved.</footer>
+</body>
