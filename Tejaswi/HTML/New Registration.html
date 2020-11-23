@@ -20,20 +20,20 @@ body {
   }  
   header{
   padding: 0.5em;
-  background:rgb(161, 167, 221);
-  color:blue;
+  background:rgb(212, 166, 202);
+  color:rgb(163, 209, 240);
   font-size: 36px;
   text-align: center;
   }
   footer {
   padding: 1.2em;
-  background:rgb(161, 167, 221);
-  color:blue;
+  background:rgb(221, 161, 211);
+  color:rgb(126, 87, 119);
   text-align: center;
   }
   nav  {
   padding: 1.2em;
-  background: rgb(161, 167, 221);
+  background: rgb(180, 138, 173);
   color: white;
   }
   div {
@@ -81,19 +81,19 @@ body {
  
   <nav id="mainNav">
     <nav>
-      <ul>
-      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Sample Website.html">Home</a></li><br>
-      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\New Registration.html">New Registration</a></li><br>
-      <li><a href="#">Manage Registrations</a></li><br>
-      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Settings.html">Settings</a></li><br>
-      </ul>
+      
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Sample Website.html">Home</a><br><br>
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\New Registration.html">New Registration</a><br><br>
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Manage Registrations.html">Manage Registrations</a><br><br>
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Settings.html">Settings</a><br><br>
+      
   </nav>
   </nav>
 
   <article id="mainArticle">
-      <p style="font-size: 20px;"><strong>New Student Registration</strong></p>
+      <p style="font-size: 20px;text-align: center;"><strong>New Student Registration</strong></p>
       <form style="text-align: center;">
-        First Name:&nbsp; <input type="text"><br><br>
+        First Name:&nbsp; <input type="text">&NonBreakingSpace;&nbsp;
         Last Name:&nbsp; <input type="text"><br><br>
         User Name:&nbsp; <input type="text"><br><br>
         Gender: <input type="radio">Male
@@ -101,10 +101,11 @@ body {
             <input type="radio">Other<br><br>
         Password: <input type="password"><br><br>
         Qualification: <select name ="select">
-            <option value="select">select</option>
-            <option value="CSE">BE/B.Tech</option>
-            <option value="ECE">Diploma</option>
-            </select><br><br>
+          <option value="select">select</option>
+            <option value="PG">PG</option>
+            <option value="Btech">BE/B.Tech</option>
+            <option value="Diploma">Diploma</option>
+            </select>
         Branch: <select name ="select">
             <option value="select">select</option>
             <option value="CSE">CSE</option>
@@ -112,16 +113,13 @@ body {
             <option value="EEE">EEE</option>
             <option value="other">other</option>
             </select><br><br>
-        Address: <textarea name="address" rows="5" columns="10"></textarea><br><br>
+        Address: <textarea name="comments" rows="5" columns="10"></textarea>
         City: <input type="text"><br><br>
-        Courses Selected: <input type="checkbox" id="course1" name="course1" value="course">
-        <label for="course1">Python</label>
-        <input type="checkbox" id="course2" name="course2" value="course">
-        <label for="course2">Java</label><br>
-        <input type="checkbox" id="course3" name="course3" value="course">
-        <label for="course3">Testing</label>
-        <input type="checkbox" id="course4" name="course4" value="course">
-        <label for="course4">Data Science</label>
+        Courses Selected: 
+        <input type="checkbox">Java
+        <input type="checkbox">Testing
+        <input type="checkbox">Iot
+        <input type="checkbox">CyberSecurity
         <br><br>
         Comments: <textarea name="comments" rows="5" columns="10"></textarea><br><br>
         <button>Submit</button>
