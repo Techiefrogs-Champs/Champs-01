@@ -1,0 +1,129 @@
+<!doctype html>
+<head>
+<title>Sony</title>
+<style>
+ * {
+    box-sizing: border-box;
+  }
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer {
+  padding: 1.2em;
+  background: rgb(5, 85, 9);
+  color: white;
+  }
+  nav  {
+  padding: 1.2em;
+  background: rgb(206, 228, 12);
+  color: white;
+  }
+  div {
+  padding: 1.2em;
+  background: rgb(206, 228, 12);
+  color: white;
+  }
+  article{
+      padding: 1.2em;
+      background: white;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+  table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;      
+        }
+        th, td {
+        padding: 15px;
+        text-align: left;
+        }
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+  <header id="pageHeader"><h1>Sony Refurbishment Process</h1></header>
+  <article id="mainArticle"></article>
+  <nav id="mainNav">
+    <nav>
+      <ul>
+      <li><a href="#">View My Orders</a></li><br>
+      <li><a href="#">New Order</a></li><br>
+      <li><a href="#">Defect Orders</a></li><br>
+      <li><a href="#">New Defect Order</a></li>
+      </ul>
+  </nav>
+  </nav>
+  <article id="mainArticle">
+  <p style="text-align: right;">
+  Welcome LCV</p>
+  <p style="text-align: Left;">
+    Products List</p>
+
+
+  <table style="width:100%">
+    <tr>
+      <th>Product Name</th>
+      <th>Price</th>
+      <th>Qty</th>
+      <th>Final Price</th>
+    </tr>
+    <tr>
+        <td>Sony FSDS 434</td>
+        <td>35,000.00</td>
+        <td>2</td>
+        <td>70,000.00</td>
+      </tr>
+      <tr>
+        <td>Sony DS 32</td>
+        <td>20,000.00</td>
+        <td>4</td>
+        <td>80,000.00</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>TOTAL</td>
+        <td>1,50,000.00</td>
+      </tr>
+      
+  </table><br><br>
+  <button>Checkout</button>
+</article>
+  <div id="siteAds"></div>
+  <footer id="pageFooter">All Rights Reserved.</footer>
+</body>
