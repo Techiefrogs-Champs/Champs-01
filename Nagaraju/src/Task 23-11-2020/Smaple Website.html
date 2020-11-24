@@ -1,0 +1,97 @@
+<!doctype html>
+<head>
+<title>Sample Website</title>
+<style>
+ * {
+    box-sizing: border-box;
+  }
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "nav article"
+    "footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }  
+  header{
+  padding: 0.5em;
+  background:rgb(161, 167, 221);
+  color:blue;
+  font-size: 36px;
+  text-align: center;
+  }
+  footer {
+  padding: 1.2em;
+  background:rgb(161, 167, 221);
+  color:blue;
+  text-align: center;
+  }
+  nav  {
+  padding: 1.2em;
+  background: rgb(161, 167, 221);
+  color: white;
+  }
+  div {
+  padding: 1.2em;
+  background: rgb(85,95,165);
+  color: white;
+  }
+  article{
+      padding: 1.2em;
+      background: white;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+  
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+  <header id="pageHeader"><strong>Sample Website</strong></header>
+ 
+  <nav id="mainNav">
+    <nav>
+      <ul style="list-style-type:none; font-weight: bold; font-size: large; padding-left: 0px;">
+      <li><a href="#">Home</a></li><br>
+      <li><a href="file:///E:/Nagaraju/HTML/Task%2023-11-2020/New%20Registration.html?">New Registration</a></li><br>
+      <li><a href="file:///E:/Nagaraju/HTML/Task%2023-11-2020/Manage%20Registrations.html">Manage Registrations</a></li><br>
+      <li><a href="file:///E:/Nagaraju/HTML/Task%2023-11-2020/Settings.html">Settings</a></li><br>
+      </ul>
+  </nav>
+  </nav>
+
+  <article id="mainArticle">
+    <p><h1 style="color:rgb(13, 195, 219); text-align: center;">Techiefrogs</h1></p>
+    <p><h2 style="text-align: center;">We invest in your personal growth and career<br><br>
+    <p><h2 style="text-align: center;">Our Services</h2></b></p>
+    <p><h3 style="text-align: center;">Enroll to trainings, Enhance your skills, Excel in work.<br><br>
+      We focus on building the talented squad of IT Professionals.</h3></p>
+  </article>
+  <footer id="pageFooter">All rights reserved. @2020 copyright.</footer>
+</body>
