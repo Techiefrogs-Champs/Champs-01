@@ -1,4 +1,4 @@
-package src.Methods;
+
 
 public class PrintNumber {
 

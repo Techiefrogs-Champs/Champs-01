@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<style>
+		div.container {
+			width: 100%;
+			border: none;
+            margin: auto;
+        
+		}
+
+		header,
+		footer {
+			padding: 1em;
+			color: white;
+			background-color: #007196;
+			clear: left;
+            text-align: center;
+           
+		}
+
+		nav {
+			float: left;
+			max-width: 160px;
+			height: 134px;
+			padding: 1em;
+			border: solid #333
+		}
+
+		nav ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		nav ul a {
+			text-decoration: none;
+		}
+
+		section {         
+            margin-left: 400px;
+            margin-top: -20px;
+            background-color:peru;
+            margin-right: 400px;
+            padding-left: 2px;
+            padding-top: 10px;
+            padding-bottom: 10px;;
+        }
+        .foter{
+            margin-top: 30px;
+        }
+
+        .sidenav {
+  height: 68.5%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 120px;
+  margin-left: 8px;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  padding-top: 50px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color:#818181;
+  margin-left: 245px;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 20px;
+  padding-bottom: -20px;
+  
+}
+.para{
+    margin-left: 50px;
+    padding-bottom: -10px;
+}
+.check{
+    padding-left: 20px;
+}
+header,a{
+            color: white;
+        }
+
+	</style>
+	<script type="text/javascript" src="scripts.js">
+	</script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header>
+            <!-- <h1 style="font-size: 36; font-size: 20;"><b>Sample Website</b></h1> -->
+            <h1 style="font-size: 36;"><b>Sample Website</b> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a href="Index.html"><b>LogOut</b></a></h1>
+            
+		</header>
+
+	
+        <div class="sidenav">
+            <a href="Home.html">Home</a>
+            <a href="RegistrationPage.html">New Registration</a>
+            <a href="ManagePage.html">Manage Registrations</a>
+            <a href="SettingPage.html">Settings</a> 
+          </div>
+<div class="para"> 
+    <h1 style="text-align: center;">New Student Registration</h1>
+</div>
+          
+          <section>   
+           
+                <div layout="row" layout-sm="column">
+                   
+                                <label><b>First name</b></label>
+                                <input  name="first_name" required type="text" ng-pattern="/^[a-zA-Z'. -]+$/" placeholder="Your First Name">
+                                &nbsp; &nbsp;				
+                                <label><b>Last Name</b></label>
+                                <input  name="last_name" required type="text" ng-pattern="/^[a-zA-Z'. -]+$/" placeholder="Your Last Name">			
+                </div>
+                         <br>
+                <div layout="row" layout-sm="column">
+                        <label><b>User Name</b></label>
+                        <input  name="user_name" required type="text" ng-pattern="/^[a-zA-Z'. -]+$/" placeholder="Your User Name">
+                        &nbsp; &nbsp;<label class="label"><b>Gender</b></label> &nbsp; &nbsp;
+                        <label class="radio-container m-r-45">Male<input type="radio" checked="checked" name="gender">                      
+                        </label> 
+                        <label class="radio-container">Female
+                        <input type="radio" name="gender">
+                        </label>
+                </div>
+
+                <div layout="row" layout-sm="column">
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                        &nbsp; &nbsp;&nbsp; <label for="psw"><b>Qualification </b></label>
+                        <textarea name="" id=""></textarea>
+                </div>
+
+                <div layout="row" layout-sm="column">
+                    <label for="Branch "><b>Branch :</b></label>
+                    <select name="Branch " id="Branch ">
+                      <option value="CSE">CSE</option>
+                      <option value="EEE">EEE</option>
+                      <option value="ECE">ECE</option>
+                      <option value="IT">IT</option>
+                    </select>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    <label for="psw"><b>Address</b></label>
+                     <textarea name="" id=""></textarea>
+                </div>
+             
+<br>
+                <div layout="row" layout-sm="column">
+                    <label for="psw"><b>Comments </b></label>
+                        <textarea name="" id=""></textarea>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+                        <label for="psw"><b>City</b></label>
+                        <textarea name="" id=""></textarea>
+                        <br><br>
+                        <label for="Branch "><b>Courses selected :</b></label><br>
+                        <div class="check">
+
+                       
+                        <input type="checkbox" name="vehicle1" value="HTML">
+                        <label for="vehicle1">HTML</label><br>
+                        <input type="checkbox" name="vehicle2" value="CSS">
+                        <label for="vehicle2"> CSS</label><br>
+                        <input type="checkbox" name="vehicle3" value="Angular" >
+                        <label for="vehicle3"> Angular</label><br>    
+                    </div>               
+                
+                        
+                </div>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" value="Submit" ><b>Submit</b></button>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                <button type="button" name="cancel" value="cancel" onClick="window.location.href='RegistrationPage.html';"><b>Cancel</b></button>         
+
+        
+
+        </section> 
+
+
+<footer class="foter">"All rights reserved. @2020 copyright"</footer>
+
+</div>
+
+</body>
+</html>

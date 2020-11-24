@@ -13,6 +13,7 @@ class a{
 }
 
 class b extends a{
+
     public int a=200;
     void m2(){
         System.out.println("This is M2 Method");
@@ -29,10 +30,12 @@ class b extends a{
 
 public class single {
     public static void main(String[] main){
-        b obj=new b();
-        obj.m2();  
 
-        // new b();   Constructors and Inheritance     
+        b obj=new b();
+
+        obj.m2();  
+        
+        // new b();  Constructors and Inheritance     
 
      }
     
