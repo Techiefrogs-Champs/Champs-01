@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.navbar {
+  overflow: hidden;
+  background-color:#818181;
+  margin-left: 245px;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#818181;
+  margin-left: 245px;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 20px;
+  padding-bottom: -20px;
+  
+}
+
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+  padding-top: -100px;
+}
+#btn{
+  background-color: black;
+  margin-left: 900px;
+  margin-top: -200px;
+  padding-bottom: -50px ;
+ padding-top: 20px;
+
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <h1 style="text-align: center; color: white;">Sony Refurbishment Process</h1> 
+        <button id="btn"><a  href="Login.html"><b>LogOut</b></a></button>
+     
+       </div>
+
+<div class="sidenav">
+  <a href="Orders.html">View Orders</a>
+  <a href="Distributors.html">Manage Distributors</a>
+  <a href="Categories.html">Manage Categories</a>
+  <a href="Product.html">Manage Product</a>
+  <a href="Reports.html">Reports</a>
+</div>
+
+<div class="main">
+ <h1>Reports</h1>
+</div>
+
+   
+</body>
+</html> 

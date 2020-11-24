@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<style>
+		div.container {
+			width: 100%;
+			border: none;
+            margin: auto;
+        
+		}
+
+		header,
+		footer {
+			padding: 1em;
+			color: white;
+			background-color: #007196;
+			clear: left;
+            text-align: center;
+           
+		}
+
+		nav {
+			float: left;
+			max-width: 160px;
+			height: 134px;
+			padding: 1em;
+			border: solid #333
+		}
+
+		nav ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		nav ul a {
+			text-decoration: none;
+		}
+
+		section {
+                     
+            margin-left: 300px;
+           
+        }
+        .foter{
+            margin-top: 400px;
+        }
+
+        .sidenav {
+  height: 68.5%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 120px;
+  margin-left: 8px;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  padding-top: 50px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color:#818181;
+  margin-left: 245px;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 20px;
+  padding-bottom: -20px;
+  
+}
+header,a{
+            color: white;
+        }
+
+	</style>
+	<script type="text/javascript" src="scripts.js">
+	</script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header>
+            <h1 style="font-size: 36;"><b>Sample Website</b> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a href="Index.html"><b>LogOut</b></a></h1>
+            
+		</header>
+
+	
+        <div class="sidenav">
+            <a href="Home.html">Home</a>
+            <a href="RegistrationPage.html">New Registration</a>
+            <a href="ManagePage.html">Manage Registrations</a>
+            <a href="SettingPage.html">Settings</a> 
+          </div>
+
+          
+          <section>
+			<h1>This is Manage Registrations Page</h1>
+        </section>
+
+
+<footer class="foter">"All rights reserved. @2020 copyright"</footer>
+
+</div>
+
+</body>
+</html>

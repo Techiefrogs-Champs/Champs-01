@@ -13,10 +13,11 @@ abstract class abstractconstru1 {
 }
 
 class a extends abstractconstru1{
-    void a_method(){
+   void a_method(){
         System.out.println("This is abstract method");
-    }
+    } 
 }
+
 public class abstractconstru{
     public static void main(String args[])
     {

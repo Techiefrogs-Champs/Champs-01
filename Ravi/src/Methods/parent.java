@@ -1,4 +1,4 @@
-package src.Methods;
+
 
 class A{
     public  void staticmethod(){

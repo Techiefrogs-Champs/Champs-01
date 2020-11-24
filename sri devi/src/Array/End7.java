@@ -1,3 +1,5 @@
+package Array;
+
 public class End7 {
     
   public static void main(String[] args) {

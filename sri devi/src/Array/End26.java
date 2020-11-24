@@ -1,3 +1,5 @@
+package Array;
+
 public class End26 {
     public static void main(String[] args) {
         int b[]={4,7,5,6,19};
