@@ -1,4 +1,4 @@
-package src.Methods;
+
 class Customer
 {
     String name="Ravi";

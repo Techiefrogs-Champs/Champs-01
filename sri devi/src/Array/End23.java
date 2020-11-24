@@ -1,3 +1,5 @@
+package Array;
+
 public class End23 {
   public static void main(String[] args) {
      int a[] ={5,7,3,2,9,4};  

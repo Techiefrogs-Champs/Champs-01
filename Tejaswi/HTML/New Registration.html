@@ -1,0 +1,130 @@
+<!doctype html>
+<head>
+<title>New Registration</title>
+<style>
+ * {
+    box-sizing: border-box;
+  }
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "nav article"
+    "footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }  
+  header{
+  padding: 0.5em;
+  background:rgb(212, 166, 202);
+  color:rgb(163, 209, 240);
+  font-size: 36px;
+  text-align: center;
+  }
+  footer {
+  padding: 1.2em;
+  background:rgb(221, 161, 211);
+  color:rgb(126, 87, 119);
+  text-align: center;
+  }
+  nav  {
+  padding: 1.2em;
+  background: rgb(180, 138, 173);
+  color: white;
+  }
+  div {
+  padding: 1.2em;
+  background: rgb(85,95,165);
+  color: white;
+  }
+  article{
+      padding: 1.2em;
+      background: white;
+  }
+  caption{
+      font-size: 80px;
+  }
+
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+  
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+  <header id="pageHeader"><strong>Sample Website</strong></header>
+ 
+  <nav id="mainNav">
+    <nav>
+      
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Sample Website.html">Home</a><br><br>
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\New Registration.html">New Registration</a><br><br>
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Manage Registrations.html">Manage Registrations</a><br><br>
+      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Settings.html">Settings</a><br><br>
+      
+  </nav>
+  </nav>
+
+  <article id="mainArticle">
+      <p style="font-size: 20px;text-align: center;"><strong>New Student Registration</strong></p>
+      <form style="text-align: center;">
+        First Name:&nbsp; <input type="text">&NonBreakingSpace;&nbsp;
+        Last Name:&nbsp; <input type="text"><br><br>
+        User Name:&nbsp; <input type="text"><br><br>
+        Gender: <input type="radio" name="radio">Male
+            <input type="radio" name="radio">Female
+            <input type="radio" name="radio">Other<br><br>
+        Password: <input type="password"><br><br>
+        Qualification: <select name ="select">
+          <option value="select">select</option>
+            <option value="PG">PG</option>
+            <option value="Btech">BE/B.Tech</option>
+            <option value="Diploma">Diploma</option>
+            </select>
+        Branch: <select name ="select">
+            <option value="select">select</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="other">other</option>
+            </select><br><br>
+        Address: <textarea name="comments" rows="5" columns="10"></textarea>
+        City: <input type="text"><br><br>
+        Courses Selected: 
+        <input type="checkbox">Java
+        <input type="checkbox">Testing
+        <input type="checkbox">Iot
+        <input type="checkbox">CyberSecurity
+        <br><br>
+        Comments: <textarea name="comments" rows="5" columns="10"></textarea><br><br>
+        <button>Submit</button>
+        <button>Cancel</button>
+      </form>
+  </article>
+  <footer id="pageFooter">All rights reserved. @2020 copyright.</footer>
+</body>

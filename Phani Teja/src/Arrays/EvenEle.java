@@ -22,5 +22,6 @@ public class EvenEle{
                 System.out.print(a[i]+" ");
             }
         }
+        sc.close();
     }
 }

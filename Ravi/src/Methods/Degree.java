@@ -1,4 +1,4 @@
-package src.Methods;
+
 
 class Degree1 {
 

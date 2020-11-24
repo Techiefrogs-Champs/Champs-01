@@ -7,11 +7,84 @@
         {
             "type": "java",
 <<<<<<< HEAD
+            "name": "CodeLens (Launch) - collec2",
+            "request": "launch",
+            "mainClass": "collection.collec2",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - End1",
+            "request": "launch",
+            "mainClass": "Array.End1",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Duplicate",
+            "request": "launch",
+            "mainClass": "Array.Duplicate",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pyramid",
+            "request": "launch",
+            "mainClass": "Fresh.Pyramid",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Straight",
+            "request": "launch",
+            "mainClass": "Straight",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Natural",
+            "request": "launch",
+            "mainClass": "Natural",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - lcm",
+            "request": "launch",
+            "mainClass": "lcm",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Num2",
+            "request": "launch",
+            "mainClass": "Num2",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Collec1",
+            "request": "launch",
+            "mainClass": "Collec1",
+            "projectName": "Champs-01_129b7d27"
+        },
+        {
+            "type": "java",
+=======
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - Merge_sort",
             "request": "launch",
             "mainClass": "Sorting_Algorithms.Merge_sort",
             "projectName": "Champs-01_30e41bc6"
 =======
+>>>>>>> 60028c2f266dea6f30db72f7b2608c632c359733
             "name": "CodeLens (Launch) - BubbleSort",
             "request": "launch",
             "mainClass": "excercise.BubbleSort",

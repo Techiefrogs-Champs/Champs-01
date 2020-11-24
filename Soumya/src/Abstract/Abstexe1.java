@@ -14,6 +14,7 @@ abstract class Parent {
         System.out.println("This is the second class");
      }
     }
+    //hhddg
      class Abstexe1{
         public static void main(String[] args) {
             Parent b=new Boy();
