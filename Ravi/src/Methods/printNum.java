@@ -1,4 +1,4 @@
-package src.Methods;
+
 
 class printNum1{
     int i;
