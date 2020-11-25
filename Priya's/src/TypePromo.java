@@ -1,4 +1,4 @@
-class Pro{
+class TypePromo{
     void operator(int a, long b, long c){
         System.out.println(a*b*c);
     }
@@ -7,9 +7,9 @@ class Pro{
     }
 
      public static void main(String[] args) {
-        Pro p = new Pro();
+        TypePromo p = new TypePromo();
+        p.operator(21, 22, 23); // the int parameters are promoted to long datatypes
         p.operator(21, 22, 23);
-        p.operator(21, 22, 24);
     }
 }
 

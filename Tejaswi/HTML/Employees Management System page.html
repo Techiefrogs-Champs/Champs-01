@@ -1,0 +1,95 @@
+<!doctype html>
+<head>
+<title>Employees Management System</title>
+<style>
+ * {
+    box-sizing: border-box;
+  }
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "nav article"
+    "footer footer";
+  grid-template-rows: 120px 1fr 70px;  
+  grid-template-columns: 20% 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }  
+  header{
+  padding: 0.5em;
+  background:rgba(221, 134, 122, 0.842);
+  color:rgb(15, 15, 27);
+  font-size: 50px;
+  text-align: center;
+  }
+  footer {
+  padding: 1.2em;
+  background:rgb(221, 134, 122, 0.842);
+  color:rgb(15, 15, 27);
+  text-align: center;
+  }
+  nav  {
+  padding: 1.2em;
+  background: rgb(221, 134, 122, 0.842);
+  color: white;
+  }
+  div {
+  padding: 1.2em;
+  background: rgb(20, 23, 46);
+  color: white;
+  }
+  article{
+      padding: 1.2em;
+      background: white;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+  
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+  <header id="pageHeader"><strong>Employees Management System</strong></header>
+
+ 
+  <nav id="mainNav">
+    <nav>
+      <ul style="list-style-type:none; font-weight: bold; font-size: large; padding-left: 0px;">
+      <li><a href="#">Home</a></li><br>
+      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Add Employee page.html">Add Employee</a></li><br>
+      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Search Employees Page.html">Search Employee</a></li><br>
+      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Login Page">Logout</a></li><br>
+      </ul>
+  </nav>
+  </nav>
+
+  <article id="mainArticle">
+    <p style="text-align: right;">Welcome, Admin</p>
+    <p><h1 style="text-align: center;">Welcome to Employee Management Database System</h1></p>
+  </article>
+  <footer id="pageFooter">All rights reserved. @2020 copyright.</footer>
+</body>

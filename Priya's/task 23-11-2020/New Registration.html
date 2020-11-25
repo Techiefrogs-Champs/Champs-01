@@ -20,20 +20,20 @@ body {
   }  
   header{
   padding: 0.5em;
-  background:rgb(212, 166, 202);
-  color:rgb(163, 209, 240);
+  background:rgb(161, 221, 161);
+  color:blue;
   font-size: 36px;
   text-align: center;
   }
   footer {
   padding: 1.2em;
-  background:rgb(221, 161, 211);
-  color:rgb(126, 87, 119);
+  background:rgb(161, 221, 161);
+  color:blue;
   text-align: center;
   }
   nav  {
   padding: 1.2em;
-  background: rgb(180, 138, 173);
+  background: rgb(161, 221, 161);
   color: white;
   }
   div {
@@ -81,30 +81,29 @@ body {
  
   <nav id="mainNav">
     <nav>
-      
-      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Sample Website.html">Home</a><br><br>
-      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\New Registration.html">New Registration</a><br><br>
-      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Manage Registrations.html">Manage Registrations</a><br><br>
-      <a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Settings.html">Settings</a><br><br>
-      
+      <ul>
+      <li><a href="file:///D:/my%20programs/Champs-01/Priya's/STUDENTS/Smaple%20Website.html#">Home</a></li><br>
+      <li><a href="file:///D:/my%20programs/Champs-01/Priya's/STUDENTS/New%20Registration.html">New Registration</a></li><br>
+      <li><a href="file:///D:/my%20programs/Champs-01/Priya's/STUDENTS/Manage%20Registrations.html">Manage Registrations</a></li><br>
+      <li><a href="file:///D:/my%20programs/Champs-01/Priya's/STUDENTS/Settings.html">Settings</a></li><br>
+      </ul>
   </nav>
   </nav>
 
   <article id="mainArticle">
-      <p style="font-size: 20px;text-align: center;"><strong>New Student Registration</strong></p>
+      <p style="font-size: 20px;"><strong>New Student Registration</strong></p>
       <form style="text-align: center;">
-        First Name:&nbsp; <input type="text">&NonBreakingSpace;&nbsp;
+        First Name:&nbsp; <input type="text"><br><br>
         Last Name:&nbsp; <input type="text"><br><br>
         User Name:&nbsp; <input type="text"><br><br>
-        Gender: <input type="radio" name="radio">Male
-            <input type="radio" name="radio">Female
-            <input type="radio" name="radio">Other<br><br>
+        Gender: <input type="radio" name="Male">Male
+            <input type="radio" name="Male">Female
+            <input type="radio" name="Male">Other<br><br>
         Password: <input type="password"><br><br>
         Qualification: <select name ="select">
-          <option value="select">select</option>
-            <option value="PG">PG</option>
-            <option value="Btech">BE/B.Tech</option>
-            <option value="Diploma">Diploma</option>
+            <option value="select">select</option>
+            <option value="CSE">BE/B.Tech</option>
+            <option value="ECE">Diploma</option>
             </select>
         Branch: <select name ="select">
             <option value="select">select</option>
@@ -113,13 +112,16 @@ body {
             <option value="EEE">EEE</option>
             <option value="other">other</option>
             </select><br><br>
-        Address: <textarea name="comments" rows="5" columns="10"></textarea>
+        Address: <textarea name="address" rows="5" columns="10"></textarea><br><br>
         City: <input type="text"><br><br>
-        Courses Selected: 
-        <input type="checkbox">Java
-        <input type="checkbox">Testing
-        <input type="checkbox">Iot
-        <input type="checkbox">CyberSecurity
+        Courses Selected: <input type="checkbox" id="course1" name="course1" value="course">
+        <label for="course1">Python</label>
+        <input type="checkbox" id="course2" name="course2" value="course">
+        <label for="course2">Java</label>
+        <input type="checkbox" id="course3" name="course3" value="course">
+        <label for="course3">Testing</label>
+        <input type="checkbox" id="course4" name="course4" value="course">
+        <label for="course4">Data Science</label>
         <br><br>
         Comments: <textarea name="comments" rows="5" columns="10"></textarea><br><br>
         <button>Submit</button>

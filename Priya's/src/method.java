@@ -1,4 +1,4 @@
-class MultiplyFun { 
+class Multiplying { 
   
     static int Multiply(int a, int b) 
     { 
@@ -8,18 +8,14 @@ class MultiplyFun {
     { 
         return a * b * c; 
     } 
-    static double Multiply(double a, double b) 
-    { 
-        return a * b; 
-    } 
+   
 } 
   
 class method { 
     public static void main(String[] args) 
     { 
-  
-        System.out.println(MultiplyFun.Multiply(2, 4)); 
-        System.out.println(MultiplyFun.Multiply(2, 7, 3));
-        System.out.println(MultiplyFun.Multiply(5.5, 6.3)); 
+   System.out.println(Multiplying.Multiply(2, 4)); //calling the method with 2 parameters
+   System.out.println(Multiplying.Multiply(2, 7, 3)); // calling the method with 3 parameters
+       
     } 
 } 

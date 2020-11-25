@@ -1,22 +1,19 @@
-package Arrays;
-
-public class AddMatrix {
-    public static void main(String args[]){  
-       
-    int a[][]={{1,3,4},
-               {2,4,3},
-               {3,4,5}
-            };    
-    int b[][]={{1,3,4},{2,4,3},{1,2,4}};    
+1.	public class FibonacciSeriesEvenNumber { 
+    2.	public static void main(String[] args) { 
+    3.	int firstNumber = 0; 
+    4.	int secondNumber = 2; 
+    5.	System.out.print("Enter the number of elements in the Fibonacci Series : "); 
+    6.	Scanner scan = new Scanner(System.in); 
+    7.	int elementCount = scan.nextInt(); 
+    8.	System.out.print(firstNumber + ", "); 
+    9.	System.out.print(secondNumber + ", "); 
+    10.	for (int i = 2; i < elementCount; i++) { 
+    11.	int nextNumber = firstNumber + secondNumber; 
+    12.	System.out.print(nextNumber + ", "); 
+    13.	firstNumber = secondNumber; 
+    14.	secondNumber = nextNumber; 
+    15.	} 
+    16.	System.out.print("..."); 
+    17.	} 
+    18.	} 
     
-    int c[][]=new int[3][3];   
-        
-     
-    for(int i=0;i<3;i++){    
-    for(int j=0;j<3;j++){    
-    c[i][j]=a[i][j]+b[i][j];      
-    System.out.print(c[i][j]+" ");    
-    }    
-    System.out.println(); 
-    }    
-    }}  

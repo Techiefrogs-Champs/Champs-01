@@ -8,8 +8,8 @@ class OperatorOVER {
   
     void operator(int a, int b) 
     { 
-        int c = a * b; 
-        System.out.println("Product = " + c); 
+        int c = a + b; 
+        System.out.println("Sum = " + c); 
     } 
 } 
   
@@ -18,6 +18,6 @@ class Main {
     { 
         OperatorOVER obj = new OperatorOVER(); 
         obj.operator(28, 13); 
-        obj.operator("PRIYA ", "NEKKANTI"); 
+        obj.operator("PRIYA ", "NEKKANTI"); // concatnates two strings
     } 
 } 
