@@ -1,0 +1,1566 @@
+<!doctype html >
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US"> <!--<![endif]-->
+<head>
+    <title>Focus: future scenarios and technological trends – Part 3 - Electric Motor Engineering</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://www.electricmotorengineering.com/xmlrpc.php" />
+    
+<!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->
+<meta name="description" content="After outlining the product and support proposal for the electric motor world in automotive and/or appliance ambit, we have asked interviewed companies their point of view on possible future scenarios/technological trends." />
+<meta name="keywords" content="market trends, scenarios" />
+<!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->
+
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><meta property="og:image" content="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg" />
+<!-- This site is optimized with the Yoast SEO plugin v12.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Focus: future scenarios and technological trends – Part 3 - Electric Motor Engineering" />
+<meta property="og:description" content="After outlining the product and support proposal for the electric motor world in automotive and/or appliance ambit, we have asked interviewed companies their point of view on possible future scenarios/technological trends. “The most felt requirements in the sheet metal forming market, especially for the automotive sector– highlights Michele Archenti, Sales and Marketing Manager AIDA Europe &hellip;" />
+<meta property="og:url" content="https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/" />
+<meta property="og:site_name" content="Electric Motor Engineering" />
+<meta property="article:tag" content="scenarios" />
+<meta property="article:section" content="Market Trends" />
+<meta property="article:published_time" content="2019-05-29T12:27:11+00:00" />
+<meta property="article:modified_time" content="2019-05-29T12:39:24+00:00" />
+<meta property="og:updated_time" content="2019-05-29T12:39:24+00:00" />
+<meta property="og:image" content="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg" />
+<meta property="og:image:secure_url" content="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg" />
+<meta property="og:image:width" content="1276" />
+<meta property="og:image:height" content="844" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="After outlining the product and support proposal for the electric motor world in automotive and/or appliance ambit, we have asked interviewed companies their point of view on possible future scenarios/technological trends. “The most felt requirements in the sheet metal forming market, especially for the automotive sector– highlights Michele Archenti, Sales and Marketing Manager AIDA Europe [&hellip;]" />
+<meta name="twitter:title" content="Focus: future scenarios and technological trends – Part 3 - Electric Motor Engineering" />
+<meta name="twitter:image" content="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.electricmotorengineering.com/#website","url":"https://www.electricmotorengineering.com/","name":"Electric Motor Engineering","potentialAction":{"@type":"SearchAction","target":"https://www.electricmotorengineering.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/#primaryimage","url":"https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg","width":1276,"height":844},{"@type":"WebPage","@id":"https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/#webpage","url":"https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/","inLanguage":"en-US","name":"Focus: future scenarios and technological trends \u2013 Part 3 - Electric Motor Engineering","isPartOf":{"@id":"https://www.electricmotorengineering.com/#website"},"primaryImageOfPage":{"@id":"https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/#primaryimage"},"datePublished":"2019-05-29T12:27:11+00:00","dateModified":"2019-05-29T12:39:24+00:00","author":{"@id":"https://www.electricmotorengineering.com/#/schema/person/50cf2fd7dab19a3f9b914ad93a3788dd"}},{"@type":["Person"],"@id":"https://www.electricmotorengineering.com/#/schema/person/50cf2fd7dab19a3f9b914ad93a3788dd","name":"Redazione","image":{"@type":"ImageObject","@id":"https://www.electricmotorengineering.com/#authorlogo","url":"https://secure.gravatar.com/avatar/15dae25c4f581769a759e83334f670b1?s=96&d=mm&r=g","caption":"Redazione"},"sameAs":[]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Electric Motor Engineering &raquo; Feed" href="https://www.electricmotorengineering.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Electric Motor Engineering &raquo; Comments Feed" href="https://www.electricmotorengineering.com/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Electric Motor Engineering &raquo; iCal Feed" href="https://www.electricmotorengineering.com/events/?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="Electric Motor Engineering &raquo; Focus: future scenarios and technological trends – Part 3 Comments Feed" href="https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/feed/" />
+<!-- This site uses the Google Analytics by ExactMetrics plugin v6.1.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var em_version         = '6.1.0';
+	var em_track_user      = true;
+	var em_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-12547598-24';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( em_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+window.ga = __gaTracker;		__gaTracker('create', 'UA-12547598-24', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview');
+		__gaTracker( function() { window.ga = __gaTracker; } );
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + em_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+			window.ga = __gaTracker;		})();
+		}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.electricmotorengineering.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='tribe-common-skeleton-style-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-tooltip-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ag24-pixelbook-plugin-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/ag24-pixelbook/css/styles.css' type='text/css' media='' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-four-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/font-awesome-4-menus/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tm-lcptu-styles-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/latest-custom-post-type-updates/css/tm_lcptu_basic_styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nbm-paperlit-plugin-user-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/nbm-paperlit/user/css/styles.min.css' type='text/css' media='' />
+<link rel='stylesheet' id='qc-choice-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/quantcast-choice/public/css/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/revslider/public/assets/css/settings.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='NextGEN-css'  href='https://www.electricmotorengineering.comnggallery.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='NextCellent-Framework-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/nextcellent-gallery-nextgen-legacy/css/framework-min.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/nextcellent-gallery-nextgen-legacy/shutter/shutter-reloaded.css' type='text/css' media='screen' />
+<link crossorigin="anonymous" rel='stylesheet' id='google-fonts-style-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400%2C400italic%2C600%2C600italic%2C700%7CRoboto%3A300%2C400%2C400italic%2C500%2C500italic%2C700%2C900' type='text/css' media='all' />
+<link rel='stylesheet' id='slb_core-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/simple-lightbox/client/css/app.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/tablepress/css/default.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='td-theme-css'  href='https://www.electricmotorengineering.com/wp-content/themes/Newspaper/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='td-theme-child-css'  href='https://www.electricmotorengineering.com/wp-content/themes/tn-network-8.8.2/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sedlex_styles-css'  href='https://www.electricmotorengineering.com/wp-content/sedlex/inline_styles/6eb86a46dba7b7014c3ca5b60295946fe81eecea.css' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.electricmotorengineering.com","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend.min.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"L O A D I N G","msgClose":"Click to Close","imageCount":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/nextcellent-gallery-nextgen-legacy/shutter/shutter-reloaded.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/nextcellent-gallery-nextgen-legacy/js/owl.carousel.min.js'></script>
+<link rel='https://api.w.org/' href='https://www.electricmotorengineering.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.electricmotorengineering.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.electricmotorengineering.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='shortlink' href='https://www.electricmotorengineering.com/RmjoR' />
+<link rel="alternate" type="application/json+oembed" href="https://www.electricmotorengineering.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.electricmotorengineering.com%2Ffocus-future-scenarios-and-technological-trends-part-3%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.electricmotorengineering.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.electricmotorengineering.com%2Ffocus-future-scenarios-and-technological-trends-part-3%2F&#038;format=xml" />
+
+<!-- TN_Retargeting HEAD BEGIN (fb) for www.electricmotorengineering.com -->
+
+<!-- BEGIN: tag_fb_nbm -->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1126676760698405');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1126676760698405&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- END: tag_fb_nbm -->
+
+<!-- BEGIN: tag_fb_tn -->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '994576847320083');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=994576847320083&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '987939654580090'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=987939654580090&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- END: tag_fb_tn -->
+
+<!-- BEGIN: tag_analytics_tnnetwork_custom_dimension -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6404493-27', 'auto', 'tnnetwork');
+  ga('tnnetwork.send', 'pageview', { 
+	'dimension1': 'Redazione',
+        'dimension2': '2019/05/29',
+        'dimension3': 'Market Trends',
+        'dimension4': '0',
+        'dimension5': ''
+  });
+
+</script>
+
+<!-- END: tag_analytics_tnnetwork_custom_dimension -->
+
+<!-- NBM_Retargeting HEAD END -->
+<!-- <meta name="NextGEN" version="1.9.35" /> -->
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.electricmotorengineering.com"><link rel="https://theeventscalendar.com/" href="https://www.electricmotorengineering.com/wp-json/tribe/events/v1/" />
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.electricmotorengineering.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="amphtml" href="https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/amp/"><meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<meta name="twitter:partner" content="tfwp">
+<!-- JS generated by theme -->
+
+<script>
+    
+    
+
+	    var tdBlocksArray = []; //here we store all the items for the current page
+
+	    //td_block class - each ajax block uses a object of this class for requests
+	    function tdBlock() {
+		    this.id = '';
+		    this.block_type = 1; //block type id (1-234 etc)
+		    this.atts = '';
+		    this.td_column_number = '';
+		    this.td_current_page = 1; //
+		    this.post_count = 0; //from wp
+		    this.found_posts = 0; //from wp
+		    this.max_num_pages = 0; //from wp
+		    this.td_filter_value = ''; //current live filter value
+		    this.is_ajax_running = false;
+		    this.td_user_action = ''; // load more or infinite loader (used by the animation)
+		    this.header_color = '';
+		    this.ajax_pagination_infinite_stop = ''; //show load more at page x
+	    }
+
+
+        // td_js_generator - mini detector
+        (function(){
+            var htmlTag = document.getElementsByTagName("html")[0];
+
+	        if ( navigator.userAgent.indexOf("MSIE 10.0") > -1 ) {
+                htmlTag.className += ' ie10';
+            }
+
+            if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ) {
+                htmlTag.className += ' ie11';
+            }
+
+	        if ( navigator.userAgent.indexOf("Edge") > -1 ) {
+                htmlTag.className += ' ieEdge';
+            }
+
+            if ( /(iPad|iPhone|iPod)/g.test(navigator.userAgent) ) {
+                htmlTag.className += ' td-md-is-ios';
+            }
+
+            var user_agent = navigator.userAgent.toLowerCase();
+            if ( user_agent.indexOf("android") > -1 ) {
+                htmlTag.className += ' td-md-is-android';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Mac OS X')  ) {
+                htmlTag.className += ' td-md-is-os-x';
+            }
+
+            if ( /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()) ) {
+               htmlTag.className += ' td-md-is-chrome';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Firefox') ) {
+                htmlTag.className += ' td-md-is-firefox';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Safari') && -1 === navigator.userAgent.indexOf('Chrome') ) {
+                htmlTag.className += ' td-md-is-safari';
+            }
+
+            if( -1 !== navigator.userAgent.indexOf('IEMobile') ){
+                htmlTag.className += ' td-md-is-iemobile';
+            }
+
+        })();
+
+
+
+
+        var tdLocalCache = {};
+
+        ( function () {
+            "use strict";
+
+            tdLocalCache = {
+                data: {},
+                remove: function (resource_id) {
+                    delete tdLocalCache.data[resource_id];
+                },
+                exist: function (resource_id) {
+                    return tdLocalCache.data.hasOwnProperty(resource_id) && tdLocalCache.data[resource_id] !== null;
+                },
+                get: function (resource_id) {
+                    return tdLocalCache.data[resource_id];
+                },
+                set: function (resource_id, cachedData) {
+                    tdLocalCache.remove(resource_id);
+                    tdLocalCache.data[resource_id] = cachedData;
+                }
+            };
+        })();
+
+    
+    
+var td_viewport_interval_list=[{"limitBottom":767,"sidebarWidth":228},{"limitBottom":1018,"sidebarWidth":300},{"limitBottom":1140,"sidebarWidth":324}];
+var td_animation_stack_effect="type0";
+var tds_animation_stack=true;
+var td_animation_stack_specific_selectors=".entry-thumb, img";
+var td_animation_stack_general_selectors=".td-animation-stack img, .td-animation-stack .entry-thumb, .post img";
+var td_ajax_url="https:\/\/www.electricmotorengineering.com\/wp-admin\/admin-ajax.php?td_theme_name=Newspaper&v=9.2.1";
+var td_get_template_directory_uri="https:\/\/www.electricmotorengineering.com\/wp-content\/themes\/Newspaper";
+var tds_snap_menu="";
+var tds_logo_on_sticky="";
+var tds_header_style="";
+var td_please_wait="Please wait...";
+var td_email_user_pass_incorrect="User or password incorrect!";
+var td_email_user_incorrect="Email or username incorrect!";
+var td_email_incorrect="Email incorrect!";
+var tds_more_articles_on_post_enable="show";
+var tds_more_articles_on_post_time_to_wait="";
+var tds_more_articles_on_post_pages_distance_from_top=0;
+var tds_theme_color_site_wide="#157e99";
+var tds_smart_sidebar="";
+var tdThemeName="Newspaper";
+var td_magnific_popup_translation_tPrev="Previous (Left arrow key)";
+var td_magnific_popup_translation_tNext="Next (Right arrow key)";
+var td_magnific_popup_translation_tCounter="%curr% of %total%";
+var td_magnific_popup_translation_ajax_tError="The content from %url% could not be loaded.";
+var td_magnific_popup_translation_image_tError="The image #%curr% could not be loaded.";
+var tdDateNamesI18n={"month_names":["January","February","March","April","May","June","July","August","September","October","November","December"],"month_names_short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"day_names":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"day_names_short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]};
+var td_ad_background_click_link="";
+var td_ad_background_click_target="";
+</script>
+
+
+<!-- Header style compiled by theme -->
+
+<style>
+    
+
+body {
+	background-color:#c1c1c1;
+}
+.td-header-wrap .black-menu .sf-menu > .current-menu-item > a,
+    .td-header-wrap .black-menu .sf-menu > .current-menu-ancestor > a,
+    .td-header-wrap .black-menu .sf-menu > .current-category-ancestor > a,
+    .td-header-wrap .black-menu .sf-menu > li > a:hover,
+    .td-header-wrap .black-menu .sf-menu > .sfHover > a,
+    .td-header-style-12 .td-header-menu-wrap-full,
+    .sf-menu > .current-menu-item > a:after,
+    .sf-menu > .current-menu-ancestor > a:after,
+    .sf-menu > .current-category-ancestor > a:after,
+    .sf-menu > li:hover > a:after,
+    .sf-menu > .sfHover > a:after,
+    .td-header-style-12 .td-affix,
+    .header-search-wrap .td-drop-down-search:after,
+    .header-search-wrap .td-drop-down-search .btn:hover,
+    input[type=submit]:hover,
+    .td-read-more a,
+    .td-post-category:hover,
+    .td-grid-style-1.td-hover-1 .td-big-grid-post:hover .td-post-category,
+    .td-grid-style-5.td-hover-1 .td-big-grid-post:hover .td-post-category,
+    .td_top_authors .td-active .td-author-post-count,
+    .td_top_authors .td-active .td-author-comments-count,
+    .td_top_authors .td_mod_wrap:hover .td-author-post-count,
+    .td_top_authors .td_mod_wrap:hover .td-author-comments-count,
+    .td-404-sub-sub-title a:hover,
+    .td-search-form-widget .wpb_button:hover,
+    .td-rating-bar-wrap div,
+    .td_category_template_3 .td-current-sub-category,
+    .dropcap,
+    .td_wrapper_video_playlist .td_video_controls_playlist_wrapper,
+    .wpb_default,
+    .wpb_default:hover,
+    .td-left-smart-list:hover,
+    .td-right-smart-list:hover,
+    .woocommerce-checkout .woocommerce input.button:hover,
+    .woocommerce-page .woocommerce a.button:hover,
+    .woocommerce-account div.woocommerce .button:hover,
+    #bbpress-forums button:hover,
+    .bbp_widget_login .button:hover,
+    .td-footer-wrapper .td-post-category,
+    .td-footer-wrapper .widget_product_search input[type="submit"]:hover,
+    .woocommerce .product a.button:hover,
+    .woocommerce .product #respond input#submit:hover,
+    .woocommerce .checkout input#place_order:hover,
+    .woocommerce .woocommerce.widget .button:hover,
+    .single-product .product .summary .cart .button:hover,
+    .woocommerce-cart .woocommerce table.cart .button:hover,
+    .woocommerce-cart .woocommerce .shipping-calculator-form .button:hover,
+    .td-next-prev-wrap a:hover,
+    .td-load-more-wrap a:hover,
+    .td-post-small-box a:hover,
+    .page-nav .current,
+    .page-nav:first-child > div,
+    .td_category_template_8 .td-category-header .td-category a.td-current-sub-category,
+    .td_category_template_4 .td-category-siblings .td-category a:hover,
+    #bbpress-forums .bbp-pagination .current,
+    #bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a,
+    .td-theme-slider:hover .slide-meta-cat a,
+    a.vc_btn-black:hover,
+    .td-trending-now-wrapper:hover .td-trending-now-title,
+    .td-scroll-up,
+    .td-smart-list-button:hover,
+    .td-weather-information:before,
+    .td-weather-week:before,
+    .td_block_exchange .td-exchange-header:before,
+    .td_block_big_grid_9.td-grid-style-1 .td-post-category,
+    .td_block_big_grid_9.td-grid-style-5 .td-post-category,
+    .td-grid-style-6.td-hover-1 .td-module-thumb:after,
+    .td-pulldown-syle-2 .td-subcat-dropdown ul:after,
+    .td_block_template_9 .td-block-title:after,
+    .td_block_template_15 .td-block-title:before,
+    div.wpforms-container .wpforms-form div.wpforms-submit-container button[type=submit] {
+        background-color: #157e99;
+    }
+
+    .td_block_template_4 .td-related-title .td-cur-simple-item:before {
+        border-color: #157e99 transparent transparent transparent !important;
+    }
+
+    .woocommerce .woocommerce-message .button:hover,
+    .woocommerce .woocommerce-error .button:hover,
+    .woocommerce .woocommerce-info .button:hover {
+        background-color: #157e99 !important;
+    }
+    
+    
+    .td_block_template_4 .td-related-title .td-cur-simple-item,
+    .td_block_template_3 .td-related-title .td-cur-simple-item,
+    .td_block_template_9 .td-related-title:after {
+        background-color: #157e99;
+    }
+
+    .woocommerce .product .onsale,
+    .woocommerce.widget .ui-slider .ui-slider-handle {
+        background: none #157e99;
+    }
+
+    .woocommerce.widget.widget_layered_nav_filters ul li a {
+        background: none repeat scroll 0 0 #157e99 !important;
+    }
+
+    a,
+    cite a:hover,
+    .td_mega_menu_sub_cats .cur-sub-cat,
+    .td-mega-span h3 a:hover,
+    .td_mod_mega_menu:hover .entry-title a,
+    .header-search-wrap .result-msg a:hover,
+    .td-header-top-menu .td-drop-down-search .td_module_wrap:hover .entry-title a,
+    .td-header-top-menu .td-icon-search:hover,
+    .td-header-wrap .result-msg a:hover,
+    .top-header-menu li a:hover,
+    .top-header-menu .current-menu-item > a,
+    .top-header-menu .current-menu-ancestor > a,
+    .top-header-menu .current-category-ancestor > a,
+    .td-social-icon-wrap > a:hover,
+    .td-header-sp-top-widget .td-social-icon-wrap a:hover,
+    .td-page-content blockquote p,
+    .td-post-content blockquote p,
+    .mce-content-body blockquote p,
+    .comment-content blockquote p,
+    .wpb_text_column blockquote p,
+    .td_block_text_with_title blockquote p,
+    .td_module_wrap:hover .entry-title a,
+    .td-subcat-filter .td-subcat-list a:hover,
+    .td-subcat-filter .td-subcat-dropdown a:hover,
+    .td_quote_on_blocks,
+    .dropcap2,
+    .dropcap3,
+    .td_top_authors .td-active .td-authors-name a,
+    .td_top_authors .td_mod_wrap:hover .td-authors-name a,
+    .td-post-next-prev-content a:hover,
+    .author-box-wrap .td-author-social a:hover,
+    .td-author-name a:hover,
+    .td-author-url a:hover,
+    .td_mod_related_posts:hover h3 > a,
+    .td-post-template-11 .td-related-title .td-related-left:hover,
+    .td-post-template-11 .td-related-title .td-related-right:hover,
+    .td-post-template-11 .td-related-title .td-cur-simple-item,
+    .td-post-template-11 .td_block_related_posts .td-next-prev-wrap a:hover,
+    .comment-reply-link:hover,
+    .logged-in-as a:hover,
+    #cancel-comment-reply-link:hover,
+    .td-search-query,
+    .td-category-header .td-pulldown-category-filter-link:hover,
+    .td-category-siblings .td-subcat-dropdown a:hover,
+    .td-category-siblings .td-subcat-dropdown a.td-current-sub-category,
+    .widget a:hover,
+    .td_wp_recentcomments a:hover,
+    .archive .widget_archive .current,
+    .archive .widget_archive .current a,
+    .widget_calendar tfoot a:hover,
+    .woocommerce a.added_to_cart:hover,
+    .woocommerce-account .woocommerce-MyAccount-navigation a:hover,
+    #bbpress-forums li.bbp-header .bbp-reply-content span a:hover,
+    #bbpress-forums .bbp-forum-freshness a:hover,
+    #bbpress-forums .bbp-topic-freshness a:hover,
+    #bbpress-forums .bbp-forums-list li a:hover,
+    #bbpress-forums .bbp-forum-title:hover,
+    #bbpress-forums .bbp-topic-permalink:hover,
+    #bbpress-forums .bbp-topic-started-by a:hover,
+    #bbpress-forums .bbp-topic-started-in a:hover,
+    #bbpress-forums .bbp-body .super-sticky li.bbp-topic-title .bbp-topic-permalink,
+    #bbpress-forums .bbp-body .sticky li.bbp-topic-title .bbp-topic-permalink,
+    .widget_display_replies .bbp-author-name,
+    .widget_display_topics .bbp-author-name,
+    .footer-text-wrap .footer-email-wrap a,
+    .td-subfooter-menu li a:hover,
+    .footer-social-wrap a:hover,
+    a.vc_btn-black:hover,
+    .td-smart-list-dropdown-wrap .td-smart-list-button:hover,
+    .td_module_17 .td-read-more a:hover,
+    .td_module_18 .td-read-more a:hover,
+    .td_module_19 .td-post-author-name a:hover,
+    .td-instagram-user a,
+    .td-pulldown-syle-2 .td-subcat-dropdown:hover .td-subcat-more span,
+    .td-pulldown-syle-2 .td-subcat-dropdown:hover .td-subcat-more i,
+    .td-pulldown-syle-3 .td-subcat-dropdown:hover .td-subcat-more span,
+    .td-pulldown-syle-3 .td-subcat-dropdown:hover .td-subcat-more i,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option:hover,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option:hover i,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-link:hover,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-item .td-cur-simple-item,
+    .td_block_template_2 .td-related-title .td-cur-simple-item,
+    .td_block_template_5 .td-related-title .td-cur-simple-item,
+    .td_block_template_6 .td-related-title .td-cur-simple-item,
+    .td_block_template_7 .td-related-title .td-cur-simple-item,
+    .td_block_template_8 .td-related-title .td-cur-simple-item,
+    .td_block_template_9 .td-related-title .td-cur-simple-item,
+    .td_block_template_10 .td-related-title .td-cur-simple-item,
+    .td_block_template_11 .td-related-title .td-cur-simple-item,
+    .td_block_template_12 .td-related-title .td-cur-simple-item,
+    .td_block_template_13 .td-related-title .td-cur-simple-item,
+    .td_block_template_14 .td-related-title .td-cur-simple-item,
+    .td_block_template_15 .td-related-title .td-cur-simple-item,
+    .td_block_template_16 .td-related-title .td-cur-simple-item,
+    .td_block_template_17 .td-related-title .td-cur-simple-item,
+    .td-theme-wrap .sf-menu ul .td-menu-item > a:hover,
+    .td-theme-wrap .sf-menu ul .sfHover > a,
+    .td-theme-wrap .sf-menu ul .current-menu-ancestor > a,
+    .td-theme-wrap .sf-menu ul .current-category-ancestor > a,
+    .td-theme-wrap .sf-menu ul .current-menu-item > a,
+    .td_outlined_btn,
+     .td_block_categories_tags .td-ct-item:hover {
+        color: #157e99;
+    }
+
+    a.vc_btn-black.vc_btn_square_outlined:hover,
+    a.vc_btn-black.vc_btn_outlined:hover,
+    .td-mega-menu-page .wpb_content_element ul li a:hover,
+    .td-theme-wrap .td-aj-search-results .td_module_wrap:hover .entry-title a,
+    .td-theme-wrap .header-search-wrap .result-msg a:hover {
+        color: #157e99 !important;
+    }
+
+    .td-next-prev-wrap a:hover,
+    .td-load-more-wrap a:hover,
+    .td-post-small-box a:hover,
+    .page-nav .current,
+    .page-nav:first-child > div,
+    .td_category_template_8 .td-category-header .td-category a.td-current-sub-category,
+    .td_category_template_4 .td-category-siblings .td-category a:hover,
+    #bbpress-forums .bbp-pagination .current,
+    .post .td_quote_box,
+    .page .td_quote_box,
+    a.vc_btn-black:hover,
+    .td_block_template_5 .td-block-title > *,
+    .td_outlined_btn {
+        border-color: #157e99;
+    }
+
+    .td_wrapper_video_playlist .td_video_currently_playing:after {
+        border-color: #157e99 !important;
+    }
+
+    .header-search-wrap .td-drop-down-search:before {
+        border-color: transparent transparent #157e99 transparent;
+    }
+
+    .block-title > span,
+    .block-title > a,
+    .block-title > label,
+    .widgettitle,
+    .widgettitle:after,
+    .td-trending-now-title,
+    .td-trending-now-wrapper:hover .td-trending-now-title,
+    .wpb_tabs li.ui-tabs-active a,
+    .wpb_tabs li:hover a,
+    .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab.vc_active > a,
+    .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab:hover > a,
+    .td_block_template_1 .td-related-title .td-cur-simple-item,
+    .woocommerce .product .products h2:not(.woocommerce-loop-product__title),
+    .td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more, 
+    .td_3D_btn,
+    .td_shadow_btn,
+    .td_default_btn,
+    .td_round_btn, 
+    .td_outlined_btn:hover {
+    	background-color: #157e99;
+    }
+
+    .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    	background-color: #157e99 !important;
+    }
+
+    .block-title,
+    .td_block_template_1 .td-related-title,
+    .wpb_tabs .wpb_tabs_nav,
+    .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container,
+    .woocommerce div.product .woocommerce-tabs ul.tabs:before {
+        border-color: #157e99;
+    }
+    .td_block_wrap .td-subcat-item a.td-cur-simple-item {
+	    color: #157e99;
+	}
+
+
+    
+    .td-grid-style-4 .entry-title
+    {
+        background-color: rgba(21, 126, 153, 0.7);
+    }
+
+    
+    .td-banner-wrap-full,
+    .td-header-style-11 .td-logo-wrap-full {
+        background-color: #157e99;
+    }
+
+    .td-header-style-11 .td-logo-wrap-full {
+        border-bottom: 0;
+    }
+
+    @media (min-width: 1019px) {
+        .td-header-style-2 .td-header-sp-recs,
+        .td-header-style-5 .td-a-rec-id-header > div,
+        .td-header-style-5 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-6 .td-a-rec-id-header > div,
+        .td-header-style-6 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-7 .td-a-rec-id-header > div,
+        .td-header-style-7 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-8 .td-a-rec-id-header > div,
+        .td-header-style-8 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-12 .td-a-rec-id-header > div,
+        .td-header-style-12 .td-g-rec-id-header > .adsbygoogle {
+            margin-bottom: 24px !important;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1018px) {
+        .td-header-style-2 .td-header-sp-recs,
+        .td-header-style-5 .td-a-rec-id-header > div,
+        .td-header-style-5 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-6 .td-a-rec-id-header > div,
+        .td-header-style-6 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-7 .td-a-rec-id-header > div,
+        .td-header-style-7 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-8 .td-a-rec-id-header > div,
+        .td-header-style-8 .td-g-rec-id-header > .adsbygoogle,
+        .td-header-style-12 .td-a-rec-id-header > div,
+        .td-header-style-12 .td-g-rec-id-header > .adsbygoogle {
+            margin-bottom: 14px !important;
+        }
+    }
+</style>
+
+<script type="application/javascript" src="//ced.sascdn.com/tag/3130/smart.js" async></script>
+<script type="application/javascript">
+    var sas = sas || {};
+    sas.cmd = sas.cmd || [];
+    sas.cmd.push(function() {
+        sas.setup({ networkid: 3130, domain: "//www14.smartadserver.com", async: true });
+    });
+    sas.cmd.push(function() {
+        sas.call("onecall", {
+            siteId: 259464,
+            pageId: 986865,
+            formats: [
+                 { id: 66648 }
+,{ id: 66524 }
+,{ id: 66525 }
+,{ id: 66526 }
+,{ id: 66527 }
+,{ id: 66528 }
+,{ id: 66523 }
+,{ id: 67408 }
+,{ id: 67409 }
+,{ id: 66507 }
+,{ id: 66682 }
+,{ id: 66519 }
+,{ id: 66506 }
+,{ id: 66521 }
+,{ id: 66520 }
+,{ id: 66736 }
+,{ id: 66536 }
+,{ id: 66509 }
+,{ id: 66522 }
+            ],
+            target: ''
+        });
+    });
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "WebSite",
+                    "@id": "https://www.electricmotorengineering.com/",
+                    "name": "Home"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                    "item": {
+                    "@type": "WebPage",
+                    "@id": "https://www.electricmotorengineering.com/category/market-trends/",
+                    "name": "Market Trends"
+                }
+            }
+            ,{
+                "@type": "ListItem",
+                "position": 3,
+                    "item": {
+                    "@type": "WebPage",
+                    "@id": "https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/",
+                    "name": "Focus: future scenarios and technological trends – Part 3"                                
+                }
+            }    
+        ]
+    }
+</script>
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Focus: future scenarios and technological trends – Part 3"><meta name="twitter:description" content="After outlining the product and support proposal for the electric motor world in automotive and/or appliance ambit, we have asked interviewed companies their point of view on possible future scenarios/technological trends. “The most felt requirements in the sheet metal forming market, especially for the automotive sector– highlights Michele Archenti, Sales and Marketing Manager AIDA Europe&hellip;"><meta name="twitter:image" content="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg">
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="post-template-default single single-post postid-1420 single-format-standard tribe-no-js focus-future-scenarios-and-technological-trends-part-3 global-block-template-1 single_template_3 wpb-js-composer js-comp-ver-5.6 vc_responsive td-animation-stack-type0 td-boxed-layout" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+        <div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+    
+    <div class="td-menu-background"></div>
+<div id="td-mobile-nav">
+    <div class="td-mobile-container">
+        <!-- mobile menu top section -->
+        <div class="td-menu-socials-wrap">
+            <!-- socials -->
+            <div class="td-menu-socials">
+                
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.facebook.com/electricmotorengineering/" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+            </a>
+        </span>            </div>
+            <!-- close button -->
+            <div class="td-mobile-close">
+                <a href="#"><i class="td-icon-close-mobile"></i></a>
+            </div>
+        </div>
+
+        <!-- login section -->
+        
+        <!-- menu section -->
+        <div class="td-mobile-content">
+            <div class="menu-footereme-container"><ul id="menu-footereme" class="td-mobile-main-menu"><li id="menu-item-1543" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-first menu-item-1543"><a href="https://www.electricmotorengineering.com/category/market-trends/">Market Trends</a></li>
+<li id="menu-item-1544" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1544"><a href="https://www.electricmotorengineering.com/category/rd/">R&amp;D</a></li>
+<li id="menu-item-1546" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1546"><a href="https://www.electricmotorengineering.com/category/technology/">Technology<i class="td-icon-menu-right td-element-after"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-1550" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550"><a href="https://www.electricmotorengineering.com/category/technology/simulation/">Simulation</a></li>
+	<li id="menu-item-1549" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1549"><a href="https://www.electricmotorengineering.com/category/technology/materials/">Materials</a></li>
+	<li id="menu-item-1547" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1547"><a href="https://www.electricmotorengineering.com/category/technology/components/">Components</a></li>
+	<li id="menu-item-1552" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1552"><a href="https://www.electricmotorengineering.com/category/technology/testing/">Testing</a></li>
+	<li id="menu-item-1548" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1548"><a href="https://www.electricmotorengineering.com/category/technology/condition-monitoring/">Condition Monitoring</a></li>
+	<li id="menu-item-1551" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1551"><a href="https://www.electricmotorengineering.com/category/technology/sustainability/">Sustainability</a></li>
+</ul>
+</li>
+<li id="menu-item-1538" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1538"><a href="https://www.electricmotorengineering.com/category/applications/">Applications<i class="td-icon-menu-right td-element-after"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-1539" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1539"><a href="https://www.electricmotorengineering.com/category/applications/automotive/">Automotive</a></li>
+	<li id="menu-item-1541" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1541"><a href="https://www.electricmotorengineering.com/category/applications/machinery/">Machinery</a></li>
+	<li id="menu-item-1540" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1540"><a href="https://www.electricmotorengineering.com/category/applications/hvac/">HVAC</a></li>
+</ul>
+</li>
+<li id="menu-item-1542" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1542"><a href="https://www.electricmotorengineering.com/category/featured/">Featured</a></li>
+<li id="menu-item-1545" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1545"><a href="https://www.electricmotorengineering.com/category/suppliers-profile/">Suppliers Profile</a></li>
+<li id="menu-item-1537" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1537"><a href="https://www.electricmotorengineering.com/category/advertorial/">Advertorial</a></li>
+</ul></div>        </div>
+    </div>
+
+    <!-- register/login section -->
+    </div>    <div class="td-search-background"></div>
+<div class="td-search-wrap-mob">
+	<div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+		<form method="get" class="td-search-form" action="https://www.electricmotorengineering.com/">
+			<!-- close button -->
+			<div class="td-search-close">
+				<a href="#"><i class="td-icon-close-mobile"></i></a>
+			</div>
+			<div role="search" class="td-search-input">
+				<span>Search</span>
+				<input id="td-header-search-mob" type="text" value="" name="s" autocomplete="off" />
+			</div>
+		</form>
+		<div id="td-aj-search-mob"></div>
+	</div>
+</div>    
+    
+    <div id="td-outer-wrap" class="td-theme-wrap">
+    
+        <!--
+Header style 1
+-->
+
+
+<div class="td-header-wrap td-header-style-1 ">
+    
+    <div class="td-header-top-menu-full td-container-wrap ">
+        <div class="td-container td-header-row td-header-top-menu">
+            
+    <div class="top-bar-style-1">
+        
+<div class="td-header-sp-top-menu">
+
+
+	        <div class="td_data_time">
+            <div >
+
+                Wednesday, November 25, 2020
+            </div>
+        </div>
+    </div>
+        <div class="td-header-sp-top-widget">
+    
+    </div>    </div>
+
+<!-- LOGIN MODAL -->
+        </div>
+    </div>
+
+    <div class="td-banner-wrap-full td-logo-wrap-full td-container-wrap ">
+        <div class="td-container td-header-row td-header-header">
+            <div class="td-header-sp-logo">
+                        <a class="td-main-logo" href="https://www.electricmotorengineering.com/">
+            <img class="td-retina-data" data-retina="https://www.electricmotorengineering.com/files/2017/09/EME_544x180.png" src="https://www.electricmotorengineering.com/files/2017/09/EME_272x90.png" alt=""/>
+            <span class="td-visual-hidden">Electric Motor Engineering</span>
+        </a>
+                </div>
+                            <div class="td-header-sp-recs">
+                    <div class="td-header-rec-wrap">
+    <div class="td-a-rec td-a-rec-id-header  td_uid_1_5fbe47b7037ac_rand td_block_template_1"><div id="sas_66682"></div>
+<script type="application/javascript">
+    sas.cmd.push(function() {
+        sas.render("66682");  // Formato : Leaderboard 728x90 (2istanze) 728x90
+    });
+</script>
+<div id="sas_66736"></div>
+<script type="application/javascript">
+    sas.cmd.push(function() {
+        sas.render("66736");  // Formato : Pop-up 1x1
+    });
+</script>
+<div id="sas_66509"></div>
+<script type="application/javascript">
+    sas.cmd.push(function() {
+        sas.render("66509");  // Formato : Skin 1x1
+    });
+</script></div>
+</div>                </div>
+                    </div>
+    </div>
+
+    <div class="td-header-menu-wrap-full td-container-wrap ">
+        
+        <div class="td-header-menu-wrap td-header-gradient ">
+            <div class="td-container td-header-row td-header-main-menu">
+                <div id="td-header-menu" role="navigation">
+    <div id="td-top-mobile-toggle"><a href="#"><i class="td-icon-font td-icon-mobile"></i></a></div>
+    <div class="td-main-menu-logo td-logo-in-header">
+                <a class="td-main-logo" href="https://www.electricmotorengineering.com/">
+            <img class="td-retina-data" data-retina="https://www.electricmotorengineering.com/files/2017/09/EME_544x180.png" src="https://www.electricmotorengineering.com/files/2017/09/EME_272x90.png" alt=""/>
+        </a>
+        </div>
+    <div class="menu-footereme-container"><ul id="menu-footereme-1" class="sf-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-first td-menu-item td-normal-menu menu-item-1543"><a href="https://www.electricmotorengineering.com/category/market-trends/">Market Trends</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1544"><a href="https://www.electricmotorengineering.com/category/rd/">R&amp;D</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children td-menu-item td-normal-menu menu-item-1546"><a href="https://www.electricmotorengineering.com/category/technology/">Technology</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1550"><a href="https://www.electricmotorengineering.com/category/technology/simulation/">Simulation</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1549"><a href="https://www.electricmotorengineering.com/category/technology/materials/">Materials</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1547"><a href="https://www.electricmotorengineering.com/category/technology/components/">Components</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1552"><a href="https://www.electricmotorengineering.com/category/technology/testing/">Testing</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1548"><a href="https://www.electricmotorengineering.com/category/technology/condition-monitoring/">Condition Monitoring</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1551"><a href="https://www.electricmotorengineering.com/category/technology/sustainability/">Sustainability</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children td-menu-item td-normal-menu menu-item-1538"><a href="https://www.electricmotorengineering.com/category/applications/">Applications</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1539"><a href="https://www.electricmotorengineering.com/category/applications/automotive/">Automotive</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1541"><a href="https://www.electricmotorengineering.com/category/applications/machinery/">Machinery</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1540"><a href="https://www.electricmotorengineering.com/category/applications/hvac/">HVAC</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1542"><a href="https://www.electricmotorengineering.com/category/featured/">Featured</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1545"><a href="https://www.electricmotorengineering.com/category/suppliers-profile/">Suppliers Profile</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1537"><a href="https://www.electricmotorengineering.com/category/advertorial/">Advertorial</a></li>
+</ul></div></div>
+
+
+    <div class="header-search-wrap">
+        <div class="td-search-btns-wrap">
+            <a id="td-header-search-button" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+            <a id="td-header-search-button-mob" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+        </div>
+
+        <div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+            <form method="get" class="td-search-form" action="https://www.electricmotorengineering.com/">
+                <div role="search" class="td-head-form-search-wrap">
+                    <input id="td-header-search" type="text" value="" name="s" autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search" />
+                </div>
+            </form>
+            <div id="td-aj-search"></div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+</div><article id="post-1420" class="td-post-template-3 post-1420 post type-post status-publish format-standard has-post-thumbnail hentry category-market-trends tag-scenarios td-container-wrap" itemscope itemtype="https://schema.org/Article">
+    <div class="td-post-header td-container">
+        <div class="td-crumb-container"><div class="entry-crumbs"><span><a title="" class="entry-crumb" href="https://www.electricmotorengineering.com/">Home</a></span> <i class="td-icon-right td-bread-sep"></i> <span><a title="View all posts in Market Trends" class="entry-crumb" href="https://www.electricmotorengineering.com/category/market-trends/">Market Trends</a></span> <i class="td-icon-right td-bread-sep td-bred-no-url-last"></i> <span class="td-bred-no-url-last">Focus: future scenarios and technological trends – Part 3</span></div></div>
+        <div class="td-post-header-holder td-image-gradient">
+            <div class="td-post-featured-image"><a href="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg" data-caption=""><img width="1276" height="844" class="entry-thumb td-modal-image" src="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg" srcset="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg 1276w, https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544-300x198.jpg 300w, https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544-768x508.jpg 768w, https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544-1024x677.jpg 1024w, https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544-696x460.jpg 696w, https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544-1068x706.jpg 1068w, https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544-635x420.jpg 635w" sizes="(max-width: 1276px) 100vw, 1276px" alt="" title="Focus 3"/></a></div>
+            <header class="td-post-title">
+                <ul class="td-category"><li class="entry-category"><a  href="https://www.electricmotorengineering.com/category/market-trends/">Market Trends</a></li></ul>                <h1 class="entry-title">Focus: future scenarios and technological trends – Part 3</h1>
+
+                
+
+                <div class="td-module-meta-info">
+                    <div class="td-post-author-name"><a href="https://www.electricmotorengineering.com/author/admin/" title="Posts by Redazione" class="author url fn" rel="author">Redazione</a></div>                                                                            </div>
+
+            </header>
+        </div>
+    </div>
+
+    <div class="td-container">
+        <div class="td-pb-row">
+                                <div class="td-pb-span8 td-main-content" role="main">
+                        <div class="td-ss-main-content">
+                            
+    <div class="td-post-sharing-top"><div id="td_social_sharing_article_top" class="td-post-sharing td-ps-bg td-ps-notext td-post-sharing-style1 "><div class="td-post-sharing-visible"><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.electricmotorengineering.com%2Ffocus-future-scenarios-and-technological-trends-part-3%2F">
+                                        <div class="td-social-but-icon"><i class="td-icon-facebook"></i></div>
+                                        <div class="td-social-but-text">Facebook</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-twitter" href="https://twitter.com/intent/tweet?text=Focus%3A+future+scenarios+and+technological+trends+%E2%80%93+Part+3&url=https%3A%2F%2Fwww.electricmotorengineering.com%2Ffocus-future-scenarios-and-technological-trends-part-3%2F&via=Electric+Motor+Engineering">
+                                        <div class="td-social-but-icon"><i class="td-icon-twitter"></i></div>
+                                        <div class="td-social-but-text">Twitter</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-googleplus" href="https://plus.google.com/share?url=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/">
+                                        <div class="td-social-but-icon"><i class="td-icon-googleplus"></i></div>
+                                        <div class="td-social-but-text">Google+</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-pinterest" href="https://pinterest.com/pin/create/button/?url=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/&amp;media=https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg&description=Focus%3A+future+scenarios+and+technological+trends+%E2%80%93+Part+3">
+                                        <div class="td-social-but-icon"><i class="td-icon-pinterest"></i></div>
+                                        <div class="td-social-but-text">Pinterest</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-whatsapp" href="whatsapp://send?text=Focus: future scenarios and technological trends – Part 3 %0A%0A https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/">
+                                        <div class="td-social-but-icon"><i class="td-icon-whatsapp"></i></div>
+                                        <div class="td-social-but-text">WhatsApp</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/&title=Focus: future scenarios and technological trends – Part 3">
+                                        <div class="td-social-but-icon"><i class="td-icon-linkedin"></i></div>
+                                        <div class="td-social-but-text">Linkedin</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-mail" href="mailto:?subject=Focus: future scenarios and technological trends – Part 3&body=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/">
+                                        <div class="td-social-but-icon"><i class="td-icon-mail"></i></div>
+                                        <div class="td-social-but-text">Email</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-print" href="#">
+                                        <div class="td-social-but-icon"><i class="td-icon-print"></i></div>
+                                        <div class="td-social-but-text">Print</div>
+                                    </a></div><div class="td-social-sharing-hidden"><ul class="td-pulldown-filter-list"></ul><a class="td-social-sharing-button td-social-handler td-social-expand-tabs" href="#" data-block-uid="td_social_sharing_article_top">
+                                    <div class="td-social-but-icon"><i class="td-icon-plus td-social-expand-tabs-icon"></i></div>
+                                </a></div></div></div>
+    <div class="td-post-content">
+        <div class="su-box su-box-style-default" id="" style="border-color:#2ea4a1;border-radius:3px"><div class="su-box-title" style="background-color:#61d7d4;color:#FFFFFF;border-top-left-radius:1px;border-top-right-radius:1px">This is Part 3 of a three-part article</div><div class="su-box-content su-u-clearfix su-u-trim" style="border-bottom-left-radius:1px;border-bottom-right-radius:1px">
+Read <a href="https://www.electricmotorengineering.com/focus-electric-motor-current-and-future-scenarios-part-1/"><strong>Part 1: Focus: electric motor, current and future scenarios</strong></a><br />
+Read <a href="https://www.electricmotorengineering.com/focus-products-and-technologies-at-the-service-of-the-electric-motor-part-2/"><strong>Part 2: Products and technologies at the service of the electric motor</strong></a> </div></div>
+<p class="p1"><span class="s1"><b>After outlining the product and support proposal for the electric motor world in automotive and/or appliance ambit, we have asked interviewed companies their point of view on possible future scenarios/technological trends.</b></span></p>
+<div class="td-a-rec td-a-rec-id-content_inlineleft  td_uid_2_5fbe47b7135bf_rand td_block_template_1"><div id="sas_67408"></div>
+<script type="application/javascript">
+    sas.cmd.push(function() {
+        sas.render("67408");  // Formato : Injection 1x1 1x1
+    });
+</script></div><p class="p1">“The most felt requirements in the sheet metal forming market, especially for the automotive sector– highlights <strong>Michele Archenti</strong>, Sales and Marketing Manager <a href="https://www.aida-global.com/italian/"><strong><span class="s1">AIDA Europe</span></strong></a> – are, and will increasingly be, more control and more automation of manufacturing processes. The revolution called Industry 4.0, aimed at boosting innovation in industrial field, mainly focuses on the theme of the integration and the connection of industrial machines to the corporate net. Concerning this, the most important novelty at which we are working, concerns the use of Machine Learning algorithms to offer advanced preventive maintenance solutions able to help us in preserving the most important good of each customer: manufacturing continuity”.</p>
+<p class="p2">Precisely according to this vision, AIDA group has already developed and implemented its complete solution for the data processing (through cloud computing): AiCARE (AIDA Information Care System). It can provide advanced information about the production and maintenance state of each single press, such as, just to make an example, manufacturing data, data on energy consumptions, on the oil quality or the operational temperature, or data regarding the use degree of each single element that composes the press.<br />
+“The AiCARE system– adds Archenti – has been conceived to be integrated on all of our press typologies but, at the same time, it can be seen as an external device to be implemented on already installed presses”.<br />
+Therefore, it is a solution “that can be retrofitted” on the machine fleet already installed. Not only AIDA presses are concerned but the installation is possible also on other manufacturers’ presses.</p>
+<p class="p2"><img class="aligncenter size-large wp-image-1436" src="https://www.electricmotorengineering.com/files/2019/05/monitoraggio-1024x683.jpg" alt="" width="696" height="464" srcset="https://www.electricmotorengineering.com/files/2019/05/monitoraggio-1024x683.jpg 1024w, https://www.electricmotorengineering.com/files/2019/05/monitoraggio-300x200.jpg 300w, https://www.electricmotorengineering.com/files/2019/05/monitoraggio-768x512.jpg 768w, https://www.electricmotorengineering.com/files/2019/05/monitoraggio-696x464.jpg 696w, https://www.electricmotorengineering.com/files/2019/05/monitoraggio-1068x712.jpg 1068w, https://www.electricmotorengineering.com/files/2019/05/monitoraggio-630x420.jpg 630w" sizes="(max-width: 696px) 100vw, 696px" /></p>
+<p class="p2"><span class="s2">Concerning possible future trends and scenarios, </span><a href="https://www.bluergo.it/"><strong><span class="s3">Bluergo</span></strong></a><span class="s2"> thinks that the electric motor evolution as traction, in automotive ambit, will have its course, with times a bit delayed compared to what imaginable just some years ago. Owing to different reasons, as <strong>Andrea Cusinato</strong>, Sales Department Bluergo, specified: “Without prejudice to the environmental and performance benefits, there are some criticalities and difficulties not completely solved, I think. I am referring, for instance, to an infrastructure and to a grid energy not ready to transpose “big numbers”. Likewise, the vehicle cost for end-users, even if constantly adapted, unfortunately does not seem affordable for today’s users of small subcompacts, yet. In other words, times are not mature for a mass diffusion, yet. From our point of view, we believe instead the petrol/methane, diesel/methane conversion technology is more within reach”.</span></p>
+<p class="p2"><span class="s2">In the last biennium, the company has been very active and committed to the latter context, with the supply of tailored electromagnetic components.<br />
+</span>“If, instead, with electric motor – specifies Cusinato – we mean not only the traction, it is indisputable it is in constant evolution. Especially if we refer to brushless motors, which nowadays represent the almost totality of motions and drives equipping a car”.</p>
+<p class="p2">Bluergo has been committed to this ambit for years and it is investing huge resources in it. A strongly growing market that, today, absorbs a significant percentage of the corporate production.<br />
+“Referring to the Home Appliance sector – adds Cusinato – it is following the same evolutionary course, with the replacement of standard single-phase motors with brushless technology. However, also in this case the cost aspect hinders its mass diffusion”.</p>
+<p class="p2">—</p>
+<p class="p2"><a href="http://www.cagnoni.com/"><strong><span class="s1">Cagnoni</span></strong></a> confirms the electric motor world is living a constant growth in the automotive and appliance sectors.<br />
+“Nevertheless – specifies the managing director <strong>Giordano Sorci</strong> – the brushless motor is rapidly spreading, widening applicative opportunities. Today, also for this reason, our customers, I would say about 10% of them, are diversifying productions by introducing the brushless technology, too. However, not all sectors can avail themselves of these typologies, therefore I believe the conventional brushed motor still has several decades of career in front”.</p>
+<p class="p2">—</p>
+<p class="p2">Automation is increasingly shifting towards motors produced in smaller yearly quantities. This is the point of view of <a href="http://www.demasassi.it/"><strong><span class="s1">Dema</span></strong> </a>that, by voice of the owner Mr <strong>Cesare Librici</strong>, confirms how such datum influences the technological requisites demanded for its plants.</p>
+<p class="p2"><span class="s2">“If previously – states the engineer Librici – typically one of our automated machines was required by one of our customers that had productions of 500,000, one million of parts yearly, today we have dropped by one order of magnitude. This means the demand for the part of our competence is oriented towards a fully automatic process. And no longer semi-automatic or even manual. This interpretation concerns both the automotive and the industrial world. More complex is instead interpreting trends and scenarios for the appliance industry that, still according to our point of view, does not seem to show particular interest in investments in new products today”.</span></p>
+<p class="p2"><img class="aligncenter size-large wp-image-1435" src="https://www.electricmotorengineering.com/files/2019/05/FOTO1-1024x696.jpg" alt="" width="696" height="473" srcset="https://www.electricmotorengineering.com/files/2019/05/FOTO1-1024x696.jpg 1024w, https://www.electricmotorengineering.com/files/2019/05/FOTO1-300x204.jpg 300w, https://www.electricmotorengineering.com/files/2019/05/FOTO1-768x522.jpg 768w, https://www.electricmotorengineering.com/files/2019/05/FOTO1-696x473.jpg 696w, https://www.electricmotorengineering.com/files/2019/05/FOTO1-1068x726.jpg 1068w, https://www.electricmotorengineering.com/files/2019/05/FOTO1-618x420.jpg 618w, https://www.electricmotorengineering.com/files/2019/05/FOTO1.jpg 1600w" sizes="(max-width: 696px) 100vw, 696px" /></p>
+<p class="p2">Clear and precise also the vision of <a href="http://demakgroup.com/it"><strong><span class="s1">Demak</span></strong></a> about possible future scenarios/technological trends where the electric motor will be the protagonist.</p>
+<p class="p2"><span class="s4">“Certainly electrification – states the Technical Sales Manager, <strong>Massimiliano Balboni</strong> – already in course for some years, will become a “vital” and decisive step for all OEMs and for the whole chain. Especially, however, for companies that will mandatorily need to integrate into their manufacturing cycle technologies with zero or minimal impact on the environment. Therefore, it is undoubted that companies themselves, besides investing in R&amp;D activities for the development of electric traction with more autonomy, will be also requested to provide for investing in “Eco-Friendly” technologies, which can grant, at the same time, excellent-level performances of the electric motor and of other components”.</span></p>
+<p class="p2">—</p>
+<p class="p2">The future of automotive is electric. <strong>Sergio Iori</strong>, president of <a href="https://euro-group.it/"><strong><span class="s1">EuroGroup</span></strong></a>, has no doubt.</p>
+<p class="p2">“The automotive industry– he affirms – is getting ready for the increment of the demand for electric vehicles. We cannot establish with certain responses, yet, whether and when the car with thermal motor will end, whether and how much the hybrid traction will still develop. However, it is certain the activity that today concerns the productive developments of electric vehicles is, according to many, a real Tsunami and, anyway, an epochal turning point”.</p>
+<p class="p2">—</p>
+<p class="p2"><strong>Christian Grob</strong>, Supervisory Board Chairman of <a href="https://www.grobgroup.com/"><strong><span class="s1">GROB-WERKE</span></strong></a>, underlines how it is important to remind the e-mobility is still a relatively new concept for the automotive field.</p>
+<p class="p2"><span class="s4">“All market players– he declares – must adapt their approach. Working in strict collaboration with primary sector brands, it was immediately clear that there was a big need of mass production installations in the automotive industry, with particular attention to key components, that is to say the electric motor and battery components. Currently, designs are created and developed only through a strict consulting with the automotive industry. Even if markets are reacting to this with different speeds, Grob sales have already suited new technologies worldwide”.</span></p>
+<p class="p2">—</p>
+<p class="p2"><span class="s4">Wide, efficacious and detailed is the reflection expressed by </span><a href="https://www.inarca.com/it/"><strong><span class="s5">Inarca</span></strong></a><span class="s4"> on possible future scenarios/technological trends, implemented in automotive and appliance ambit.</span></p>
+<p class="p2"><span class="s2">“In automotive ambit – highlights the sale manager <strong>Alessandro Rocchi</strong> – the increasingly extended demand for components managed by electronics makes the need of connecting mechanical parts to boards or circuits more and more frequent. This will lead to an ever-rising diffusion of the mechanical cold junction, much more efficient than welding, due to both the minor problems in junction phase and the possibility of replacing parts quickly. Consequently, the market trend is favourable for us, since we have invested for years in Crimp and IDC technologies, where today we can say we are technological leaders. Moreover, the more and more diffused presence of aluminium, instead of copper, as material used for electric motors’ windings works for us, as we have developed for years more and more efficient solutions for applications of this kind”.</span></p>
+<p class="p2">Referring to the appliance world, Rocchi points out that the technological evolution of the household appliance sector determines an increasingly massive presence of electronics, which exponentially increases the number of connections for each single device and produces more and more complex geometries.</p>
+<p class="p2">“The successive step – he adds – will be the massive diffusion of iOt, internet of things, which will further boost this phenomenon».</p>
+<p class="p2">In this context, Inarca proposes itself as technological reference partner: for years, in fact, it has developed a line of specific solutions for the mechanical cold junction (both Crimp and IDC), which allow utmost efficiency in application phase.</p>
+<p class="p2">—</p>
+<p class="p2"><span class="s4">In the opinion of <strong>Enzo Montani</strong> from </span><a href="http://www.piciesse.it/"><strong><span class="s5">Piciesse</span></strong></a><span class="s4">, certainly last years’ data highlight a strong growth of the innovative mobility and motion: “Beyond the mobility in the strict sense – he adds– the sector dedicated to the terrestrial motion and to the introduction and refinement of more and more technological and attentive means is increasingly protagonist. We are referring to trains for electrified lines, to hybrid/electric cars, to e-bikes, to electric scooters, to segways and to hoverboards. Besides, aware of facing a more and more diffused electric production, probably the need of developing smart flexible grids, able to manage peaks and to distribute energy safely, will rise. This will highlight the importance of the so-called smart grids and will gradually require efficient and complete management and communication systems of grids themselves”.</span></p>
+<p class="p2"><img class="aligncenter size-large wp-image-1437" src="https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-1024x672.jpg" alt="" width="696" height="457" srcset="https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-1024x672.jpg 1024w, https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-300x197.jpg 300w, https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-768x504.jpg 768w, https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-696x457.jpg 696w, https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-741x486.jpg 741w, https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-1068x701.jpg 1068w, https://www.electricmotorengineering.com/files/2019/05/Motore-elettrico-640x420.jpg 640w" sizes="(max-width: 696px) 100vw, 696px" /></p>
+<p class="p2">More and more refined technology for more efficient and safer systems. This is the synthesis by <strong>Rodolfo Risatti</strong>, owner of <a href="http://www.risatti.it/collaudifunzionali/"><strong><span class="s1">Risatti Instruments</span></strong></a>: “We believe – he affirms – in the future, technology can nothing but refine and reach specialized levels that will grant more efficient and safer systems. According to this perspective, we daresay the technologized automated drive will be used on all transport means”.</p>
+<p class="p2">—</p>
+<p class="p2">The point of view of <a href="https://www.samac.it/it/"><strong><span class="s1">Samac</span></strong></a> reveals how the next evolution, already partly in course, will reside in the shift from electrification to electronification. A step that, for the company, will make the critical components of complex systems &#8211; like for instance the motor in a car but also an electric axis in machines – become independent in the management of their operation and maintenance parameters.</p>
+<p class="p2">—</p>
+<p class="p2"><a href="https://www.te.com/usa-en/home.html"><strong><span class="s1">TE Connectivity</span></strong></a> estimates that trends and possible scenarios for the future are oriented towards an increased usage of aluminum wires.</p>
+<p class="p2"><strong>Ugo Aime</strong>, Product Manager, explains and concludes: “Where there are no particular problems with the space for the components, more competitive solutions which are cheaper and lighter will be available”.</p>
+<p class="p2">—</p>
+<p class="p2">Concerning future trends and scenarios, <a href="https://www.zoppasindustries.com/it/"><strong><span class="s1">Zoppas Industries Heating Element Technologies</span></strong></a> highlights a first big discriminant among hybrid, plug-in and full-electric vehicles. Moreover, car typologies will be subdivided by autonomy range and by market target, luxury and performances, too. The company’s hypothesis envisages a more and more fragmented market, to meet the manifold requirements that, in combination with the new trends of Megacities and of connectivity, will be defined by end-users. Concerning heating, the macro-typologies that Zoppas Industries Heating Element Technologies glimpses in the next future are the following: air heating for small cars for city-urban use; heating through fluid circuit loops for the cars of the average range; heating by heat pump for “premium” cars; heating through radiant surfaces as possible long-term evolution in the car interior.</p>
+    </div>
+
+
+    <footer>
+                
+        <div class="td-post-source-tags">
+                        <ul class="td-tags td-post-small-box clearfix"><li><span>TAGS</span></li><li><a href="https://www.electricmotorengineering.com/tag/scenarios/">scenarios</a></li></ul>        </div>
+
+        <div class="td-post-sharing-bottom"><div class="td-post-sharing-classic"><iframe frameBorder="0" src="https://www.facebook.com/plugins/like.php?href=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/&amp;layout=button_count&amp;show_faces=false&amp;width=105&amp;action=like&amp;colorscheme=light&amp;height=21" style="border:none; overflow:hidden; width:105px; height:21px; background-color:transparent;"></iframe></div><div id="td_social_sharing_article_bottom" class="td-post-sharing td-ps-bg td-ps-notext td-post-sharing-style1 "><div class="td-post-sharing-visible"><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.electricmotorengineering.com%2Ffocus-future-scenarios-and-technological-trends-part-3%2F">
+                                        <div class="td-social-but-icon"><i class="td-icon-facebook"></i></div>
+                                        <div class="td-social-but-text">Facebook</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-twitter" href="https://twitter.com/intent/tweet?text=Focus%3A+future+scenarios+and+technological+trends+%E2%80%93+Part+3&url=https%3A%2F%2Fwww.electricmotorengineering.com%2Ffocus-future-scenarios-and-technological-trends-part-3%2F&via=Electric+Motor+Engineering">
+                                        <div class="td-social-but-icon"><i class="td-icon-twitter"></i></div>
+                                        <div class="td-social-but-text">Twitter</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-googleplus" href="https://plus.google.com/share?url=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/">
+                                        <div class="td-social-but-icon"><i class="td-icon-googleplus"></i></div>
+                                        <div class="td-social-but-text">Google+</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-pinterest" href="https://pinterest.com/pin/create/button/?url=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/&amp;media=https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg&description=Focus%3A+future+scenarios+and+technological+trends+%E2%80%93+Part+3">
+                                        <div class="td-social-but-icon"><i class="td-icon-pinterest"></i></div>
+                                        <div class="td-social-but-text">Pinterest</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-whatsapp" href="whatsapp://send?text=Focus: future scenarios and technological trends – Part 3 %0A%0A https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/">
+                                        <div class="td-social-but-icon"><i class="td-icon-whatsapp"></i></div>
+                                        <div class="td-social-but-text">WhatsApp</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/&title=Focus: future scenarios and technological trends – Part 3">
+                                        <div class="td-social-but-icon"><i class="td-icon-linkedin"></i></div>
+                                        <div class="td-social-but-text">Linkedin</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-mail" href="mailto:?subject=Focus: future scenarios and technological trends – Part 3&body=https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/">
+                                        <div class="td-social-but-icon"><i class="td-icon-mail"></i></div>
+                                        <div class="td-social-but-text">Email</div>
+                                    </a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-print" href="#">
+                                        <div class="td-social-but-icon"><i class="td-icon-print"></i></div>
+                                        <div class="td-social-but-text">Print</div>
+                                    </a></div><div class="td-social-sharing-hidden"><ul class="td-pulldown-filter-list"></ul><a class="td-social-sharing-button td-social-handler td-social-expand-tabs" href="#" data-block-uid="td_social_sharing_article_bottom">
+                                    <div class="td-social-but-icon"><i class="td-icon-plus td-social-expand-tabs-icon"></i></div>
+                                </a></div></div></div>        <div class="td-block-row td-post-next-prev"><div class="td-block-span6 td-post-prev-post"><div class="td-post-next-prev-content"><span>Previous article</span><a href="https://www.electricmotorengineering.com/focus-products-and-technologies-at-the-service-of-the-electric-motor-part-2/">Focus: products and technologies at the service of the electric motor &#8211; Part 2</a></div></div><div class="td-next-prev-separator"></div><div class="td-block-span6 td-post-next-post"><div class="td-post-next-prev-content"><span>Next article</span><a href="https://www.electricmotorengineering.com/printed-circuit-boards-piciesse-elettronica-and-its-heavy-copper-technology/">Printed circuit boards: Piciesse Elettronica and its Heavy Copper technology</a></div></div></div>                <span class="td-page-meta" itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Redazione"></span><meta itemprop="datePublished" content="2019-05-29T14:27:11+00:00"><meta itemprop="dateModified" content="2019-05-29T14:39:24+00:00"><meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="https://www.electricmotorengineering.com/focus-future-scenarios-and-technological-trends-part-3/"/><span class="td-page-meta" itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span class="td-page-meta" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://www.electricmotorengineering.com/files/2017/09/EME_272x90.png"></span><meta itemprop="name" content="Electric Motor Engineering"></span><meta itemprop="headline " content="Focus: future scenarios and technological trends – Part 3"><span class="td-page-meta" itemprop="image" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://www.electricmotorengineering.com/files/2019/05/Focus-3-e1557730834544.jpg"><meta itemprop="width" content="1276"><meta itemprop="height" content="844"></span>    </footer>
+
+    <div class="td_block_wrap td_block_related_posts td_uid_3_5fbe47b715806_rand td_with_ajax_pagination td-pb-border-top td_block_template_1"  data-td-block-uid="td_uid_3_5fbe47b715806" ><script>var block_td_uid_3_5fbe47b715806 = new tdBlock();
+block_td_uid_3_5fbe47b715806.id = "td_uid_3_5fbe47b715806";
+block_td_uid_3_5fbe47b715806.atts = '{"limit":6,"ajax_pagination":"next_prev","live_filter":"cur_post_same_tags","td_ajax_filter_type":"td_custom_related","class":"td_uid_3_5fbe47b715806_rand","td_column_number":3,"live_filter_cur_post_id":1420,"live_filter_cur_post_author":"1","block_template_id":"","header_color":"","ajax_pagination_infinite_stop":"","offset":"","td_ajax_preloading":"","td_filter_default_txt":"","td_ajax_filter_ids":"","el_class":"","color_preset":"","border_top":"","css":"","tdc_css":"","tdc_css_class":"td_uid_3_5fbe47b715806_rand","tdc_css_class_style":"td_uid_3_5fbe47b715806_rand_style"}';
+block_td_uid_3_5fbe47b715806.td_column_number = "3";
+block_td_uid_3_5fbe47b715806.block_type = "td_block_related_posts";
+block_td_uid_3_5fbe47b715806.post_count = "1";
+block_td_uid_3_5fbe47b715806.found_posts = "1";
+block_td_uid_3_5fbe47b715806.header_color = "";
+block_td_uid_3_5fbe47b715806.ajax_pagination_infinite_stop = "";
+block_td_uid_3_5fbe47b715806.max_num_pages = "1";
+tdBlocksArray.push(block_td_uid_3_5fbe47b715806);
+</script><h4 class="td-related-title td-block-title"><a id="td_uid_4_5fbe47b7161fd" class="td-related-left td-cur-simple-item" data-td_filter_value="" data-td_block_id="td_uid_3_5fbe47b715806" href="#">RELATED ARTICLES</a><a id="td_uid_5_5fbe47b71623f" class="td-related-right" data-td_filter_value="td_related_more_from_author" data-td_block_id="td_uid_3_5fbe47b715806" href="#">MORE FROM AUTHOR</a></h4><div id=td_uid_3_5fbe47b715806 class="td_block_inner">
+
+	<div class="td-related-row">
+
+	<div class="td-related-span4">
+
+        <div class="td_module_related_posts td-animation-stack td_mod_related_posts">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://www.electricmotorengineering.com/focus-electric-motor-current-and-future-scenarios-part-1/" rel="bookmark" class="td-image-wrap" title="Focus: electric motor, current and  future scenarios &#8211; Part 1"><img class="entry-thumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"alt="" title="Focus: electric motor, current and  future scenarios &#8211; Part 1" data-type="image_tag" data-img-url="https://www.electricmotorengineering.com/files/2019/05/mindmap-2123973_1920-copia-e1557308636949-218x150.jpg"  width="218" height="150" /></a></div>                            </div>
+            <div class="item-details">
+                <h3 class="entry-title td-module-title"><a href="https://www.electricmotorengineering.com/focus-electric-motor-current-and-future-scenarios-part-1/" rel="bookmark" title="Focus: electric motor, current and  future scenarios &#8211; Part 1">Focus: electric motor, current and  future scenarios &#8211; Part 1</a></h3>            </div>
+        </div>
+        
+	</div> <!-- ./td-related-span4 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_3_5fbe47b715806" data-td_block_id="td_uid_3_5fbe47b715806"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page ajax-page-disabled" id="next-page-td_uid_3_5fbe47b715806" data-td_block_id="td_uid_3_5fbe47b715806"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block -->
+	<div class="comments" id="comments">
+        	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">LEAVE A REPLY <small><a rel="nofollow" id="cancel-comment-reply-link" href="/focus-future-scenarios-and-technological-trends-part-3/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://www.electricmotorengineering.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<div class="clearfix"></div>
+				<div class="comment-form-input-wrap td-form-comment">
+					<textarea placeholder="Comment:" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+					<div class="td-warning-comment">Please enter your comment!</div>
+				</div>
+		        <div class="comment-form-input-wrap td-form-author">
+			            <input class="" id="author" name="author" placeholder="Name:*" type="text" value="" size="30"  aria-required='true' />
+			            <div class="td-warning-author">Please enter your name here</div>
+			         </div>
+<div class="comment-form-input-wrap td-form-email">
+			            <input class="" id="email" name="email" placeholder="Email:*" type="text" value="" size="30"  aria-required='true' />
+			            <div class="td-warning-email-error">You have entered an incorrect email address!</div>
+			            <div class="td-warning-email">Please enter your email address here</div>
+			         </div>
+<div class="comment-form-input-wrap td-form-url">
+			            <input class="" id="url" name="url" placeholder="Website:" type="text" value="" size="30" />
+                     </div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1420' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9787449b19" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="190"/></p>			</form>
+			</div><!-- #respond -->
+	    </div> <!-- /.content -->
+                        </div>
+                    </div>
+                    <div class="td-pb-span4 td-main-sidebar" role="complementary">
+                        <div class="td-ss-main-sidebar">
+                            <div class="td-a-rec td-a-rec-id-sidebar  td_uid_6_5fbe47b7178fb_rand td_block_template_1"><div id="sas_66648"></div>
+<script type="application/javascript">
+    sas.cmd.push(function() {
+        sas.render("66648");  // Formato :  Medium rectangle 300x250 (2istanze) 300x250
+    });
+</script></div><aside class="td_block_template_1 widget widget_text"><h4 class="block-title"><span>Translate</span></h4>			<div class="textwidget"><div id="google_translate_element"></div>
+<p><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-12547598-24'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></p>
+</div>
+		</aside><aside class="widget_text td_block_template_1 widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="vc_btn3-container vc_btn3-center" >
+	<a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-flat vc_btn3-block vc_btn3-icon-left vc_btn3-color-turquoise" href="https://www.electricmotorengineering.com/subscribe-to-our-newsletter/" title="Subscribe"><i class="vc_btn3-icon fa fa-envelope-o"></i> Subscribe to the newsletter</a></div>
+</div></aside><aside class="widget_text td_block_template_1 widget widget_custom_html"><h4 class="block-title"><span>The magazine</span></h4><div class="textwidget custom-html-widget">
+      <div class="nbm-paperlit">
+                <ul class="paperlit">
+                      <li>
+              <a href="https://reader.paperlit.com/read/prj_5cff728c7b2bf/pub_5e74951b56609/5000-01-03?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9qZWN0SWQiOiJwcmpfNWNmZjcyOGM3YjJiZiIsInByb2plY3RQZXJtaXNzaW9uc0JpdG1hc2siOjF9.jmw_9c778LTcjrSuEH5diz8UlKjudrZeml64fQBy1VA" target="_blank" title="">
+                <img class="attachment-medium wp-post-image" src="https://api-ne.paperlit.com/v8/projects/prj_5cff728c7b2bf/issues/151931/variants/94798/pages/1?width=242&height300" alt="">
+              </a>
+
+                              <span class="issue">n.3 - September 2020</span>
+              
+              
+              
+            </li>
+                        <li>
+              <a href="https://reader.paperlit.com/read/prj_5cff728c7b2bf/pub_5e74951b56609/5000-01-02?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9qZWN0SWQiOiJwcmpfNWNmZjcyOGM3YjJiZiIsInByb2plY3RQZXJtaXNzaW9uc0JpdG1hc2siOjF9.jmw_9c778LTcjrSuEH5diz8UlKjudrZeml64fQBy1VA" target="_blank" title="">
+                <img class="attachment-medium wp-post-image" src="https://api-ne.paperlit.com/v8/projects/prj_5cff728c7b2bf/issues/149268/variants/90134/pages/1?width=242&height300" alt="">
+              </a>
+
+                              <span class="issue">n.2 - June 2020</span>
+              
+              
+              
+            </li>
+                        <li>
+              <a href="https://reader.paperlit.com/read/prj_5cff728c7b2bf/pub_5e74951b56609/5000-01-01?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9qZWN0SWQiOiJwcmpfNWNmZjcyOGM3YjJiZiIsInByb2plY3RQZXJtaXNzaW9uc0JpdG1hc2siOjF9.jmw_9c778LTcjrSuEH5diz8UlKjudrZeml64fQBy1VA" target="_blank" title="">
+                <img class="attachment-medium wp-post-image" src="https://api-ne.paperlit.com/v8/projects/prj_5cff728c7b2bf/issues/145572/variants/87366/pages/1?width=242&height300" alt="">
+              </a>
+
+                              <span class="issue">n.1 - March 2020</span>
+              
+              
+              
+            </li>
+                    </ul>
+                  <div class="bottom">
+            <a href="https://reader.paperlit.com/read/prj_5cff728c7b2bf/pub_5e74951b56609?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9qZWN0SWQiOiJwcmpfNWNmZjcyOGM3YjJiZiIsInByb2plY3RQZXJtaXNzaW9uc0JpdG1hc2siOjF9.jmw_9c778LTcjrSuEH5diz8UlKjudrZeml64fQBy1VA" target="_blank">Newsstand</a>
+          </div>
+              </div>
+      
+</div></aside><aside class="td_block_template_1 widget widget_search"><h4 class="block-title"><span>Find</span></h4><form method="get" class="td-search-form-widget" action="https://www.electricmotorengineering.com/">
+    <div role="search">
+        <input class="td-widget-search-input" type="text" value="" name="s" id="s" /><input class="wpb_button wpb_btn-inverse btn" type="submit" id="searchsubmit" value="Search" />
+    </div>
+</form></aside><aside class="td_block_template_1 widget widget_calendar"><h4 class="block-title"><span>Meeting &#038; Events</span></h4><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>November 2020</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="https://www.electricmotorengineering.com/2020/10/">&laquo; Oct</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="6" class="pad">&nbsp;</td><td>1</td>
+	</tr>
+	<tr>
+		<td>2</td><td><a href="https://www.electricmotorengineering.com/2020/11/03/" aria-label="Posts published on November 3, 2020">3</a></td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+	</tr>
+	<tr>
+		<td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+	</tr>
+	<tr>
+		<td>16</td><td><a href="https://www.electricmotorengineering.com/2020/11/17/" aria-label="Posts published on November 17, 2020">17</a></td><td>18</td><td><a href="https://www.electricmotorengineering.com/2020/11/19/" aria-label="Posts published on November 19, 2020">19</a></td><td>20</td><td>21</td><td>22</td>
+	</tr>
+	<tr>
+		<td>23</td><td><a href="https://www.electricmotorengineering.com/2020/11/24/" aria-label="Posts published on November 24, 2020">24</a></td><td id="today">25</td><td>26</td><td>27</td><td>28</td><td>29</td>
+	</tr>
+	<tr>
+		<td>30</td>
+		<td class="pad" colspan="6">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></aside><aside class="td_block_template_1 widget ngg_images"><h4 class="block-title"><span>Electric Motor Engineering Images</span></h4>
+<div class="ngg-widget entry-content">
+</div>
+</aside><aside class="td_block_template_1 widget widget_tag_cloud"><h4 class="block-title"><span>Find your TAG</span></h4><div class="tagcloud"><a href="https://www.electricmotorengineering.com/tag/automotive/" class="tag-cloud-link tag-link-20 tag-link-position-1" style="font-size: 22pt;" aria-label="automotive (7 items)">automotive</a>
+<a href="https://www.electricmotorengineering.com/tag/automotive-industry/" class="tag-cloud-link tag-link-28 tag-link-position-2" style="font-size: 12pt;" aria-label="automotive industry (3 items)">automotive industry</a>
+<a href="https://www.electricmotorengineering.com/tag/cagnoni/" class="tag-cloud-link tag-link-59 tag-link-position-3" style="font-size: 8pt;" aria-label="Cagnoni (2 items)">Cagnoni</a>
+<a href="https://www.electricmotorengineering.com/tag/charging/" class="tag-cloud-link tag-link-291 tag-link-position-4" style="font-size: 8pt;" aria-label="charging (2 items)">charging</a>
+<a href="https://www.electricmotorengineering.com/tag/china/" class="tag-cloud-link tag-link-117 tag-link-position-5" style="font-size: 12pt;" aria-label="China (3 items)">China</a>
+<a href="https://www.electricmotorengineering.com/tag/components/" class="tag-cloud-link tag-link-21 tag-link-position-6" style="font-size: 12pt;" aria-label="components (3 items)">components</a>
+<a href="https://www.electricmotorengineering.com/tag/covid-19/" class="tag-cloud-link tag-link-385 tag-link-position-7" style="font-size: 15.333333333333pt;" aria-label="Covid-19 (4 items)">Covid-19</a>
+<a href="https://www.electricmotorengineering.com/tag/direct-current/" class="tag-cloud-link tag-link-33 tag-link-position-8" style="font-size: 8pt;" aria-label="direct current (2 items)">direct current</a>
+<a href="https://www.electricmotorengineering.com/tag/e-mobility/" class="tag-cloud-link tag-link-309 tag-link-position-9" style="font-size: 12pt;" aria-label="E-Mobility (3 items)">E-Mobility</a>
+<a href="https://www.electricmotorengineering.com/tag/e-mobility-report/" class="tag-cloud-link tag-link-77 tag-link-position-10" style="font-size: 8pt;" aria-label="E-Mobility Report (2 items)">E-Mobility Report</a>
+<a href="https://www.electricmotorengineering.com/tag/efficiency/" class="tag-cloud-link tag-link-45 tag-link-position-11" style="font-size: 8pt;" aria-label="efficiency (2 items)">efficiency</a>
+<a href="https://www.electricmotorengineering.com/tag/electric-car/" class="tag-cloud-link tag-link-38 tag-link-position-12" style="font-size: 15.333333333333pt;" aria-label="electric car (4 items)">electric car</a>
+<a href="https://www.electricmotorengineering.com/tag/electric-mobility/" class="tag-cloud-link tag-link-79 tag-link-position-13" style="font-size: 22pt;" aria-label="electric mobility (7 items)">electric mobility</a>
+<a href="https://www.electricmotorengineering.com/tag/electric-motor/" class="tag-cloud-link tag-link-32 tag-link-position-14" style="font-size: 12pt;" aria-label="electric motor (3 items)">electric motor</a>
+<a href="https://www.electricmotorengineering.com/tag/electric-motors/" class="tag-cloud-link tag-link-132 tag-link-position-15" style="font-size: 15.333333333333pt;" aria-label="electric motors (4 items)">electric motors</a>
+<a href="https://www.electricmotorengineering.com/tag/electric-vehicles/" class="tag-cloud-link tag-link-359 tag-link-position-16" style="font-size: 12pt;" aria-label="electric vehicles (3 items)">electric vehicles</a>
+<a href="https://www.electricmotorengineering.com/tag/electrification/" class="tag-cloud-link tag-link-190 tag-link-position-17" style="font-size: 12pt;" aria-label="Electrification (3 items)">Electrification</a>
+<a href="https://www.electricmotorengineering.com/tag/electromobility/" class="tag-cloud-link tag-link-177 tag-link-position-18" style="font-size: 12pt;" aria-label="electromobility (3 items)">electromobility</a>
+<a href="https://www.electricmotorengineering.com/tag/grob/" class="tag-cloud-link tag-link-194 tag-link-position-19" style="font-size: 12pt;" aria-label="GROB (3 items)">GROB</a>
+<a href="https://www.electricmotorengineering.com/tag/grob-werke/" class="tag-cloud-link tag-link-118 tag-link-position-20" style="font-size: 15.333333333333pt;" aria-label="GROB-WERKE (4 items)">GROB-WERKE</a>
+<a href="https://www.electricmotorengineering.com/tag/hairpin-technology/" class="tag-cloud-link tag-link-75 tag-link-position-21" style="font-size: 12pt;" aria-label="hairpin technology (3 items)">hairpin technology</a>
+<a href="https://www.electricmotorengineering.com/tag/household-appliance/" class="tag-cloud-link tag-link-49 tag-link-position-22" style="font-size: 8pt;" aria-label="household appliance (2 items)">household appliance</a>
+<a href="https://www.electricmotorengineering.com/tag/incentives/" class="tag-cloud-link tag-link-372 tag-link-position-23" style="font-size: 12pt;" aria-label="Incentives (3 items)">Incentives</a>
+<a href="https://www.electricmotorengineering.com/tag/induction-motor/" class="tag-cloud-link tag-link-35 tag-link-position-24" style="font-size: 8pt;" aria-label="induction motor (2 items)">induction motor</a>
+<a href="https://www.electricmotorengineering.com/tag/investments/" class="tag-cloud-link tag-link-457 tag-link-position-25" style="font-size: 15.333333333333pt;" aria-label="investments (4 items)">investments</a>
+<a href="https://www.electricmotorengineering.com/tag/magnetization/" class="tag-cloud-link tag-link-44 tag-link-position-26" style="font-size: 8pt;" aria-label="magnetization (2 items)">magnetization</a>
+<a href="https://www.electricmotorengineering.com/tag/manufacturing/" class="tag-cloud-link tag-link-64 tag-link-position-27" style="font-size: 12pt;" aria-label="manufacturing (3 items)">manufacturing</a>
+<a href="https://www.electricmotorengineering.com/tag/milan-polytechnics/" class="tag-cloud-link tag-link-78 tag-link-position-28" style="font-size: 12pt;" aria-label="Milan Polytechnics (3 items)">Milan Polytechnics</a>
+<a href="https://www.electricmotorengineering.com/tag/motion-control/" class="tag-cloud-link tag-link-179 tag-link-position-29" style="font-size: 12pt;" aria-label="motion control (3 items)">motion control</a>
+<a href="https://www.electricmotorengineering.com/tag/prototype/" class="tag-cloud-link tag-link-71 tag-link-position-30" style="font-size: 12pt;" aria-label="prototype (3 items)">prototype</a>
+<a href="https://www.electricmotorengineering.com/tag/recharge-infrastructures/" class="tag-cloud-link tag-link-293 tag-link-position-31" style="font-size: 8pt;" aria-label="recharge infrastructures (2 items)">recharge infrastructures</a>
+<a href="https://www.electricmotorengineering.com/tag/recharge-system/" class="tag-cloud-link tag-link-442 tag-link-position-32" style="font-size: 12pt;" aria-label="Recharge System (3 items)">Recharge System</a>
+<a href="https://www.electricmotorengineering.com/tag/renault/" class="tag-cloud-link tag-link-537 tag-link-position-33" style="font-size: 8pt;" aria-label="renault (2 items)">renault</a>
+<a href="https://www.electricmotorengineering.com/tag/research/" class="tag-cloud-link tag-link-46 tag-link-position-34" style="font-size: 8pt;" aria-label="research (2 items)">research</a>
+<a href="https://www.electricmotorengineering.com/tag/research-reports/" class="tag-cloud-link tag-link-298 tag-link-position-35" style="font-size: 12pt;" aria-label="Research reports (3 items)">Research reports</a>
+<a href="https://www.electricmotorengineering.com/tag/scenarios/" class="tag-cloud-link tag-link-280 tag-link-position-36" style="font-size: 8pt;" aria-label="scenarios (2 items)">scenarios</a>
+<a href="https://www.electricmotorengineering.com/tag/seat/" class="tag-cloud-link tag-link-519 tag-link-position-37" style="font-size: 8pt;" aria-label="SEAT (2 items)">SEAT</a>
+<a href="https://www.electricmotorengineering.com/tag/simulation/" class="tag-cloud-link tag-link-182 tag-link-position-38" style="font-size: 15.333333333333pt;" aria-label="simulation (4 items)">simulation</a>
+<a href="https://www.electricmotorengineering.com/tag/stepper-motors/" class="tag-cloud-link tag-link-310 tag-link-position-39" style="font-size: 8pt;" aria-label="Stepper motors (2 items)">Stepper motors</a>
+<a href="https://www.electricmotorengineering.com/tag/sustainability/" class="tag-cloud-link tag-link-142 tag-link-position-40" style="font-size: 12pt;" aria-label="sustainability (3 items)">sustainability</a>
+<a href="https://www.electricmotorengineering.com/tag/suv/" class="tag-cloud-link tag-link-402 tag-link-position-41" style="font-size: 12pt;" aria-label="SUV (3 items)">SUV</a>
+<a href="https://www.electricmotorengineering.com/tag/tecniche-nuove-spa/" class="tag-cloud-link tag-link-378 tag-link-position-42" style="font-size: 12pt;" aria-label="Tecniche Nuove spa (3 items)">Tecniche Nuove spa</a>
+<a href="https://www.electricmotorengineering.com/tag/tests/" class="tag-cloud-link tag-link-72 tag-link-position-43" style="font-size: 8pt;" aria-label="tests (2 items)">tests</a>
+<a href="https://www.electricmotorengineering.com/tag/thermal-management/" class="tag-cloud-link tag-link-301 tag-link-position-44" style="font-size: 8pt;" aria-label="Thermal Management (2 items)">Thermal Management</a>
+<a href="https://www.electricmotorengineering.com/tag/winding/" class="tag-cloud-link tag-link-128 tag-link-position-45" style="font-size: 12pt;" aria-label="winding (3 items)">winding</a></div>
+</aside><div class="td-a-rec td-a-rec-id-custom_ad_1  td_uid_7_5fbe47b71b539_rand td_block_template_1"><div id="sas_66648_2"></div>
+<script type="application/javascript">
+    sas.cmd.push(function() {
+        sas.render("66648_2");  // Formato :  Medium rectangle 300x250 (2istanze) 300x250 (Instance Number: 2)
+    });
+</script></div>                        </div>
+                    </div>
+                            </div> <!-- /.td-pb-row -->
+    </div> <!-- /.td-container -->
+</article> <!-- /.post -->
+
+<!-- Instagram -->
+
+
+
+
+	<!-- Footer -->
+	<div class="td-footer-wrapper td-container-wrap ">
+    <div class="td-container">
+
+	    <div class="td-pb-row">
+		    <div class="td-pb-span12">
+                <div class="td-a-rec td-a-rec-id-footer_top  td_uid_8_5fbe47b71b75f_rand td_block_template_1"><div id="sas_66682_2"></div>
+<script type="application/javascript">
+    sas.cmd.push(function() {
+        sas.render("66682_2");  // Formato : Leaderboard 728x90 (2istanze) 728x90 (Instance Number: 2)
+    });
+</script></div>		    </div>
+	    </div>
+
+        <div class="td-pb-row">
+            <div class="td-pb-span12">
+                            </div>
+        </div>
+    </div>
+</div>
+	<!-- Sub Footer -->
+	    <div class="td-sub-footer-container td-container-wrap ">
+        <div class="td-container">
+            <div class="td-pb-row">
+                <div class="td-pb-span td-sub-footer-menu">
+                                    </div>
+
+                <div class="td-pb-span td-sub-footer-copy">
+                    &copy; Electric Motor Engineering | Tecniche Nuove Spa. All Rights Reserved. 
+Registered office: Via Eritrea 21 - 20157 Milan. Share capital fully paid-up: 5,000,000 Euros. Tax code, VAT number and Enrolment in the Milan Register of Companies: 00753480151 ​                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div><!--close td-outer-wrap-->
+
+
+
+
+
+<!-- TN_Retargeting FOOTER (ga/adwords) + Apple affiliation BEGIN for www.electricmotorengineering.com -->
+
+<!-- BEGIN: tag_adwords_nbm -->
+<!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 937558691;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/937558691/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- END: tag_adwords_nbm -->
+
+<!-- NBM_Retargeting FOOTER END -->
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		
+<!-- Google Tag Manager (noscript) -->                <div class="td-more-articles-box">
+                    <i class="td-icon-close td-close-more-articles-box"></i>
+                    <span class="td-more-articles-box-title">MORE STORIES</span>
+                    <div class="td-content-more-articles-box">
+
+                    
+        <div class="td_module_1 td_module_wrap td-animation-stack">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://www.electricmotorengineering.com/focus-electric-motor-current-and-future-scenarios-part-1/" rel="bookmark" class="td-image-wrap" title="Focus: electric motor, current and  future scenarios &#8211; Part 1"><img class="entry-thumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAACgAQMAAABOhoelAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAAB1JREFUWMPtwTEBAAAAwiD7p/ZdCGAAAAAAAAAQBxpAAAH8le3bAAAAAElFTkSuQmCC"alt="" title="Focus: electric motor, current and  future scenarios &#8211; Part 1" data-type="image_tag" data-img-url="https://www.electricmotorengineering.com/files/2019/05/mindmap-2123973_1920-copia-e1557308636949-324x160.jpg"  width="324" height="160" /></a></div>                            </div>
+                        <h3 class="entry-title td-module-title"><a href="https://www.electricmotorengineering.com/focus-electric-motor-current-and-future-scenarios-part-1/" rel="bookmark" title="Focus: electric motor, current and  future scenarios &#8211; Part 1">Focus: electric motor, current and  future scenarios &#8211; Part 1</a></h3>            
+            <div class="td-module-meta-info">
+                                                <div class="td-module-comments"><a href="https://www.electricmotorengineering.com/focus-electric-motor-current-and-future-scenarios-part-1/#respond">0</a></div>            </div>
+
+            
+        </div>
+
+                            </div>
+                </div>
+
+    <!--
+
+        Theme: Newspaper by tagDiv.com 2017
+        Version: 9.2.1 (rara)
+        Deploy mode: deploy
+        
+        uid: 5fbe47b71cc29
+    -->
+
+    
+<!-- Custom css from theme panel -->
+<style type="text/css" media="screen">
+/* custom css theme panel */
+.vc_btn3.vc_btn3-color-turquoise, .vc_btn3.vc_btn3-color-turquoise.vc_btn3-style-flat {
+    background-color: #157e99; font-weight: bold;
+}
+.vc_btn3.vc_btn3-color-turquoise.vc_btn3-style-flat:hover, 
+.vc_btn3.vc_btn3-color-turquoise:hover { text-decoration: none !important; }
+</style>
+
+<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><link rel='stylesheet' id='font-awesome-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/types/vendor/toolset/toolset-common/res/lib/font-awesome/css/font-awesome.min.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='su-shortcodes-css'  href='https://www.electricmotorengineering.com/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes.css' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.electricmotorengineering.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/quantcast-choice/public/js/script.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var qc_choice_init = "{\"Display UI\":\"inEU\",\"Min Days Between UI Displays\":30,\"Non-Consent Display Frequency\":1,\"Publisher Name\":\"Tecniche Nuove\",\"Initial Screen Title Text\":\"We value your privacy\",\"Initial Screen Body Text\":\"We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.\",\"Initial Screen Reject Button Text\":\"I do not accept\",\"Initial Screen Accept Button Text\":\"I accept\",\"Initial Screen Purpose Link Text\":\"Show Purposes\",\"Purpose Screen Header Title Text\":\"Privacy Settings\",\"Purpose Screen Title Text\":\"We value your privacy\",\"Purpose Screen Body Text\":\"You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.\",\"Purpose Screen Enable All Button Text\":\"Enable all purposes\",\"Purpose Screen Vendor Link Text\":\"See full vendor list\",\"Purpose Screen Cancel Button Text\":\"Cancel\",\"Purpose Screen Save and Exit Button Text\":\"Save & Exit\",\"Vendor Screen Title Text\":\"We value your privacy\",\"Vendor Screen Body Text\":\"You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.\",\"Vendor Screen Reject All Button Text\":\"Reject All\",\"Vendor Screen Accept All Button Text\":\"Accept all\",\"Vendor Screen Purposes Link Text\":\"Back to purposes\",\"Vendor Screen Cancel Button Text\":\"Cancel\",\"Vendor Screen Save and Exit Button Text\":\"Save & Exit\",\"Language\":\"EN\",\"Initial Screen Body Text Option\":1,\"UI Layout\":\"popup\"}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/quantcast-choice/public/js/script.async.min.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/themes/Newspaper/js/tagdiv_theme.min.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/page-links-to/dist/new-tab.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-includes/js/wp-embed.min.js'></script>
+<script async="async" type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/akismet/_inc/form.js'></script>
+<script type='text/javascript' src='https://www.electricmotorengineering.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'></script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+
+<!-- JS generated by theme -->
+
+<script>
+    
+
+	
+
+		(function(){
+			var html_jquery_obj = jQuery('html');
+
+			if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is('.ie9'))) {
+
+				var path = 'https://www.electricmotorengineering.com/wp-content/themes/tn-network-8.8.2/style.css';
+
+				jQuery.get(path, function(data) {
+
+					var str_split_separator = '#td_css_split_separator';
+					var arr_splits = data.split(str_split_separator);
+					var arr_length = arr_splits.length;
+
+					if (arr_length > 1) {
+
+						var dir_path = 'https://www.electricmotorengineering.com/wp-content/themes/Newspaper';
+						var splited_css = '';
+
+						for (var i = 0; i < arr_length; i++) {
+							if (i > 0) {
+								arr_splits[i] = str_split_separator + ' ' + arr_splits[i];
+							}
+							//jQuery('head').append('<style>' + arr_splits[i] + '</style>');
+
+							var formated_str = arr_splits[i].replace(/\surl\(\'(?!data\:)/gi, function regex_function(str) {
+								return ' url(\'' + dir_path + '/' + str.replace(/url\(\'/gi, '').replace(/^\s+|\s+$/gm,'');
+							});
+
+							splited_css += "<style>" + formated_str + "</style>";
+						}
+
+						var td_theme_css = jQuery('link#td-theme-css');
+
+						if (td_theme_css.length) {
+							td_theme_css.after(splited_css);
+						}
+					}
+				});
+			}
+		})();
+
+	
+	
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+.header-1{
+    background-color: darkcyan;
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    text-align: left;
+   }
+   .main-header{
+       background-color: aquamarine;
+       height: 150px;
+   }
+.header-logo{
+    padding:30px 80px;
+    float: left;
+}
+.header-list li{
+    list-style: none;
+    float: right;
+    padding: 20px;
+    
+}
+.header-list1 li{
+    list-style: none;
+    float: left;
+   
+    padding: 20px;
+    
+}
+
+.header-list button{
+    border-radius: 20px;
+    height: 40px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 400px;
+    float:right;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+.info2{
+    text-align: center;
+}
+.contents img{
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+    vertical-align: middle;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding-left: 100px;
+
+}
+
+.float-child {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(185, 177, 177);
+    font-size: 10px;
+    text-align: center;
+}
+.float-child a{
+    font-size: 10px;
+    text-align: center;
+}
+
+.contents2{
+    text-align: center;
+    padding: 60px;
+    float: left;
+ }
+ .contents{
+    text-align: center;
+    padding: 30px;
+ }
+
+ footer{
+    float: left;
+    background-image: url('https://cdn1.byjus.com/byjusweb/img/home/svg/homebannerbg.svg');
+    width: 100%;
+}
+
+.foot2{
+    float: left;
+    
+}
+.foot2 li{
+    list-style: none;
+    color: white;
+}
+.last{
+    float: left;
+}
+.container button{
+    border-radius: 20px;
+    height: 40px;
+    background-color: rgb(65, 118, 187);
+}
