@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 100%;
+}
+
+.Container2{
+    margin: auto;
+}
+
+#navbar li{
+    display: inline;
+}
+
+
+
+#main-header{
+    width:100%;
+    position: fixed;
+}
+
+
+#main-footer{
+    background-color: rgb(3, 88, 56);
+    color: white;
+    
+}
+
+#main-header ul li{
+    display: inline-block;
+    
+}
+#main-header ul li:hover {background:white;}
+#main-header ul li:hover ul {display: block;}
+#main-header ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  #main-header ul li ul li { 
+    background: white; 
+    display: block; 
+  }
+#main-header ul li ul li a {display:block !important;} 
+#main-header ul li ul li:hover {background:green;}
+
+
+

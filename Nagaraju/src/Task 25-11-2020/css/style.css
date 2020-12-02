@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 100%;
+}
+.Container{
+    margin: auto;
+}
+
+#navbar li{
+    display: inline;
+    padding-left: 20px;
+}
+
+#showcase1{
+    background-color: rgb(2, 93, 146);
+    color: white;
+}
+
+#showcase2 a{
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+}
+#showcase2 h1{
+    margin-left: 40px;
+    font-size: 40px;
+    color: white;
+}
+#showcase2 p{
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+}
+#showcase2 button{
+    margin-left: 40px;
+    font-weight: bold;
+    background-color: rgb(255, 72, 0);
+    box-sizing: border-box;
+    border-color: white;
+    color: white;
+   
+}
+
+#main-header{
+    background-color: rgb(226, 240, 240);
+    width:100%;
+}
+
+#company {
+    background-color: rgb(202, 198, 198);
+    
+}
+#main-footer{
+    background-color: rgb(202, 198, 198);
+    
+}
+#info {
+    background-color: rgb(235, 227, 227);
+}
+
+#showcase2 {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    width:100%;
+}
+
+
+#info2 {
+    margin-left: 40px;
+
+}
+#info h1{
+    font-size: 30px;
+}
+#main-header a{
+    text-decoration: none;
+}
+
+#company ul{
+    margin: 0;
+    padding: 0;
+}
+  
