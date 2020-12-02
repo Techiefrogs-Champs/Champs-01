@@ -1,0 +1,29 @@
+
+
+p {
+    color: brown;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    color: blue;
+}
+
+#para1{
+    text-align: center;
+    color: aqua;
+}
+
+.para-center p{
+    text-align: center;
+    color: blueviolet;
+}
+
+.all-center p,h1{
+    text-align: center;
+    color: black;
+}
+
+
+    
