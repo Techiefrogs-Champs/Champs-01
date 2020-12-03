@@ -15,3 +15,10 @@ h3{
     border-width: 5px 10px 20px 30px; 
     border-color: red green blue yellow;
 }
+h4{
+    border-style: dashed dotted double solid;
+}
+h1{
+    border: 2px solid red;
+    border-radius: 5px;
+}
