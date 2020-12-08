@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:seagreen;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+        padding-right: 10px;
+       
+}  
+h2{  
+    text-align: center;  
+    color:white;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+.navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            /* margin-left: -px; */
+        }
+
+        footer {
+			padding: 1em;
+			color: white;
+            background-color: #333;
+			clear: left;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+           margin-top: 85px;
+           /* padding-top: 5px; */
+           
+         
+        
+           
+        }
+
+        
+        .sidenav {
+            width: 130px;
+            position: fixed;
+            z-index: 1;
+            top: 20px;
+            left: 10px;
+            background:darkslategrey;
+            overflow-x: hidden;
+            padding: 8px 0;
+            margin-top: 70px;
+            padding-bottom: 50px;
+            }
+
+            .sidenav a {
+            padding: 8px 10px 8px 20px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #2196F3;
+            display: block;
+            padding-top: 20px;
+            }
+
+            .sidenav a:hover {
+            color: white;
+            }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1 style="font-size: 36; color: white;"><b>Employees Management System</b></h1>
+      </div>
+    <br>    <br><br> <br><br><br><br>
+    <div class="login">    
+    <form name="login" >    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" onclick="myfunction(this.form)" value="login">
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+       
+    </form>     
+   
+    <script language="javascript">
+        function myfunction(form) {    
+            if(form.Uname.value == "Admin" && form.Pass.value == "1234") {
+                window.open("adminHompage.html")
+            } else if(form.Uname.value == "Employee" && form.Pass.value == "1234"){
+                window.open("EmployeeHomepage.html")
+            }
+            else {
+                alert("Error Password or Username")
+            }
+        }
+    </script>
+
+
+
+
+
+    </div> 
+    <footer>"All rights reserved. @2020 copyright"</footer>
+</body>
+</html>

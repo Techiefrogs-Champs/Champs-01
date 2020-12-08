@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    
+	<style>
+		.navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            margin-left: -8px;
+        }
+
+        footer {
+			padding: 1em;
+			color: white;
+            background-color: #333;
+			clear: left;
+            text-align: center;
+            width: 100%;
+            margin-top: 100px;
+            margin-left: -7px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            position: fixed;
+           
+        
+           
+        }
+
+        
+        .sidenav {
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 20px;
+            left: 10px;
+            background:darkslategrey;
+            overflow-x: hidden;
+            padding: 8px 0;
+            margin-top: 70px;
+            padding-bottom: 290px;
+            }
+
+            .sidenav a {
+            padding: 8px 10px 8px 20px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #2196F3;
+            display: block;
+            padding-top: 20px;
+            }
+
+            .sidenav a:hover {
+            color: white;
+            }      
+       
+            
+    </style>
+    
+        <style>
+           
+            
+            #myInputs {
+            
+            
+              font-size: 20px;
+              padding: 12px 20px 12px 40px;
+              border: 1px solid #ddd;
+              margin-top: 160px;
+              margin-left: 400px;
+              margin-right: -200px;
+           
+             
+            }
+            
+            #myTable {
+              border-collapse: collapse;
+              width: 50%;
+              border: 1px solid #ddd;
+              font-size: 18px;
+              margin-left: 400px;
+            margin-top: 30px;
+
+            }
+            
+            #myTable th, #myTable td {
+              text-align: left;
+              padding: 2px;
+            }
+            
+            #myTable tr {
+              border-bottom: 5px solid #ddd;
+            }
+            
+            #myTable tr.header, #myTable tr:hover {
+              background-color:black;
+              color: white;
+            }
+            </style>
+</head>
+<body>
+    
+	<div class="container">
+        <div class="navbar">
+            <h1 style="color: white;"><b>EmployeeHomepage</b></h1>
+           
+          </div>
+
+        <div class="sidenav">
+            <a href="EmployeeHomepage.html">Home</a>
+            <a href="#services">Search Employee</a>
+            <a href="login.html">LogOut</a>
+            
+        </div>
+
+        <input type="text" id="myInputs" onkeyup="myFunction()" placeholder="Search employee name or department.." title="Type in a name">
+
+<table id="myTable" border="1">
+  <tr class="header">
+    <th>EmployeName</th>
+    <th>DepartmentName</th>
+    <th>Email</th>
+    <th>PhoneNumber</th>
+  </tr>
+  <tr>
+    <td>Ravi</td>
+    <td>CSE</td>
+    <td>ravi@gmail.com</td>
+    <td>123456789</td>
+  </tr>
+  <tr>
+      <td>Teja</td>
+      <td>EEE</td>
+      <td>teja@gmail.com</td>
+      <td>994939282</td>
+  </tr>
+  <tr>
+      <td>Gopi</td>
+      <td>IT</td>
+      <td>GOPI@gmail.com</td>
+      <td>612894279</td>
+  </tr>
+  <tr>
+      <td>Krishna</td>
+      <td>ECE</td>
+      <td>KRISH@gmail.com</td>
+      <td>9939329272</td>
+  </tr>
+  <tr>
+      <td>Ramu</td>
+      <td>CSE</td>
+      <td>ramu@gmail.com</td>
+      <td>8099237812</td>
+  </tr>
+  <tr>
+      <td>prav</td>
+      <td>CSE</td>
+      <td>prav@gmail.com</td>
+      <td>8099237812</td>
+  </tr>
+  <tr>
+      <td>mani</td>
+      <td>CSE</td>
+      <td>mani@gmail.com</td>
+      <td>8099237812</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInputs");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+
+        <!-- <table id="customers">
+            <tr>
+              <th>EmployeName</th>
+              <th>DepartmentName</th>
+              <th>Email</th>
+              <th>PhoneNumber</th>
+            </tr>
+            <tr>
+              <td>Ravi</td>
+              <td>CSE</td>
+              <td>ravi@gmail.com</td>
+              <td>123456789</td>
+            </tr>
+            <tr>
+                <td>Teja</td>
+                <td>EEE</td>
+                <td>teja@gmail.com</td>
+                <td>994939282</td>
+            </tr>
+            <tr>
+                <td>Gopi</td>
+                <td>IT</td>
+                <td>GOPI@gmail.com</td>
+                <td>612894279</td>
+            </tr>
+            <tr>
+                <td>Krishna</td>
+                <td>ECE</td>
+                <td>KRISH@gmail.com</td>
+                <td>9939329272</td>
+            </tr>
+            
+            
+          </table> -->
+
+	
+        
+       
+
+		
+        <footer>"All rights reserved. @2020 copyright"</footer>
+</body>
+</html>
