@@ -1,0 +1,167 @@
+<!doctype html>
+<head>
+<title>Search Employees</title>
+<style>
+ * {
+    box-sizing: border-box;
+  }
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "nav article"
+    "footer footer";
+  grid-template-rows: 120px 1fr 70px;  
+  grid-template-columns: 20% 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }  
+  header{
+  padding: 0.5em;
+  background:rgba(221, 134, 122, 0.842);
+  color:rgb(15, 15, 27);
+  font-size: 50px;
+  text-align: center;
+  }
+  footer {
+  padding: 1.2em;
+  background:rgb(221, 134, 122, 0.842);
+  color:rgb(15, 15, 27);
+  text-align: center;
+  }
+  nav  {
+  padding: 1.2em;
+  background: rgb(221, 134, 122, 0.842);
+  color: white;
+  }
+  article{
+      padding: 1.2em;
+      background: white;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+  table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;      
+        }
+        th, td {
+        padding: 15px;
+        text-align: left;
+        }
+  
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+  <header id="pageHeader"><strong>Employees Management System</strong></header>
+
+ 
+  <nav id="mainNav">
+    <nav>
+      <ul style="list-style-type:none; font-weight: bold; font-size: large; padding-left: 0px;">
+      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Employees Management System.html">Home</a></li><br>
+      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Add Employee page.html">Add Employee</a></li><br>
+      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML\Search Employees Page.html">Search Employee</a></li><br>
+      <li><a href="E:\gitworkspace\Champs-01\Tejaswi\HTML.html\Login Page">Logout</a></li><br>
+      </ul>
+  </nav>
+  </nav>
+
+  <article id="mainArticle">
+    <p style="text-align: right;">Welcome Admin</p>
+    <input type="text" placeholder="Enter Employee Name/Department" name="Search" style="width: 500px; height: 30px;" id="search">
+    <input type="submit" name="Go" style="height: 30px;" id="Sub" value="Search"><br><br>
+    <div style="overflow-y:auto;">
+    <table style="width:100%">
+      <tr>
+        <th>Employee Name</th>
+        <th>Department Name</th>
+        <th>Email</th>
+        <th>Phone No</th>
+      </tr>
+    
+        <tr>
+          <td>Priya</td>
+          <td>Developement Dept</td>
+          <td>priya@techiefrogs.com</td>
+          <td>1235642808</td>
+        </tr>
+        <tr>
+          <td>Tejaswi</td>
+          <td>Testing Dept</td>
+          <td>lakshmi@techiefrogs.com</td>
+          <td>8812110277</td>
+        </tr>
+        <tr>
+          <td>Nagaraju</td>
+          <td>TechSupport Dept</td>
+          <td>nagaraju@techiefrogs.com</td>
+          <td>9903295912</td>
+        </tr>
+        <tr>
+          <td>Phani</td>
+          <td>Training Dept</td>
+          <td>phani@techiefrogs.com</td>
+          <td>8888899999</td>
+        </tr>
+        <tr>
+            <td>Adithya</td>
+            <td>Training Dept</td>
+            <td>adithya@techiefrogs.com</td>
+            <td>1778899999</td>
+          </tr>
+          <tr>
+            <td>Sridevi</td>
+            <td>TechSupport Dept</td>
+            <td>phani@techiefrogs.com</td>
+            <td>8888899999</td>
+          </tr>
+          <tr>
+            <td>Shanmukh</td>
+            <td>Developement Dept</td>
+            <td>shanmukh@techiefrogs.com</td>
+            <td>8888777999</td>
+          </tr>
+        <tr>
+          <td>Nageswar</td>
+          <td>HR Dept</td>
+          <td>nagG@techiefrogs.com</td>
+          <td>7777666652</td>
+        </tr>
+        <tr>
+            <td>Ravi Varma</td>
+            <td>HR Dept</td>
+            <td>Ravi@techiefrogs.com</td>
+            <td>7743246652</td>
+          </tr>
+        
+       
+    </table><br><br>
+  </div>
+   
+  </article>
+  <footer id="pageFooter">All rights reserved. @2020 copyright.</footer>
+</body>

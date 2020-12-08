@@ -1,0 +1,83 @@
+<!doctype html>
+<head>
+<title>Login Page</title>
+<style>
+ * {
+    box-sizing: border-box;
+  }
+body { 
+  display: grid;
+  grid-template-areas: 
+  "header header"
+    "article article"
+    "footer footer";
+  grid-template-rows: 120px 1fr 70px;  
+  grid-template-columns:1fr;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  height: 100vh;
+  margin: 0;
+  }  
+  header{
+  padding: 0.5em;
+  background:rgb(161, 167, 221);
+  color:blue;
+  font-size: 50px;
+  text-align: center;
+  }
+  footer {
+  padding: 1.2em;
+  background:rgb(161, 167, 221);
+  color:blue;
+  text-align: center;
+  }
+  div {
+  padding: 1.2em;
+  background: rgb(85,95,165);
+  color: white;
+  }
+  article{
+      padding: 1.2em;
+      background: white;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+
+  
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "footer";
+    grid-template-rows: 120px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+  <header id="pageHeader"><strong>Employees Management System</strong></header>
+
+
+  <article id="mainArticle">
+   <form style="text-align: center;margin-top: 10%;">
+    <label><b>Username:</b></label> 
+    <input type="text" placeholder="Enter Username" name="uname" required> <br><br>
+
+    <label><b>Password:</b></label> 
+    <input type="password" placeholder="Enter Password" name="psw" required> <br><br>
+    <a href="file:///E:/Techie%20Work%20Space/Champs-01/Nagaraju/src/Task%2024-11-2020/Employees%20Management%20System.html#"><button type="submit">Submit</a></button>
+    <span class="psw"><a href="#">Forgot password?</a></span> 
+   </form>
+  </article>
+  <footer id="pageFooter">All rights reserved. @2020 copyright.</footer>
+</body>
