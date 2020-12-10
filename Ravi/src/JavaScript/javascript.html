@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title> 
+		print current day and time 
+    </title> 
+    <script type="text/javascript" src="one_Ten.js"></script>
+    <style type="text/css">
+        body {margin: 30px;}
+        </style> 
+</head> 
+
+<body> 
+
+    <hr>
+    <p>Click the button to print the current page.</p>
+<button onclick="print_current_page()">Print this page</button>
+<hr>
+<p> 
+    Current Date is:  <span class="output"></span> 
+</p> 
+
+<button onclick="getCurrentDate()"> 
+    Get current Date 
+</button>
+<hr>
+<p id = 'moveIt'></p>
+<hr>
+
+<p>Area of a triangle is : 
+    <span id = "triangle"></span>
+</p>
+<button onclick="triangle()"> 
+    Area of a triangle
+</button>
+
+    <hr>
+
+<p>A Program to find 1st January is being a Sunday between 2014 and 2050.</p>
+<hr>
+<form>
+    1st Number : <input type="text" id="firstNumber" /><br>
+    2nd Number: <input type="text" id="secondNumber" /><br>
+    <input type="button" onClick="multiplyBy()" Value="Multiply" />
+    <input type="button" onClick="divideBy()" Value="Divide" />
+    </form>
+    <p>The Result is : <br>
+    <span id = "result"></span>
+    </p>
+    <hr>
+
+</body> 
+
+</html> 

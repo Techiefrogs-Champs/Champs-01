@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="https://blobs.officehome.msocdn.com/bundles/unauth-cb66bba19c.css" integrity="sha256-vbEPvLoaCnxyDpatezLuv45AMmIS6CXDCjUI3vyDBbw=">
+
+    
+
+    <link rel="stylesheet" href="https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/4a-f2fa13/d2-97697e/15-b02cf6/8d-8de298/30-e5ac82/cd-1bda0a/e7-838d86/7d-3b8b80?ver=2.0" type="text/css" media="all"><link rel="stylesheet" href="https://statics-marketingsites-eas-ms-com.akamaized.net/statics/override.css?c=7" type="text/css">
+    
+    
+       
+          
+    
+    <style>
+              
+                
+                .header {
+                  overflow: hidden;
+                  background-color: lightblue;
+                  padding-top: 13px;
+                  padding-bottom: -4px;
+                padding-left: 50px;
+                
+
+                }
+                
+                .header a {
+                  float: left;
+                  color: black;
+                  text-align: center;
+                  padding: 12px;
+                  text-decoration: none;
+                  font-size: 18px; 
+                  line-height: 25px;
+                  border-radius: 4px;
+                }
+
+              .header a:hover {
+              
+                color: black;
+                text-decoration: underline;
+              }
+              
+            
+              
+              .header-right {
+                float: right;
+              }
+              
+          
+
+
+                .dropdown {
+                  float: left;
+                  overflow: hidden;
+                }
+
+              .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: black;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+              }
+
+
+
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 18px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+
+              .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+              }
+
+              .dropdown-content a:hover {
+                background-color: #ddd;
+
+              }
+
+              .dropdown:hover .dropdown-content {
+                display: block;
+                
+              }
+
+              .menus {
+                height: auto;
+                width: 160px;
+                background:white;
+                position: absolute;
+
+              }
+
+              .menus li {
+                display: block;
+                width: 100%;
+                font: 20px Arial;
+                text-transform: none;
+              }
+
+
+              .menus a:hover {
+                background: powderblue;
+              }
+
+              .menus .submenu {
+                display: none;
+                position: absolute;
+                left: 160px;
+                top: 0;
+                width: 180px;
+              }
+
+              .menus .submenu li {
+                background: white;
+              }
+
+              .menus .has-submenu:hover .submenu {
+                display: block;
+              }
+              .blu{
+                  margin-bottom: 200px;
+                  padding: 8px;
+              
+              }  
+
+              .c-show-pipe{
+                  border-left: 2px solid #000;
+                  height: 24px;
+                  content: " ";
+                  margin-left: 7px;
+                  position: absolute;
+                  top: 10px;
+                  left: 180px;
+              }
+              .class1{
+                background-color:#333;
+                margin-right: 765px;
+                color: white;
+                padding-top: 90px;
+                padding-bottom: 80px;
+                  text-align-last: left;
+                  padding-left: 70px;
+                  margin-top: -200px;
+                  /* margin-right: -10px; */
+              }
+
+              .class2{
+                  margin-left: 584px; 
+                  margin-top: -438px;
+
+                
+              }
+              .blu h4:hover{
+                  text-decoration: underline;
+              }
+
+              .content-gutter{
+                  background-color: white;
+                  margin-top: -5px; 
+              }
+              .content-gutter h2{
+              padding-top: 100px;
+              margin-left: 100px;
+              }
+
+              .get-office__header{
+                  padding: 30px;
+              }
+              #social{
+              padding-top: 40px;
+              margin-top: 50px;
+              padding-left: 80px;
+              margin-left: -20px;
+              padding-right: -300px;
+              padding-bottom: 20px;
+              }
+
+              .MainFooter{
+                float: left;
+                
+                  width: 100%;
+                  background-color: #f5f5f5;
+                
+                  padding-left: 20px;
+                  padding-top: 20px;
+                  padding-bottom: 40px;
+              }
+
+              .footer-item{
+                float: left;
+                margin-left: 60px;
+              }
+
+
+              .footer-item h1{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: black;
+              }
+
+              .footer-item li{
+                list-style: none;
+                color: black;
+                margin: 10px 0;
+              }
+     </style>
+
+</head>
+<body >
+    <div class="header">
+        <a><div id="logo">
+          <img src="microsoft-logo-new.png" style="width: 100px; margin-top: -14px;" /> 
+        </div></a>
+        <div><a>|</a></div>
+        <a>Office</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">Product
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <ul class='menus'>
+              <li class='has-submenu'><a href="#">For home</a>
+                <ul class='submenu'>
+                  <li><a href="#" title="Sub Menu">Sub Menu</a></li>
+                  <li><a href="#" title="Sub Menu">Sub Menu 2</a></li>
+                  <li><a href="#" title="Sub Menu">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+           
+            <a href="#">For business</a>
+            <a href="#">For business</a>
+          
+            <a href="#">For enterprise</a>
+            <a href="#">App and servies</a>
+          </div>
+        </div> 
+      
+        <div class="dropdown">
+          <button class="dropbtn">Resources
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a  href="#home">Template</a>
+        <a  href="#home">Support</a>
+        <a  href="#home">MyAccount</a>
+        <a style="border-radius: 4px;
+        border: 1px solid rgb(28, 29, 27);
+        padding: 5px; margin-top: 5px; 
+       ">Buy now</a> 
+        <div class="header-right">
+            
+            <div class="dropdown">
+              <button class="dropbtn">All Microsoft
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+            
+            <a> <div id="logo"> 
+                <img src="download.png" style="width: 20px;  margin-right: 30px; " /> 
+            </div> </a>
+        </div>
+    </div>
+
+      <div class="blu" 
+      style="background-color:#0067b8; text-align: center; size: 2px;  line-height: 30px;  color: white;  font-size: 15px;">
+          <h4>Remote Learning in education. Learn more ></h4>
+      </div>
+
+    <div class="class1">
+                <h1 >Welcome to Office</h1> <br>
+                <p>Your place to create, communicate, collaborate, and get <br>great work done.</p><br>
+                <div class="hero__buttons-container">
+                    <a id="hero-banner-sign-in-to-office-365-link" class="hero__button hero__button--primary" >
+                        Sign in
+                    </a> <br>
+                    <a id="hero-banner-get-office-link" class="hero__button hero__button--secondary">
+                        Get Office
+                    </a>
+                </div>
+                <br>
+                <br>
+                <a >Sign up for the free version of Office></a>                 
+    </div>
+    
+    <div  class="class2">
+        <img src="WhatsApp Image 2020-11-25 at 12.54.37 PM.jpeg" width="765px" height="400px">
+    </div>  
+
+
+
+      <div  class="content-gutter" >
+          <div>
+              <h2  class="office-apps__header" >Sign in to use your favorite productivity apps from any device</h2>
+              <div class="office-apps__app-container">
+                  <div class="office-apps__app-wrapper">
+                          <div class="office-apps__app" data-color="#185ABD">
+                              <span class="office-apps__app-icon ms-ohp-svg-Icon ms-ohp-Icon ms-ohp-Icon--wordLogo ms-ohp-Icon--wordLogoFill"></span>                      
+                              <p class="office-apps__app-text">Word</p>
+                          </div>
+                          <div class="office-apps__app" data-color="#107C41">
+                              <span class="office-apps__app-icon ms-ohp-svg-Icon ms-ohp-Icon ms-ohp-Icon--excelLogo ms-ohp-Icon--excelLogoFill"></span>  
+                              <p class="office-apps__app-text">Excel</p>
+                          </div>
+                          <div class="office-apps__app" data-color="#D24726">
+                              <span class="office-apps__app-icon ms-ohp-svg-Icon ms-ohp-Icon ms-ohp-Icon--powerpointLogo ms-ohp-Icon--powerpointLogoFill"></span>
+                              <p class="office-apps__app-text">PowerPoint</p>
+                          </div>
+                          <div class="office-apps__app" data-color="#80397B">
+                              <span class="office-apps__app-icon ms-ohp-svg-Icon ms-ohp-Icon ms-ohp-Icon--onenoteLogo ms-ohp-Icon--onenoteLogoFill"></span>
+                              <p class="office-apps__app-text">OneNote</p>
+                          </div>
+                          <div class="office-apps__app" data-color="#094ab2">
+                              <span class="office-apps__app-icon ms-ohp-svg-Icon ms-ohp-Icon ms-ohp-Icon--oneDriveLogo"></span>
+                              <p class="office-apps__app-text">OneDrive</p>
+                          </div>
+                          <div class="office-apps__app" data-color="#0072C6">
+                              <span class="office-apps__app-icon ms-ohp-svg-Icon ms-ohp-Icon ms-ohp-Icon--outlookLogo ms-ohp-Icon--outlookLogoFill"></span>
+                              <p class="office-apps__app-text">Outlook</p>
+                          </div>
+                          <div class="office-apps__app" data-color="#5558AF">
+                              <span class="office-apps__app-icon ms-ohp-svg-Icon ms-ohp-Icon ms-ohp-Icon--teamsLogo ms-ohp-Icon--teamsLogoFill"></span>
+                              <p class="office-apps__app-text">Teams</p>
+                          </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div style="margin-top: 50px;">
+    
+      <picture class="office-apps__video lazy" >
+          <source media="(max-width: 1083px)">  
+            <img src="https://blobs.officehome.msocdn.com/images/content/images/office-apps-347d86a528.gif" >
+      </picture>
+ 
+  
+        <div class="content-gutter" style="background-color:#f5f5f5">
+            <div>  
+                  <center>  <h3 class="get-office__header" style="color: black;">Get the premium Office apps with Microsoft 365</h3></center>
+                <div class="get-office__link-container">
+                    <div class="get-office__link">
+                        <img class="get-office__link-image" src="https://blobs.officehome.msocdn.com/images/content/images/for-home-22b0da7562.png" >
+                        <a id="get-office-today-for-home-link" class="animated-link" href="https://products.office.com/compare-all-microsoft-office-products?tab=1"><span style="margin-left: 100px; color: black;">For home </span><span style="color: black;" class="ms-Icon ms-Icon--chevronRight animated-link--arrow"></span></a>
+                    </div>
+                    <div class="get-office__link">
+                        <img class="get-office__link-image" src="https://blobs.officehome.msocdn.com/images/content/images/for-business-7a6cb040bd.png">
+                        <a id="get-office-today-for-business-link" class="animated-link" href="https://products.office.com/compare-all-microsoft-office-products?tab=2"><span style="margin-left: 90px; color: black;">For business</span><span style="color: black;" class="ms-Icon ms-Icon--chevronRight animated-link--arrow" ></span></a>
+                    </div>
+                    <div class="get-office__link">
+                        <img class="get-office__link-image" src="https://blobs.officehome.msocdn.com/images/content/images/for-enterprise-b5e0072ea2.png" >
+                        <a id="get-office-today-enterprise-link" class="animated-link" href="https://www.microsoft.com/en-us/microsoft-365/enterprise"><span style="margin-left: 90px; color: black;" >For enterprise</span><span style="color: black;" class="ms-Icon ms-Icon--chevronRight animated-link--arrow" ></span></a>
+                    </div>
+                    <div class="get-office__link">
+                        <img class="get-office__link-image" src="https://blobs.officehome.msocdn.com/images/content/images/for-education-5ca7026e70.png" >
+                        <a id="get-office-today-edu-link" class="animated-link" href="https://products.office.com/en-US/student/office-in-education"><span style="margin-left: 90px; color: black;">For education</span><span style="color: black;" class="ms-Icon ms-Icon--chevronRight animated-link--arrow" ></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    
+    <div  class="section social-media__section">
+        <div class="social-media__wrapper" id="social">
+            <span class="social-media__text">Follow Office</span>
+            <a  class="social-media__link">                  
+                <img class="social-media__link--image"  src="https://blobs.officehome.msocdn.com/images/content/images/linkedin-refresh-02734a460c.png">    
+            </a>
+            <a  class="social-media__link">
+                <img class="social-media__link--image" src="https://blobs.officehome.msocdn.com/images/content/images/facebook-refresh-090a700c0f.png">             
+            </a>
+            <a  class="social-media__link" >  
+                <img class="social-media__link--image"  src="https://blobs.officehome.msocdn.com/images/content/images/twitter-refresh-93ca1a80ff.png">
+            </a>
+            <a  class="social-media__link" >
+               <img class="social-media__link--image"  src="https://blobs.officehome.msocdn.com/images/content/images/instagram-refresh-5d315a943e.png">
+            </a>
+            <a  class="social-media__link" >    
+                <img class="social-media__link--image"  src="https://blobs.officehome.msocdn.com/images/content/images/blog-33305b0d90.png">
+            </a>
+        </div>
+    </div>
+   <hr>
+<br><br>
+<br><br>
+
+
+<div class="MainFooter">
+            <div class="footer-item" > 
+                <h1 >What's new</h1>
+                <ul> 
+                    <li>Surface Duo</li>
+                    <li>Surface Laptop Go</li>
+                    <li>Surface Pro X</li>
+                    <li>Surface Go 2</li>
+                    <li>Surface Book 3</li>
+                    <li>Microsoft 365</li>
+                </ul>
+            </div>
+    <div class="footer-item" > 
+        <h1>Microsoft </h1>
+        <ul > 
+            <li>Account Profile</li>
+            <li>Download center</li>
+            <li>Microsoft Store support</li>
+            <li>Return</li>
+            <li>Order tracking</li>
+            <li>Finacing</li>
+          </ul>
+    </div>
+    <div class="footer-item" > 
+        <h1>Education</h1>
+        <ul > 
+            <li>Microsoft edcuation</li>
+            <li>office for student</li>
+            <li>office 365 for school</li>
+            <li>Student and parent</li>
+            <li>Microsoft Azure</li>
+            <li>Deals</li>
+          </ul>
+    </div>
+    <div class="footer-item" > 
+        <h1>Enterprise</h1>
+        <ul > 
+            <li>Azure</li>
+            <li>AppSource</li>
+            <li>Automotive</li>
+            <li>Goverment</li>
+            <li>Healthcare</li>
+            <li>Retail</li>
+          </ul>
+    </div>
+    <div class="footer-item" > 
+        <h1>Developer</h1>
+        <ul > 
+            <li>Microsoft Visual</li>
+            <li>Developer Center</li>
+            <li>Channal 9</li>
+            <li>Office dev center</li>
+            <li>Microsoft Garage</li>
+            <li>Developer Programmer</li>
+          </ul>
+    </div>
+    <div class="footer-item" > 
+        <h1>Comapny</h1>
+        <ul > 
+            <li>Carrer</li>
+            <li>About microsoft</li>
+            <li>Comapny News</li>
+            <li>Privacy at microsoft</li>
+            <li>Investors</li>
+            <li>Security</li>
+          </ul>
+    </div>
+
+
+        
+
+</div>
+<div class="c-uhff-base" style="background-color: #f5f5f5;">
+ 
+    <nav>
+      <ul class="c-list f-bare">
+        <a style="padding-top: 100px;"><span style="margin-right: 160px;">English (United States)</span></a>
+
+          <li>
+              <a class="c-uhff-link">Sitemap</a>
+          </li>
+          <li>
+            <a class="c-uhff-link">Contact Microsoft</a>
+        </li>
+        <li>
+          <a class="c-uhff-link">Privacy</a>
+      </li>
+      <li>
+        <a class="c-uhff-link">Sitemap</a>
+    </li>
+    <li>
+      <a class="c-uhff-link">Manage cookies</a>
+    </li>
+    <li>
+      <a class="c-uhff-link">Terms of use</a>
+    </li>
+    <li>
+      <a class="c-uhff-link">Trademarks</a>
+    </li>
+    <li>
+      <a class="c-uhff-link">Safety &amp; eco</a>
+    </li>
+    <li>
+      <a class="c-uhff-link">About our ads</a>
+    </li>
+
+        
+
+          <li>Â© Microsoft 2020</li>
+          
+      </ul>
+    </nav>
+</div>
+
+
+
+</body>
+</html>

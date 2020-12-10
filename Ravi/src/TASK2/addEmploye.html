@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    
+	<style>
+		.navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            margin-left: -8px;
+        }
+
+        footer {
+		
+			color: white;
+            background-color: #333;
+			clear: left;
+            text-align: center;
+            width: 101%;
+            margin-top: -88px;
+            margin-left: -8px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+      
+        
+           
+        }
+
+        
+        .sidenav {
+            width: 130px;
+            position: fixed;
+            z-index: 1;
+            top: 20px;
+            left: 10px;
+            background:darkslategrey;
+            overflow-x: hidden;
+            padding: 8px 0;
+            margin-top: 70px;
+            padding-bottom: 50px;
+            }
+
+            .sidenav a {
+            padding: 8px 10px 8px 20px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #2196F3;
+            display: block;
+            padding-top: 20px;
+            }
+
+            .sidenav a:hover {
+            color: white;
+            }
+
+            .container1 {  
+            padding: 40px;  
+            background-color: lightblue;  
+            margin-left: 300px;
+           margin-right: 100px;
+           margin-bottom: 80px;
+           margin-top: 20px;
+         
+           
+            }  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ 
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+} 
+                    
+       
+
+        
+	</style>
+</head>
+<body>
+    
+	<div class="container">
+        <div class="navbar">
+            <h1 style="font-size: 36; color: white;"><b>AdminHomepage</b></h1>
+          </div>
+
+        <div class="sidenav">
+            <a href="adminHompage.html">Home</a>
+            <a href="addEmploye.html">Add Employee</a>
+            <a href="#services">Search Employee</a>
+            <a href="login.html">LogOut</a>
+            
+        </div>
+        <form>  
+            <div class="container1">  
+            <center>  <h1>Add Employee</h1> </center>  
+            <hr>  
+            <label> Firstname </label>   
+          <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+          <label> Middlename: </label>   
+          <input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+          <label> Lastname: </label>    
+          <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+          <div>  
+          <label>   
+          Course :  
+          </label>   
+            
+          <select>  
+          <option value="Course">Course</option>  
+          <option value="BCA">BCA</option>  
+          <option value="BBA">BBA</option>  
+          <option value="B.Tech">B.Tech</option>  
+          <option value="MBA">MBA</option>  
+          <option value="MCA">MCA</option>  
+          <option value="M.Tech">M.Tech</option>  
+          </select>  
+          </div>  
+          <div>  
+          <label>   
+          Gender :  
+          </label><br>  
+          <input type="radio" value="Male" name="gender" checked > Male   
+          <input type="radio" value="Female" name="gender"> Female   
+          <input type="radio" value="Other" name="gender"> Other  
+            
+          </div>  
+          
+              <button type="submit" class="registerbtn">Register</button>    
+        </form>
+       
+    </div>
+    <footer>"All rights reserved. @2020 copyright"</footer>  
+	
+        
+       
+
+		
+        
+</body>
+</html>

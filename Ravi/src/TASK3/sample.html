@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <style>
+
+        div{
+            width: 700px;
+            border: 1px solid red;
+            margin-left: 100px;
+            height: 100px;
+        
+        }
+        .firstDiv{
+                background-color: powderblue;
+                margin-left: inherit;
+        }
+        #secondDiv{
+            border: 1px solid black;
+            margin: 25px 100px 75px;
+            background-color: lightblue;
+            padding-top: 50px;
+        }
+        #thiredDiv{
+            border: 1px solid black;
+                margin: 200px;
+                background-color: lightblue;
+        }
+        #fourthDiv{
+            width:300px;
+            margin: auto;
+            border: 1px solid red;
+        }
+        h1{
+            margin: 0 0 20px 0;
+        }
+        h2{
+            margin: 20px 0 0 0;
+        }
+        .Padding{
+            border: 1px solid black;
+            background-color: lightblue;
+            /* padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+            padding: 50px; */
+            padding: 25px 50px 75px 100px;
+            box-sizing:inherit
+        }
+            .ex1 {
+            max-height: 100px;
+            overflow:auto;
+            max-width: 970px;
+            margin-bottom: 60px;
+            }
+            .ex1 {
+            width: 500px;
+            margin: auto;
+            border: 3px solid #73AD21;
+            }
+            .ex2 {
+            max-width: 500px;
+            margin: auto;
+            border: 3px solid #73AD21;
+            }
+
+            input[type=text] {
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 2px solid;
+            border-radius: 4px;
+            /* border: none;
+            border-bottom: 2px solid red; */
+            background-color: #3CBC8D;
+            color: white;
+            }
+
+            input[type=text]:focus {
+            background-color: lightblue;
+            border: 3px solid #555;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            
+}
+            input[type=button] {
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 90px;
+            box-sizing: border-box; 
+            border-radius: 2px;
+            background-color: powderblue;
+            }
+            select {
+            width: 60%;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+            margin: 8px 80px;
+            }
+
+            input[type=button2], input[type=submit], input[type=reset]{
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 80px;
+                cursor: pointer;
+            }
+            table,th,td{
+                text-align: center;
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+                width: 400px;
+                margin: auto;
+               
+            }
+
+            table th{
+                background-color: powderblue;
+                height: 70px;
+            }
+            table th:hover{
+               background-color: brown;
+            }
+            table td:hover{
+                background-color: red;
+            }
+            .tr1:hover{
+                background-color: black;
+                color: white;
+               
+            }
+            .p1 {
+                font-family: "Times New Roman", Times, serif;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 30px;
+                }
+
+           
+    </style>
+
+</head>
+<body>
+
+    <div><p class="firstDiv">HIII This is raviteja</p></div>   <hr>
+    <div id="secondDiv">This div element has a top margin of 25px, a right and left margin of 50px, and a bottom margin of 75px.</div>
+    <hr><div id="thiredDiv">This div element has a top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.</div>
+    <hr><div id="fourthDiv">This div will be horizontally centered because it has margin: auto;</div>    
+    <hr><h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <hr>
+    <p class="Padding">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</p>
+<hr>
+<h2>max-height: 100px:</h2>
+<p class="ex1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat.</p>
+  <hr>
+  <h2>max-width: 500px:</h2>
+  <div class="ex1">This div element has width: 500px;</div>
+  <br>
+  
+  <div class="ex2">This div element has max-width: 500px;</div>
+
+  <hr>
+ 
+    <h2>Form Style in css</h2>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname">
+    <select id="country" name="country">
+        <option value="au">Australia</option>
+        <option value="ca">Canada</option>
+        <option value="usa">USA</option>
+        </select>
+    <input type="button" value="Login">
+  </form>
+<hr>
+  <input type="button2" value="Button">
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+
+<hr>
+
+<table>
+    <caption>Sample Table</caption>
+    
+    <tr >
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th colspan="3">PhoneNumber</th>
+    </tr>
+    <tr class="tr1">
+        <td>1</td>
+        <td>ravi</td>
+        <td>28</td>
+        <td>9959406</td>
+        <td>8899342</td>
+       
+    </tr>
+    <tr class="tr1">
+        <td>2</td>
+        <td>Teja</td>
+        <td>29</td>
+        <td>12345</td>
+    </tr>
+    <tr class="tr1">
+        <td>3</td>
+        <td>Gopi</td>
+        <td>27</td>
+        <td>995967</td>
+    </tr>
+</table>
+<hr>
+<p>Font icons:</p>
+<i class="fas fa-car" ></i>
+<i class="fas fa-file" style="font-size:44px;"></i>
+<i class="fas fa-bars" style="font-size:44px;"></i>
+
+<hr>
+<p>Bootstrap icons:</p>
+<i class="glyphicon glyphicon-cloud" style="font-size:44px;"></i>
+<i class="glyphicon glyphicon-remove" style="font-size:44px;"></i>
+<i class="glyphicon glyphicon-user" style="font-size:44px;"></i>
+<i class="glyphicon glyphicon-envelope" style="font-size:44px;"></i>
+<i class="glyphicon glyphicon-thumbs-up" style="font-size:44px;"></i>
+<br><br>
+<hr>
+<h1>font-family</h1>
+<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+</body>
+</html>

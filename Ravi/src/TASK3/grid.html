@@ -1,0 +1,400 @@
+<html>
+<head>
+	<title>CSS Grid</title>
+	<!-- <style type="text/css">
+		.wrapper {
+			display: grid;
+			grid-template-columns: 1fr 5fr 2fr;
+			grid-template-rows: 3fr 20fr 7fr;
+			grid-gap: 5px;
+			height: 920px;
+		}
+
+		header {
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}
+
+		footer {
+			grid-column-start: 1;
+			grid-column-end: 4;
+        }
+
+		.wrapper * {
+			background: orange;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 1px;
+			margin-right: 1px;
+		}
+    </style> -->
+               
+    
+   <link href="https://byjus.com/wp-content/themes/html5blank-stable/styles/home/libraries.css" rel="stylesheet" type="text/css">
+                                    
+   <link href="https://byjus.com/wp-content/themes/html5blank-stable/styles/home/home_btla.css" rel="stylesheet" type="text/css">
+                              
+     
+        <style>
+            .container{
+                display: grid;
+                height: 100vh;
+                grid-template-columns: 10fr 200fr 200fr 200fr ;
+             
+                grid-template-areas: 
+                    "nav nav nav nav"
+                    "sidebar main main main"
+                     "sidebar content1 content2 content3"
+                     "sidebar footer footer footer";
+                     text-align: center;
+                     grid-gap:0.2rem;
+                     font-family: "inter",sans-serif;
+                     font-weight: 800;
+                     text-transform: uppercase;
+                     font-size: 12px;
+                     color: #004d40;
+            }
+            
+            @media only screen and (max-width: 550px){
+                .container{
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+                    grid-template-areas: "nav" "sidebar" "main" "content1" "content2" "content3" "footer";
+                }
+            }
+            :root{
+                --main-radius:5px;
+                --main-padding:5px;
+            }
+
+            nav{
+                background: purple;
+                grid-area: nav;
+                border-radius: var(--main-radius);
+                padding-top: var( --main-padding);
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 11px;
+                padding-bottom: 5px;
+              
+            }
+            main{
+                background: purple;
+                grid-area: main;
+                border-radius: var(--main-radius);
+                padding-top: var( --main-padding);
+            }
+            footer{
+                background: powderblue;
+                grid-area: footer;
+                border-radius: var(--main-radius);
+                padding-top: var( --main-padding);
+            }
+            #sidebar{
+                background: yellow;
+                grid-area: sidebar;
+                border-radius: var(--main-radius);
+                padding-top: var( --main-padding);
+               
+            }
+            #content1{
+                background: orange;
+                grid-area: content1;
+                border-radius: var(--main-radius);
+                padding-top: var( --main-padding);
+            }
+            #content2{
+                background: orangered; 
+                grid-area: content2;
+                border-radiu: var(--main-radius);
+                padding-top: var( --main-padding);
+            }
+            #content3{
+                background: orangered; 
+                grid-area: content3;
+                border-radius: var(--main-radius);
+                padding-top: var( --main-padding);
+            }
+            .logo{
+                float: left;
+                margin-left: 20px;
+            }
+            .Main_Navbar_List {
+               
+                margin-left: 80px;
+                padding-left: 50px;
+            }
+            .Main_Navbar_List ul{
+                list-style: none;
+                display: inline-flex;
+                color: black;
+                float: left;
+                text-align: center;
+               margin-left: 70px;
+               margin-top: -45px;
+            }
+            .Main_Navbar_List ul li{
+               width: 100px;
+              
+              
+            }
+
+           .Main_Navbar_Right ul li a{
+               margin-right: 100px;
+           }
+
+           .main-footer{
+                    float: left;
+                    background-image: url('https://cdn1.byjus.com/byjusweb/img/home/svg/homebannerbg.svg');
+                    width: 100%;
+                   
+                }
+
+                .foot2{
+                    float: left;
+                    
+                }
+                .foot2 li{
+                    list-style: none;
+                color: white;
+                }
+                .last{
+                    float: right;
+                    color: white;
+                    margin-left: 40px;
+                
+                }
+
+                .SecondDiv{                
+                   
+                
+                    margin-bottom: 100px;
+                }
+
+                #showcase1{
+                    float: right;
+                    color: black;
+
+                    border-radius: 2px;
+                
+                }
+
+          
+        </style>
+
+
+
+</head>
+<body >
+
+    
+    <div class="container">
+        <nav> navbar
+            <!-- <div class="Main_Navbar">
+              
+                  <div class="logo">
+                    <a><img src="https://cdn1.byjus.com/byjusweb/img/home/svg/byjus_logo.svg"  width="198" height="55"></a>
+                  </div>
+              
+                  <div class="Main_Navbar_List">
+                    <ul >
+                      <li><a style="color: white;">Study Materials</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <li><a style="color: white;">Study Materials</a></li>&nbsp;&nbsp;&nbsp;
+                      <li><a style="color: white;">Study Materials</a></li>&nbsp;&nbsp;&nbsp;
+                      <li><a style="color: white;">Scholarship</a></li>&nbsp;&nbsp;&nbsp;
+                      <li><a style="color: white;">Buy a Course</a></li>&nbsp;&nbsp;&nbsp;
+                      <li><a style="color: white;">BYJU'S Give</a></li>
+                      <li><a style="color: white;">Success Stories</a></li>
+                      <div class="Main_Navbar_Right">
+                          <ul>
+
+                         
+                        <li >
+                            <a style="color: white;">Book Free Class</a>
+                          </li>
+                        </ul>
+                      </div>
+                    
+                    </ul>
+                  </div>
+              
+              </div> -->
+              
+        </nav>
+        <main> main
+            <div class="SecondDiv">
+                <div >
+            
+                    <div >
+                        <img  style="margin-right: 600px; padding-top: 10px; padding-bottom: 10px;" height="400px" width="400px" src="C:\Users\91995\Desktop\Workspace1\Champs-01\Ravi\src\TASK4\indias-personalized-learning-app-featuring-shah-rukh-khan-is-the-most-remembered-ad-during-the-icc-world-cup-2019-iihb-survey-001.jpg" alt="">
+              
+                    </div>
+                    <div >
+                        <section id="showcase1">
+                            <div  style="margin-top: -390px; margin-bottom: 40px; padding-right: 10px; padding-left: 15px; padding-top: 10px;  margin-right: 5px;  background-color: white;  border-radius: 25px;" >
+                                
+                                        <h1>Book your Free class now!</h1>
+                                        <p>Learn from India's best teachers with live doubt solving<br>and personalised one-on-one attention
+                                        </p> 
+                                        <form>
+                                        <input style="border-style:groove;" class="form-control" type="text" size="30" placeholder="name of your child"><br><br>
+                                        <input type="tel"   class="form-control" size="30" placeholder="mobile number"><br><br>
+                                        <input type="email" class="form-control" size="30"placeholder="Email(optional)"><br><br>
+                                        <input type="text" class="form-control" size="30"placeholder="state"><br><br>
+                                        <input type="text" class="form-control" size="30"placeholder="Grade"><br><br>
+                                        <button class="btn btn-primary" style="margin-left: 20px;">Book Your Free Class </button>
+                                    </form>
+                                    </div>
+                        </section>
+                    </div>
+            
+                </div>
+               
+            
+            
+            </div>
+        </main>
+     
+        <div id="content1">content1
+            <!-- <div class="col-sm-12 col-md-12 col-lg-4 aos-init">
+            <div class="card align-items-center">
+                <img src="11byjus-2.jpg" height="100px" width="100px">
+                <div class=" text-center">
+                    <img  height="100" src="https://cdn1.byjus.com/byjusweb/img/home/svg/byjus_classes_2line_logo.svg">
+                    <p class="card-text">Personalised online tutoring program</p>
+                    <a>Book a Free Class
+                    </a>
+                    <a class="know-more-link">Know more
+                    </a>
+                </div>
+              
+            </div>
+        </div> -->
+    </div>
+        <div id="content2">content2
+            <!-- <div class="col-sm-12 col-md-12 col-lg-4 aos-init">
+                <div class="card align-items-center">
+                    <img class="card-img-top ls-is-cached lazyloaded"
+                     src="20180314095857-11845117-10154359193719625-4246857026381332228-o.jpeg"
+                     height="100px" width="100px">
+                    <div class="card-body text-center">
+                        <img class="bj-card-byjus-logo ls-is-cached lazyloaded" height="100" src="https://cdn1.byjus.com/byjusweb/img/home/svg/byjus_learningapp_logo.svg">
+                        <p class="card-text">Personalised learning app to learn anytime anywhere</p>
+                        <a href="/byjus-classes-book-a-free-60-minutes-class/registration/?utm_source=website&amp;utm_medium=homepage&amp;utm_campaign=btlahcard" target="_blank" class="bj-btn register-shade">Book a Free Class
+                        </a>
+                        <a  class="know-more-link">Know more
+                        </a>
+                    </div>
+                  
+                </div>
+            </div> -->
+
+        </div>
+        <div id="content3">content3
+            <!-- <div class="col-sm-12 col-md-12 col-lg-4 aos-init" data-aos="fade-up">
+                <div class="card align-items-center">
+                    <img class="card-img-top ls-is-cached lazyloaded" src="byjus.png" height="100px" width="100px">
+                    <div class="card-body text-center">
+                        <img class="bj-card-byjus-logo ls-is-cached lazyloaded" height="100px" 
+                         src="https://cdn1.byjus.com/byjusweb/img/home/svg/byjus_disney_logo.svg">
+                        <p class="card-text">A specially crafted Early Learning Program for young minds</p>
+                        <a href="/disney-byjus-early-learn/" class="bj-btn explore-shade" target="_blank">Explore
+                        </a>
+                        <a  class="know-more-link">Know more
+                        </a>
+                    </div>
+                   
+                </div>
+            </div> -->
+
+        </div>
+        <footer>
+            <div class="main-footer">
+            <div class="foot2">
+            <ul>
+                <li style="color:rgb(226, 172, 57);">COURSES</li>
+                <li>CBSC</li>
+                <li>ICSE</li>
+                <li>CAT</li>
+                <li>IAS</li>
+                <li>JEE</li>
+                <li>NEET</li>
+                <li>Comerce</li>
+                <li>JEE Mains</li>
+                <li>JEE Advance</li>
+                <li>NCERT</li>
+                <li>CBSE Sample Papers</li>
+                <li>CBSE Question Papers</li>
+            </ul>
+            </div>
+        <div class="foot2">
+            <ul>
+                <li style="color:rgb(226, 172, 57);">COURSES</li>
+                <li>CBSC</li>
+                <li>ICSE</li>
+                <li>CAT</li>
+                <li>IAS</li>
+                <li>JEE</li>
+                <li>NEET</li>
+                <li>Comerce</li>
+                <li>JEE Mains</li>
+                <li>JEE Advance</li>
+                <li>NCERT</li>
+                <li>CBSE Sample Papers</li>
+                <li>CBSE Question Papers</li>
+            </ul>
+        </div>
+        <div class="foot2">
+            <ul>
+                <li style="color:rgb(226, 172, 57);">EXAMS</li>
+                <li>CAT Exam</li>
+                <li>IAS Exam</li>
+                <li>Bank Exam</li>
+                <li>UPSC Syllabus</li>
+                <li>UPSC 2020</li>
+                <li>Governement Exams</li>
+            </ul>
+        </div>
+        <div class="foot2">
+            <ul>
+                <li style="color:rgb(226, 172, 57);">EXAM PREPARATION</li>
+                <li>FREE CAT Prep</li>
+                <li>FREE IAS Prep</li>
+                <li>Maths</li>
+                <li>Physics</li>
+                <li>Chemistry</li>
+                <li>Biology</li>
+            </ul>
+        </div>
+        <!-- <div class="foot2">
+            <ul>
+                <li style="color:rgb(226, 172, 57);">COMPANY</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Inestors</li>
+                <li>Careers</li>
+                <li>BYJU'S In Media</li>
+                <li>Students Stories- The Learing Tree</li>
+                <li>Faces Of BUJU'S- Life At BYJU'S</li>
+                <li>Social Initiative- Education For All</li>
+            </ul>
+        </div> -->
+        <div class="foot2">
+            <ul>
+                <li style="color:rgb(226, 172, 57);">EXAMS</li>
+                <li>CAT Exam</li>
+                <li>IAS Exam</li>
+                <li>Bank Exam</li>
+                <li>UPSC Syllabus</li>
+                <li>UPSC 2020</li>
+                <li>Governement Exams</li>
+            </ul>
+        </div>
+      
+        </div> 
+    
+    </footer>
+
+    </div>
+</body>
+</html>
