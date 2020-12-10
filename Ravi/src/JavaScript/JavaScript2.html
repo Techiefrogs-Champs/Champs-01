@@ -8,7 +8,42 @@
     <script type="text/javascript" src="  Elven_Twenty.js"></script>
     <style type="text/css">
         body {margin: 30px;}
-        </style> 
+    </style> 
+    <script>
+        let sum1 = (a, b) => a + b;
+        alert( sum1(1, 2) );
+
+        let sum = function(a, b) {
+        return a + b;
+        };
+
+        let double = n => n * 2;
+        alert( double(3) );
+
+        function doub(n){
+            return n*2;
+        }
+        console.log(doub(5));
+        alert( doub(3) );
+
+
+        let sayHi = () => alert("Hello!");
+
+        sayHi();
+
+        let sum = (a, b) => {  
+            let result = a + b;
+            return result; 
+        };
+
+        alert( sum(1, 2));
+
+        const ask = (question, yes, no) => (confirm(question) ? no() : yes());
+        ask('Do you agree?',() => alert('You agreed.'),
+        () => alert('You canceled the execution.')
+        );
+
+    </script>
 </head>
 <body>
     
