@@ -2,9 +2,7 @@ var myDate = new Date();
 var myDay = myDate.getDay(); 
 
 // Array of days. 
-var weekday = ['Sunday', 'Monday', 'Tuesday', 
-    'Wednesday', 'Thursday', 'Friday', 'Saturday' 
-]; 
+var weekday = ['Sunday', 'Monday', 'Tuesday','Wednesday', 'Thursday', 'Friday', 'Saturday']; 
 document.write("Today is : " + weekday[myDay]); 
 document.write("<br/>"); 
 
@@ -28,6 +26,18 @@ function getCurrentDate() {
 
     document.querySelector('.output').textContent   = date; 
 } 
+
+function triangle(){
+    var side1 = 5; 
+    var side2 = 6; 
+    var side3 = 7; 
+    var s = (side1 + side2 + side3)/2;
+    var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+
+console.log(area);
+// document.write("area of a triangle : " + area); 
+document.querySelector('triangle').textContent   = area; 
+}
 var side1 = 5; 
 var side2 = 6; 
 var side3 = 7; 
@@ -36,6 +46,7 @@ var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
 
 console.log(area);
 document.write("area of a triangle : " + area); 
+document.getElementById('triangle').innerHTML = area;
 
 var myVar = setInterval(myFunction, 1000);
 
@@ -101,5 +112,5 @@ console.log(num);
     { 
             num1 = document.getElementById("firstNumber").value;
             num2 = document.getElementById("secondNumber").value;
-    document.getElementById("result").innerHTML = num1 / num2;
+            document.getElementById("result").innerHTML = num1 / num2;
     }
