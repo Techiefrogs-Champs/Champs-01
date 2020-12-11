@@ -1,0 +1,39 @@
+<!--1.	Create a function which returns the number of true values there are in an array.
+Examples
+countTrue([true, false, false, true, false]) ➞ 2
+
+countTrue([false, false, false, false]) ➞ 0
+
+countTrue([]) ➞ 0
+Notes
+•	Return 0 if given an empty array.
+•	All array items are of the type bool (true or false).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Trues</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script> 
+    "use strict"
+    var arr = [true, false, false, true, false];
+    var counts = {};
+
+    for (var i = 0; i < arr.length; i++) {
+        var num = arr[i];
+        counts[num] = counts[num] ? counts[num] + 1 : 1;
+    }
+
+    function myFunction(counts) {
+        return counts;
+    }
+    document.getElementById("demo").innerHTML = myFunction("countTrue(["+arr+"]) --> "+counts[true]);
+    </script>
+
+</body>
+</html>

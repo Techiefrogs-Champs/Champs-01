@@ -1,0 +1,38 @@
+<!--6.	Create a function that counts the integer's number of digits.
+Examples
+count(318) ➞ 3
+
+count(-92563) ➞ 5
+
+count(4666) ➞ 4
+
+count(-314890) ➞ 6
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counts Integer</title>
+</head>
+<body>
+
+    <script>
+        "use strict"
+        function digits_count(n) {
+        var count = 0;
+        if (n >= 1) ++count;
+
+        while (n / 10 >= 1) {
+            n /= 10;
+            ++count;
+        }
+
+        return count;
+        }
+        console.log(digits_count(12112));
+
+        console.log(digits_count(457));
+    </script>
+</body>
+</html>

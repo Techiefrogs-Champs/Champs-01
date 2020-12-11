@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function getUnique(array){
+            var uniqueArray = [];
+            for(let i=0; i < array.length; i++){
+                if(uniqueArray.indexOf(array[i]) === -1) {
+                    uniqueArray.push(array[i]);
+                }
+            }
+            return uniqueArray;
+        }
+        var names = ["Nag", "Raj", "Krishna", "Nag", "Teja"];
+        var uniqueNames = getUnique(names);
+        document.write("<br>");document.write("\n");
+        document.writeln("<b>Removes all duplicate items Is:</b> "+ uniqueNames);
+    </script>
+</body>
+</html>
