@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          function jackpotTesintg(result) {
+                    return new Set(result).size === 1;
+                }
+
+
+                function jackpotTesintg(result){
+                        return result.every(a => a=== result[0]);
+                }
+
+                console.log(jackpotTesintg(["@", "@", "@", "@"]) );
+                console.log(jackpotTesintg(["abc", "abc", "abc", "abc"]) );
+                console.log(jackpotTesintg(["SS", "SS", "SS", "SS"]) );
+                console.log(jackpotTesintg(["&&", "&", "&&&", "&&&&"]) );
+                console.log(jackpotTesintg(["SS", "SS", "SS", "Ss"]) );
+
+
+    </script>
+</body>
+</html>

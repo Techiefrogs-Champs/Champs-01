@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calculateLoss(obj) {
+                if (!Object.keys(obj).length) {
+                    return "Lucky you!";
+                }
+                return Object.values(obj).reduce((acc, curr) => acc + curr);
+                }
+                    var uniqueName = calculateLoss({phone: 30,skate: 20,stereo: 50});
+                    var uniqueName1 = calculateLoss({painting: 20000});
+                    console.log(uniqueName)
+                    console.log(uniqueName1)
+    </script>
+</body>
+</html>

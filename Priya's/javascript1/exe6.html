@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript To count the digits of an integer</title>
+</head>
+<body>
+    <script>
+        function digits_count(n) {
+  var count = 0;
+  if (n >= 1) ++count;
+if(n<1) ++count;
+  while (n / 10 >= 1) {
+    n /= 10;
+    ++count;
+  }
+
+  return count;
+}
+
+console.log(digits_count(12112));
+console.log(digits_count(457));
+console.log(digits_count(-314890));
+console.log(digits_count(-92563));
+    </script>
+</body>
+</html>

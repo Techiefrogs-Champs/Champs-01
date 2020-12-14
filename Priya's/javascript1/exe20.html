@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Check the console for the result</p>
+    <script>
+      function removeLeadTrail(n) {
+                let num = parseFloat(n);
+                return num === Math.floor(num) ? Math.floor(num).toString() : num.toString();
+                }
+
+                console.log(removeLeadTrail("230.000"));
+                console.log(removeLeadTrail("00402") );
+                console.log(removeLeadTrail("03.1400") );
+                console.log(removeLeadTrail("30") );
+            
+    </script>
+</body>
+</html>

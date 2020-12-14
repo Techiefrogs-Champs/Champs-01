@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        
+        const array1 = ['a', 'b', 'c', 'd']; 
+        const array2 = ['a', 'b', 'c', 'd']; 
+        
+
+        function checkEquals(array1, array2) { 
+            
+            
+            for(let i = 0; i < array1.length; i++) { 
+                
+                    
+                    if(array1.length != array2.length) {
+                        return false;
+                    }
+                    if(array1[i] != array2[i]) {  
+                        return false; 
+                    } 
+            } 
+            return true;
+            } 
+              
+        document.write(checkEquals(array1, array2))
+    </script>
+</body>
+</html>
