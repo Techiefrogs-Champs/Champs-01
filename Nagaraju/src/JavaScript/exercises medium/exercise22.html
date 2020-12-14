@@ -1,0 +1,42 @@
+<!--22.	Create a function that takes in an array (slot machine outcome) and returns true 
+    if all elements in the array are identical, and false otherwise. The array will contain 4 elements.
+Examples
+testJackpot(["@", "@", "@", "@"]) ➞ true
+
+testJackpot(["abc", "abc", "abc", "abc"]) ➞ true
+
+testJackpot(["SS", "SS", "SS", "SS"]) ➞ true
+
+testJackpot(["&&", "&", "&&&", "&&&&"]) ➞ false
+
+testJackpot(["SS", "SS", "SS", "Ss"]) ➞ false
+Notes
+The elements must be exactly identical for there to be a jackpot.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identical all elements</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function testJackpot(result) {
+            return new Set(result).size === 1;
+        }
+
+        function testJackpot(result){
+                return result.every(a => a=== result[0]);
+        }
+
+        console.log(testJackpot(["@", "@", "@", "@"]) );
+        console.log(testJackpot(["abc", "abc", "abc", "abc"]) );
+        console.log(testJackpot(["SS", "SS", "SS", "SS"]) );
+        console.log(testJackpot(["&&", "&", "&&&", "&&&&"]) );
+        console.log(testJackpot(["SS", "SS", "SS", "Ss"]) );
+    </script>
+</body>
+</html>

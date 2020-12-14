@@ -1,0 +1,33 @@
+<!--23.	Create a function that moves all capital letters to the front of a word.
+Examples
+capToFront("hApPy") ➞ "APhpy"
+
+capToFront("moveMENT") ➞ "MENTmove"
+
+capToFront("shOrtCAKE") ➞ "OCAKEshrt"
+Notes
+Keep the original relative order of the upper and lower case letters the same.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap letters move to front</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function capToFront(s) {
+            let lowerCase = [...s].filter(l => l === l.toLowerCase())
+            let upperCase = [...s].filter(l => l === l.toUpperCase())
+            return [...upperCase,...lowerCase].join("")
+            }
+
+        console.log(capToFront("hApPy"));
+        console.log(capToFront("moveMENT"));
+        console.log(capToFront("shOrtCAKE"));
+    </script>
+</body>
+</html>

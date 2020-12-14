@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script>
+       
+        //1
+        "use strict"
+        var arr = [true, false, false, true, false];
+        var counts = {};
+
+        for (var i = 0; i < arr.length; i++) {
+            var num = arr[i];
+            counts[num] = counts[num] ? counts[num] + 1 : 1;
+        }
+
+        function myFunction(counts) {
+            return counts;
+        }
+
+        console.log(myFunction("countTrue(["+arr+"]) --> "+counts[true]));
+   
+        //3
+        
+        var obj = {"1":5,"2":7,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0}
+        var result = Object.keys(obj)
+        .map(function (key) { 
+            return [Number(key), obj[key]]; 
+        }); 
+
+        
+        for(var i = 0; i < result.length; i++) { 
+          for(var z = 0; z < result[i].length; z++) { 
+              document.write(result[i][z] + " "); 
+          } 
+          document.write("</br>"); 
+      } 
+
+        //4
+    
+
+         function toArray(obj) {
+             let ans=[];
+             for(let key in obj){
+                 let val=obj[key];
+                 ans.push([key].concat(val));
+             }
+            return ans;
+        };
+
+
+        console.log("toArray"+toArray({D: 1,B:2,C:3}));
+
+
+
+        //6
+        function digits_count(n) {
+            var count = 0;
+            if (n >= 1) ++count;
+
+            while (n / 10 >= 1) {
+                n /= 10;
+                ++count;
+            }
+
+            return count;
+            }
+     
+        document.write(digits_count(12112));
+
+        document.write(digits_count(457));
+
+        //7
+            function multiplesOf(numList, num) {
+            return numList.filter(function(n) {
+                 return n % num === 0; 
+                })
+            }
+            document.write("<br>");
+
+            console.log("Multi"+multiplesOf([4, 5, 6, 7, 8], 2));
+
+
+            //8
+            var a = [1, 2,3], b = ["x", "y"], c = [true, false];
+            var d = a.concat(b, c);
+            console.log(d);
+
+
+            //12
+          
+            function secondLargest(arr_num)
+            {
+                arr_num.sort(function(x,y)
+                        {
+                        return x-y;
+                        });
+                var uniqa = [arr_num[0]];
+                var result = [];
+                
+                for(var j=1; j < arr_num.length; j++)
+                {
+                    if(arr_num[j-1] !== arr_num[j])
+                    {
+                    uniqa.push(arr_num[j]);
+                    }
+                }
+                    result.push(uniqa[3]);
+                return result.join(',');
+                }
+
+                console.log(secondLargest([10, 40, 30, 20, 50]) );
+                console.log(secondLargest([25, 143, 89, 13, 105]));
+                console.log(secondLargest([54, 23, 11, 17, 10]) );
+          
+
+            //13
+
+            const array1 = [1,5]; 
+            const array2 = [1,3]; 
+        
+       
+        function checkEquals(array1, array2) { 
+            
+          
+            for(let i = 0; i < array1.length; i++) { 
+                    if(array1.length != array2.length) {
+                        return false;
+                    }
+                    if(array1[i] != array2[i]) {  
+                        return false; 
+                    } 
+            } 
+            return true;
+            } 
+              
+        console.log("Two Array"+checkEquals(array1, array2))
+                
+
+
+                //14
+
+                // function calculator(a,b){
+                
+                //     add=a+b;
+                //     return add;
+
+                //     div=a/b;
+                //     return div;
+
+                // }
+
+                // console.log(calculator(2, 2));
+
+                //15
+                function func(){
+                var num1=document.getElementById('box').value;
+                var num2=document.getElementById('box1').value;
+
+                var x = num1+ num2;
+                var y=num1-num2;
+                var z=num1*num2;
+                document.getElementById("result1").innerHTML = x;
+                document.getElementById("result2").innerHTML=y;
+                document.getElementById("result3").innerHTML=z;
+                }
+
+
+                //18
+                
+                function calculateLosses(obj) {
+                if (!Object.keys(obj).length) {
+                    return "Lucky you!";
+                }
+                return Object.values(obj).reduce((acc, curr) => acc + curr);
+                }
+                    var uniqueNames = calculateLosses({tv: 30,skate: 20,stereo: 50});
+                    var uniqueNames1 = calculateLosses({painting: 20000});
+                    console.log(uniqueNames)
+                    console.log(uniqueNames1)
+
+                //19
+
+                function squareDigits(num){
+                    return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+                }
+
+                console.log(squareDigits(9119));
+                console.log(squareDigits(2483) );
+                console.log(squareDigits(3212));
+                
+                
+                //20
+                function removeLeadingTrailing(n) {
+                let num = parseFloat(n);
+                return num === Math.floor(num) ? Math.floor(num).toString() : num.toString();
+                }
+
+                console.log(removeLeadingTrailing("230.000"));
+                console.log(removeLeadingTrailing("00402") );
+                console.log(removeLeadingTrailing("03.1400") );
+                console.log(removeLeadingTrailing("30") );
+            
+
+                //21
+                // function calculateDiagonals(matrix){
+                //     var n = matrix.length;
+                //     var diag1 = 0;
+                //     var diag2 = 0;
+                //     for(var i=0; i<n; i++){
+                //         for(var j=0; j<n; j++){
+                //             // an element from the main diagonal
+                //             if(i === j) { 
+                //                 diag1 += matrix[i][j];
+                //             }
+                //             // an element from the counterdiagonal
+                //             if(i + j === n - 1){
+                //                 diag2 += matrix[i][j];
+                //             }
+                //         }
+                //     }
+                    
+                // }
+
+                // console.log(calculateDiagonals([[1, 4],[4, 1]]));
+
+                function calculateDiagonals(m,n) 
+                { 
+                    var sum = 0; 
+                    for (var i=0; i<n; i++) 
+                        for (var j=0; j<n; j++) 
+                            sum += mat[i][j]*mat[i][j]; 
+                        
+                
+                    return Math.sqrt(sum); 
+                } 
+                console.log(calculateDiagonals([[1, 4],[4, 1]]));
+
+                    
+    
+
+                //22
+
+                function testJackpot(result) {
+                    return new Set(result).size === 1;
+                }
+
+
+                function testJackpot(result){
+                        return result.every(a => a=== result[0]);
+                }
+
+                console.log(testJackpot(["@", "@", "@", "@"]) );
+                console.log(testJackpot(["abc", "abc", "abc", "abc"]) );
+                console.log(testJackpot(["SS", "SS", "SS", "SS"]) );
+                console.log(testJackpot(["&&", "&", "&&&", "&&&&"]) );
+                console.log(testJackpot(["SS", "SS", "SS", "Ss"]) );
+
+
+
+            //23
+            function capToFront(s) {
+            let lowerCase = [...s].filter(l => l === l.toLowerCase())
+            let upperCase = [...s].filter(l => l === l.toUpperCase())
+            return [...upperCase,...lowerCase].join("")
+            }
+
+            console.log(capToFront("hApPy"));
+            console.log(capToFront("moveMENT"));
+            console.log(capToFront("shOrtCAKE"));
+
+            //25
+
+            function isSpecialArray(numbers) {
+                let odd = numbers[0];
+                for (var i = 1; i < numbers.length; i++) {
+                    if (numbers[i] !== numbers[0]) {
+                        odd = numbers[i];
+                        return true;
+                    }
+                }
+                return odd;
+                    return false;
+                }
+                document.write("<br>");
+                document.write(isSpecialArray([2, 7, 4, 9, 6, 1, 6, 3]))
+                            
+            //26
+
+            function newString(originalString) { 
+            newString = originalString.replace('a', 'b','c'); 
+            document.write("<br>");
+            console.log(newString);
+    
+            } 
+
+            newString("This might be a bit hard");
+
+            //27
+            var multiplyNums = fixCurry((a,b,c)=>a*b*c);
+            document.write("<br>");
+            document.write("multiplyNums" +multiplyNums(1,2,3))
+
+           
+
+
+            
+            
+            //28
+            let arr1 = [true, true, true],
+                arr2 = [true, false, true],
+                arr3 = [5, 4, 3, 2, 1, 0];
+
+            let checker = arr => arr.every(v => v === true);
+            document.write("<br>");
+            document.write(checker(arr1));
+            document.write("<br>");
+            document.write(checker(arr2));
+            document.write("<br>");
+            document.write(checker(arr3));
+
+
+            //29
+         
+            function getUnique(array){
+                var uniqueArray = [];
+        
+       
+            for(i=0; i < array.length; i++){
+                if(uniqueArray.indexOf(array[i]) === -1) {
+                    uniqueArray.push(array[i]);
+                }
+            }
+            return uniqueArray;
+        }
+        
+        var names = ["Ravi", "Teja", "Gopi", "Krishna", "Ravi", "Teja"];
+        var uniqueNames = getUnique(names);
+        document.write("<br>");document.write("\n");
+        document.writeln("<b>Removes all duplicate items Is:</b> "+ uniqueNames); 
+       
+    </script>
+ 
+</head>
+<body>
+    <form>
+        1st Number : <input type="number" id="box" /><br>
+        2nd Number: <input type="number" id="box1" /><br>
+        <button type="button" onclick="func()">tryit</button>
+        
+        </form>
+
+        <p id = "result1"></p>
+        <p id = "result2"></p>
+        <p id = "result3 "></p>
+        </p><br><br><br>
+    <p id="demo"></p>
+    <script>
+        window.onload = function () {
+            var string = "Green 3, Red 5, Blue 6";
+            var separeted = string.split(",");
+            var sum = 0;
+            for (var i = 0; i < separeted.length; i++) {
+                sum += parseInt(separeted[i].toString().match(/(\d+)/));
+            }
+            alert(sum);
+        }
+        </script>
+</body>
+</html>

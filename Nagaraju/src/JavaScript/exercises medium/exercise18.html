@@ -1,0 +1,41 @@
+<!--18.	You just returned home to find your mansion has been robbed! Given an object of the stolen items, 
+    return the total amount of the burglary (number). If nothing was robbed, return the string "Lucky you!".
+Examples
+conststolenItems = {
+tv: 30,
+skate: 20,
+stereo: 50,
+} ➞ 100
+
+conststolenItems = {
+painting: 20000,
+} ➞ 20000
+
+conststolenItems = {} ➞ "Lucky you!"
+Notes
+•	The item value is always positive.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total of values</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function calculateLosses(obj) {
+            if (!Object.keys(obj).length) {
+                return "Lucky you!";
+            }
+            return Object.values(obj).reduce((acc, curr) => acc + curr);
+            }
+        var uniqueNames = calculateLosses({tv: 30,skate: 20,stereo: 50});
+        var uniqueNames1 = calculateLosses({painting: 20000});
+        console.log(uniqueNames)
+        console.log(uniqueNames1)
+    </script>
+</body>
+</html>
