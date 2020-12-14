@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function circle(radius)
+        {
+            this.radius = radius;
+        // area method
+            this.getArea = function () 
+            {
+                return Math.PI * this.radius * this.radius;
+            };
+        // perimeter method
+            this.getPerimeter = function ()
+            {
+                return 2*Math.PI*this.radius;
+            };
+        }
+        var circy = new circle(11);
+        console.log('Area =', circy.getArea().toFixed(2));
+        console.log('perimeter =', circy.getPerimeter().toFixed(2));
+    </script>
+</body>
+</html>

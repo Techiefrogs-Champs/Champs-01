@@ -1,0 +1,36 @@
+<!--3.	Write a function that converts an object into an array, where each element represents a key-value pair in the form of an array.
+
+Examples:
+toArray({ a: 1, b: 2 }) ➞ [["a", 1], ["b", 2]]
+
+toArray({ shrimp: 15, tots: 12 }) ➞ [["shrimp", 15], ["tots", 12]]
+
+toArray({}) ➞ []
+
+Notes
+Return an empty array if the object is empty.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function toArray(obj) {
+             let ans=[];
+             for(let key in obj){
+                 let val=obj[key];
+                 ans.push([key].concat(val));
+             }
+            return ans;
+        };         
+        var result11=toArray({D:1,B:2,C:3});
+        console.log(result11);
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!--2.	Given three arguments ⁠— an object obj of the stolen items, the pets name and a value ⁠— 
+    return an object with that name and value in it (as key-value pairs).
+
+Examples
+addName({}, "Brutus", 300) ➞ { Brutus: 300 }
+
+addName({ piano: 500 }, "Brutus", 400) ➞ { piano: 500, Brutus: 400 }
+
+Notes
+The value argument will be a number.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        const obj = { a: 5, b: 7, c: 9 };
+        Object.entries(obj).forEach(([key, value]) => {
+        console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+        });
+    </script>
+</body>
+</html>

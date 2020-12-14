@@ -1,0 +1,32 @@
+<!--7.	Create a function that takes two numbers as arguments (num, length) and 
+    returns an array of multiples of num until the array length reaches length.
+Examples
+arrayOfMultiples(7, 5) ➞ [7, 14, 21, 28, 35]
+
+arrayOfMultiples(12, 10) ➞ [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
+Notes
+Notice that num is also included in the returned array.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function multiplesOf(num, length) {
+            var LIMIT = length;
+            var MULTIPLE = num;
+            let list=[];
+            for (var index = 0; index < LIMIT; index++) {
+            list[index] = ((index + 1) * num);
+            }
+        return list;
+        }
+        console.log(multiplesOf(7,5));      
+    </script>
+</body>
+</html>
