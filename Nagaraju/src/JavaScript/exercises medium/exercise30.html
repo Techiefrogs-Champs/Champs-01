@@ -10,10 +10,18 @@
     <p id="demo"></p>
     <script>
         function myFunction() {
-            var fruits = ["rsq", "6hi", "g", ];
+            var result;
+            var fruits = ["rsq", "6hi", "g", "rsq6hig"];
             var x =  fruits.join("");
-            var y = fruits.concat(x);
-            document.getElementById("demo").innerHTML = y;
+            var y = fruits[fruits.length-1];
+            
+            if(x[i] != y[i]) {
+                result = false;
+            }
+            else {
+                result = true;
+            }
+            document.getElementById("demo").innerHTML = result;
         }
     </script>
 </body>
