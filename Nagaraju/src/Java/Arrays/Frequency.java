@@ -1,5 +1,5 @@
 /*Java Program to find the frequency of each element in the array*/
-package Arrays;
+
 class Frequency {  
     public static void main(String[] args) {  
         //Initialize array  

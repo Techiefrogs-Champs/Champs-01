@@ -1,5 +1,5 @@
 /* 16) Java Program to find Reverse of the string*/
-package Strings;
+
 import java.util.Scanner;
 
 class Reverse {
