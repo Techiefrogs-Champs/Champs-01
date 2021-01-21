@@ -1,4 +1,3 @@
-package Arrays;
 
 public class allSubsets {
     static void printSubsets(int set[]) { 
