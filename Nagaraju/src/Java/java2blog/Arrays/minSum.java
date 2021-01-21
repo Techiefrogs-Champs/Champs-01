@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class minSum {
     public static void findPairWithMinSum(int arr[]) {

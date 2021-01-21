@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class maxDifference {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class localMinima {
     public static int localMinUtil(int[] arr, int low, int high, int n) { 

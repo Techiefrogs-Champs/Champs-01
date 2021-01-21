@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class consecutiveElements {
     static Boolean areConsecutives(int arr[], int n){

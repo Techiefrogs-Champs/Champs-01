@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class minSumEqual {
     public static void findPairsWithSumEqualsToX(int arr[], int X) {
