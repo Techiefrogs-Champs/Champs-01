@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class num1sInSortedBinaryArray {
     public static void main(String[] args) {

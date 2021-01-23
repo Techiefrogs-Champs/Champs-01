@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class rotateArray {
     static void RightRotate(int a[], int n, int k) { 

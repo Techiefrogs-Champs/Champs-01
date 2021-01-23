@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class oddOccur {
     static int getOddOccurrence(int arr[], int arr_size) 

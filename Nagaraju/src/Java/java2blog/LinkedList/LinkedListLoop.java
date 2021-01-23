@@ -1,6 +1,6 @@
 package java2blog.LinkedList;
 
-public class ReverseLinkedList{
+public class LinkedListLoop{
  
     private Node head;
  
@@ -27,7 +27,7 @@ public class ReverseLinkedList{
         }
     }
  
-    public void printList(Node head) {
+    public void printList() {
         Node temp = head;
         while (temp != null) {
             System.out.format("%d ", temp.value);
@@ -36,33 +36,35 @@ public class ReverseLinkedList{
         System.out.println();
     }
  
-    public static Node reverseLinkedList(Node currentNode){
-        Node previousNode=null;
-        Node nextNode;
-        while(currentNode!=null)
-        {
-            nextNode=currentNode.next;
-            currentNode.next=previousNode;
-            previousNode=currentNode;
-            currentNode=nextNode;
+    public boolean ifLoopExists() {
+        Node fastPtr = head;
+        Node slowPtr = head;
+        while (fastPtr != null && fastPtr.next != null) {
+            fastPtr = fastPtr.next.next;
+            slowPtr = slowPtr.next;
+            if (slowPtr == fastPtr)
+                return true;
+ 
         }
-        return previousNode;
+        return false;
     }
  
     public static void main(String[] args) {
-        ReverseLinkedList list = new ReverseLinkedList();
-        Node head=new Node(5);
-        list.addToTheLast(head);
+        LinkedListLoop list = new LinkedListLoop();
+        // Creating a linked list
+        Node loopNode=new Node(7);
+        list.addToTheLast(new Node(5));
         list.addToTheLast(new Node(6));
-        list.addToTheLast(new Node(7));
+        list.addToTheLast(loopNode);
         list.addToTheLast(new Node(1));
         list.addToTheLast(new Node(2));
- 
-        list.printList(head);
-        Node reverseHead=reverseLinkedList(head);
-        System.out.println("After reversing");
-        list.printList(reverseHead);
- 
+    
+        list.printList();
+        // creating a loop
+        list.addToTheLast(loopNode);
+        // Test if loop existed or not
+        System.out.println("Loop existed-->" + list.ifLoopExists());
+     
+        
     }
- 
 }

@@ -1,6 +1,6 @@
 package java2blog.LinkedList;
 
-public class ReverseLinkedList{
+public class ReverseLinkedListInPair{
  
     private Node head;
  
@@ -36,33 +36,45 @@ public class ReverseLinkedList{
         System.out.println();
     }
  
-    public static Node reverseLinkedList(Node currentNode){
-        Node previousNode=null;
-        Node nextNode;
-        while(currentNode!=null)
-        {
-            nextNode=currentNode.next;
-            currentNode.next=previousNode;
-            previousNode=currentNode;
-            currentNode=nextNode;
-        }
-        return previousNode;
+    // Reverse linked list in pair
+    public static Node reverseLinkedListInPairs(Node head) {
+ 
+        Node current=head;
+        Node temp=null;
+        Node newHead =null;
+        while (current != null && current.next != null) {
+ 
+            if (temp != null) {
+                // This is important step
+                temp.next.next = current.next;
+            }
+            temp=current.next;     
+            current.next=temp.next;
+            temp.next=current;
+ 
+            if (newHead == null)
+                newHead = temp;
+            current=current.next;
+ 
+        }     
+        return newHead;
     }
  
     public static void main(String[] args) {
-        ReverseLinkedList list = new ReverseLinkedList();
+        ReverseLinkedListInPair list = new ReverseLinkedListInPair();
+        // Creating a linked list
         Node head=new Node(5);
         list.addToTheLast(head);
         list.addToTheLast(new Node(6));
         list.addToTheLast(new Node(7));
         list.addToTheLast(new Node(1));
         list.addToTheLast(new Node(2));
+        list.addToTheLast(new Node(8));
  
         list.printList(head);
-        Node reverseHead=reverseLinkedList(head);
-        System.out.println("After reversing");
-        list.printList(reverseHead);
- 
+        //Reversing LinkedList in pairs
+        Node result=reverseLinkedListInPairs(head);
+        System.out.println("After reversing in pair");
+        list.printList(result);
     }
- 
 }

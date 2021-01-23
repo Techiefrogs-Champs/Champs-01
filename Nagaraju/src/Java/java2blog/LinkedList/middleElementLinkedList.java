@@ -1,4 +1,4 @@
-package LinkedList;
+package java2blog.LinkedList;
 
 public class middleElementLinkedList {
  
