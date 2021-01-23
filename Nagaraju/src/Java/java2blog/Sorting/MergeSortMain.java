@@ -1,4 +1,4 @@
-package Sorting;
+package java2blog.Sorting;
 
 public class MergeSortMain {
  

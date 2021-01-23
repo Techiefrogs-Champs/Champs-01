@@ -1,4 +1,4 @@
-package Sorting;
+package java2blog.Sorting;
 import java.util.Arrays;
  
 public class CountingSortMain {
