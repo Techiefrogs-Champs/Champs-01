@@ -9,7 +9,7 @@ public class JdbcSQLServerConnection {
         Connection conn = null;
  
         try {
- 
+
             String dbURL = "jdbc:sqlserver://DESKTOP-R4SSJVI\\SQLEXPRESS";
             String user = "sa";
             String pass = "Nagaraju8!";
