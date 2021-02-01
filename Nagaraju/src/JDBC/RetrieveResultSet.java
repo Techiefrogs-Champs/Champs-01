@@ -4,7 +4,7 @@ class RetrieveResultsSet{
     public static void main(String[] args) throws Exception {
         Connection con = DriverManager.getConnection(
             "jdbc:sqlserver://DESKTOP-R4SSJVI\\SQLEXPRESS;databaseName=mydb;user=sa;password=Nagaraju8!");
-            System.out.println("Connection Established");
+            System.out.println("Connection Established with SQL Server");
 
         Statement stmt = con.createStatement();
         ResultSet rs = stmt.executeQuery("SELECT * FROM STUDENTS");
