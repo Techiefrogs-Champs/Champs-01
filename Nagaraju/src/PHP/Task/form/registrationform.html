@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple HTML Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="validator.js"></script>
+    </head>
+    <body>
+        <form name="contactForm" onsubmit="return validateForm()" action="form.php" method="post">
+            <h2>Employee Registration Form</h2>
+            <div class="row">
+                <label><p>Full Name:</p></label>
+                <input type="text" name="name" required>
+                <div class="error" id="nameErr"></div>
+            </div>
+
+            <div class="row1">
+                <label><p>Gender:</p></label>
+                <div class="form-inline1">
+                    <label><input type="radio" name="gender" value="male" required> <h3>Male</h3></label>
+                    <label><input type="radio" name="gender" value="female" required> <h3>Female</h3></label> 
+                </div>
+                <div class="error" id="genderErr"></div>
+            </div>
+
+            <div class="row">
+                <label><p>Email Address:</p></label>
+                <input type="text" name="email" required>
+                <div class="error" id="emailErr"></div>
+            </div>
+
+            <div class="row">
+                <label><p>Mobile Number:</p></label>
+                <input type="text" name="phone" maxlength="10" required>
+                <div class="error" id="phoneErr"></div>
+            </div>
+
+            <div class="row">
+                <label><p>Designation:</p></label>
+                <select name="designation" required="required">
+                    <option selected hidden value="">Select</option>
+                    <option value="manager">Manager</option>
+                    <option value="developer">Developer</option>
+                </select> 
+                <div class="error" id="designationErr"></div>
+            </div>
+            
+            <div class="row1">
+                <label><p>Skills:</p></label>
+                <div class="form-inline1">
+                    <label><input type="checkbox" name="skills[]" value="PHP"> <h3>PHP</h3></label>
+                    <label><input type="checkbox" name="skills[]" value="Java"> <h3>Java</h3></label>
+                    <label><input type="checkbox" name="skills[]" value="HTML"> <h3>HTML</h3></label> 
+                    <div class="error" id="skillErr"></div> 
+                </div>
+            </div> 
+
+            <div class="row">
+                <label><p>Areas of Interest:</p></label>
+                    <textarea name="areaofinterest" required></textarea>
+            </div>  <br> 
+
+            <div class="wrapper">
+                <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;
+                <button type="reset">Cancel</button>
+            </div>
+        </form>
+    </body>
+</html>

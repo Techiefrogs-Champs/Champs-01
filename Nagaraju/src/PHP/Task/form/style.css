@@ -1,0 +1,130 @@
+body {
+    font-size: 16px;
+    background: #f9f9f9;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2 {
+    text-align: center;
+    color: rgb(6, 71, 87);
+    font-weight: bold;
+    font-size: xx-large;
+}
+form {
+    width: 500px;
+    background: rgb(223, 234, 238);
+    padding: 15px 40px 40px;
+    border: 1px solid rgb(23, 29, 32);
+    margin: 50px auto 0;
+    border-radius: 15px;
+    background-image: url("bg4.jpg");
+}
+
+label {
+    display: block;
+    margin-bottom: 0px;
+}
+p {
+    margin-bottom: 3px;
+    font-size:large;
+    font-weight: bolder;
+    color: #1b4883;
+}
+h3 {
+    font-size:medium;
+    font-weight: bolder;
+    display: inline-block;
+    color: #1b4883;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size:medium;
+    font-weight: bolder;
+    color: #1b4883;
+}
+input[type="checkbox"]{
+    -webkit-transform: scale(1.5); 
+     padding: 10px;
+  }
+input[type="radio"]{
+    -webkit-transform: scale(1.5); 
+     padding: 10px;
+}
+
+.form-inline {
+    padding: 4px 5px 2px;
+    border-radius: 2px;
+}
+.form-inline label {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.form-inline1 {
+    padding: 0px;
+    border-radius: 2px;
+}
+.form-inline1 label, .form-inline1 input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+    
+}
+div{
+    vertical-align: top;
+}
+.row1 {
+    height: 65px;
+}
+
+.error {
+    color: red;
+    font-size: 90%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    border-color: #ccc;
+  }
+
+.wrapper {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+button{
+    font-weight: bolder;
+    font-size: medium;
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    size: 60px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
